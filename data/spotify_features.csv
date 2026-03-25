@@ -1,0 +1,508 @@
+year,group,theme,placement,song_title,song_artist,kaggle_track_name,kaggle_artist_name,kaggle_genre,kaggle_danceability,kaggle_energy,kaggle_valence,kaggle_tempo,kaggle_acousticness,kaggle_loudness,kaggle_popularity,kaggle_year,match_score
+1973,Kappa Omega Tau,Lonely Hearts Club,Participated,Hey Jude,,Hey Jude,Roberta Flack,disco,0.585,0.259,0.678,165.97,0.882,-8.896,8.0,2012.0,100.0
+1988,Zeta Tau Alpha,Back to Paradise,Participated,(I've Had) The Time of My Life,,(I've Had) The Time Of My Life,Glee Cast,club,0.459,0.77,0.168,110.706,0.0765,-5.993,24.0,2012.0,100.0
+1990,Pi Beta Phi,I Ought to be in the Pictures,Participated,Singin' in the Rain,,Singin' in the Rain,Matthew Morrison,show-tunes,0.622,0.536,0.486,144.035,0.278,-5.674,21.0,2013.0,100.0
+2011,Kappa Kappa Gamma,Who's Afraid of the Big Bad Wolf?,Pigskin,Mercy,Duffy,Mercy,Duffy,soul,0.786,0.859,0.964,129.948,0.261,-3.744,0.0,2023.0,100.0
+2011,Kappa Kappa Gamma,Who's Afraid of the Big Bad Wolf?,Pigskin,Be OK,Ingrid Michaelson,Be OK,Ingrid Michaelson,pop,0.82,0.788,0.933,133.019,0.127,-6.747,56.0,2008.0,100.0
+2011,Kappa Sigma,Playin' Around at the Playground,Pigskin,Come Play Away,,Come Fly Away,Benny Benassi,edm,0.647,0.811,0.246,130.011,0.00981,-2.848,17.0,2008.0,88.9
+2012,Alpha Chi Omega,Juke Box Heroes,Pigskin,Livin' On a Prayer,,Livin' on a Prayer,Richard Cheese,jazz,0.521,0.653,0.706,170.341,0.618,-4.551,28.0,2017.0,100.0
+2016,Delta Tau Delta,Lost in the Jungle,Participated,Tarzan,Disney,Taipan,Distance,dubstep,0.807,0.766,0.434,140.006,0.0225,-7.879,0.0,2006.0,75.0
+2016,Kappa Chi Alpha & Beta Upsilon Chi,Wonderful World,Participated,What a Wonderful World,,What A Wonderful World,Eva Cassidy,folk,0.432,0.177,0.0892,151.84,0.861,-13.362,41.0,2012.0,100.0
+2016,Phi Gamma Delta,The Dance of the Dead,Participated,Thriller,Michael Jackson,Thriller,Michael Jackson,pop,0.764,0.887,0.72,118.427,0.0816,-3.726,65.0,2017.0,100.0
+2016,Zeta Tau Alpha,We Have Awoken,Pigskin,Chandelier,Sia,Chandelier,Sia,pop,0.399,0.787,0.572,117.089,0.0197,-2.88,69.0,2015.0,100.0
+2019,Alpha Delta Pi,Coming to You Live from ADPI,Participated,Good Morning Baltimore,,Good Morning Baltimore,Nikki Blonsky,show-tunes,0.628,0.832,0.744,133.037,0.191,-4.365,53.0,2007.0,100.0
+2019,Alpha Delta Pi,Coming to You Live from ADPI,Participated,Shut Up and Drive,Rihanna,Shut Up And Drive,Rihanna,pop,0.735,0.826,0.74,132.964,0.00101,-4.902,62.0,2007.0,100.0
+2019,Beta Upsilon Chi,Batter Up!,Participated,The Star Spangled Banner,,The Star Spangled Banner,Pat Boone,rock-n-roll,0.262,0.24,0.279,82.681,0.934,-13.18,2.0,2002.0,100.0
+2019,Chi Omega,Can't Stop the Bees,2nd,Honey Honey,ABBA,"Honey, Honey",ABBA,swedish,0.439,0.701,0.796,140.642,0.201,-11.354,27.0,2012.0,97.3
+2019,Kappa Omega Tau,The Night Before Christmas,1st,Look Down,Les Misérables,Desidia,Los Miserables,ska,0.494,0.626,0.744,100.06,0.00283,-13.273,17.0,2023.0,72.0
+2019,Kappa Sigma,Finding Bigfoot,Pigskin,Kill the Beast,,Kill the Beast,Mystic Prophecy,german,0.536,0.97,0.231,99.992,3.45e-05,-4.82,26.0,2013.0,100.0
+2019,Phi Gamma Delta,Phi Gam's Island,Participated,Gilligan's Island Theme,,Lines in the Sand,Wovenwar,metalcore,0.218,0.949,0.201,117.537,6e-05,-4.23,27.0,2016.0,70.0
+2019,Pi Kappa Phi,Galactic Slam,Participated,Uprising,Muse,Uprising,Muse,rock,0.602,0.905,0.411,128.019,0.000202,-4.046,74.0,2009.0,100.0
+2019,Zeta Tau Alpha,Livin' La Vida Mocha,Pigskin,That's Not My Name,The Ting Tings,That's Not My Name,The Ting Tings,dance,0.755,0.901,0.959,145.042,0.0451,-3.152,56.0,2007.0,100.0
+2020,Delta Delta Delta,"Starlight, Star Bright",Participated,Hey Now,,Hey Now,Dave Barnes,acoustic,0.709,0.503,0.895,106.004,0.364,-12.701,11.0,2012.0,100.0
+2020,Kappa Chi Alpha,Are We There Yet?,Participated,Phineas and Ferb Theme,,Shimmer and Shine Theme,The Kiddie Katz,party,0.771,0.763,0.281,118.948,0.556,-8.255,23.0,2017.0,75.6
+2020,Kappa Chi Alpha,Are We There Yet?,Participated,I Want Candy,,I Want Candy,Aaron Carter,dance,0.787,0.904,0.954,110.029,0.00836,-4.483,47.0,2000.0,100.0
+2020,Kappa Kappa Gamma & Kappa Sigma,The Ship of Dreams,1st,Beyond the Sea,,Beyond The Sea,John Tesh,new-age,0.652,0.494,0.421,137.844,0.269,-6.101,40.0,2012.0,100.0
+2020,Kappa Omega Tau,The Magic of Mardi Gras,Participated,High Hopes,,High Hopes,Kodaline,pop,0.488,0.487,0.219,77.278,0.577,-6.371,65.0,2013.0,100.0
+2020,Kappa Omega Tau,The Magic of Mardi Gras,Participated,The Greatest Show,,The Greatest Show,Hugh Jackman,show-tunes,0.417,0.824,0.4,157.92,0.000239,-7.36,70.0,2017.0,100.0
+2020,Multicultural Alliance,Baylor Homecoming: Another Side,Participated,Lose You to Love Me,,Lose You to Love Me,Andromida,metalcore,0.54,0.779,0.216,103.013,0.143,-4.515,32.0,2019.0,100.0
+2020,Sigma Alpha Epsilon & Alpha Phi,Saphi Can Do It!,Participated,I Need Somebody,,I Need Somebody,? & The Mysterians,garage,0.619,0.876,0.95,134.143,0.153,-6.388,3.0,2005.0,100.0
+2020,Sigma Alpha Epsilon & Alpha Phi,Saphi Can Do It!,Participated,Woman Up,,Woman Up,Meghan Trainor,dance,0.755,0.751,0.27,104.942,0.00848,-4.322,52.0,2017.0,100.0
+2022,Alpha Phi,Magic in Phi,Pigskin,Bibbidi Bobbidi Boo,Helena Bonham Carter,Bidi Bidi Bom Bom,Selena,pop,0.569,0.721,0.927,180.06,0.102,-5.889,64.0,2010.0,70.6
+2022,Alpha Phi,Magic in Phi,Pigskin,Gimme Gimme Gimme,ABBA,"Gimme, Gimme, Gimme",Blackfoot,blues,0.473,0.953,0.671,152.996,0.0493,-6.344,27.0,2018.0,80.0
+2022,Alpha Phi,Magic in Phi,Pigskin,Magic,Selena Gomez,Magic,Selena Gomez,dance,0.6,0.916,0.442,104.091,0.00504,-3.071,48.0,2009.0,100.0
+2022,Alpha Phi,Magic in Phi,Pigskin,Magic,B.o.B.,Magic,Boj,dancehall,0.795,0.652,0.961,105.994,0.353,-5.643,31.0,2017.0,80.0
+2022,Alpha Phi,Magic in Phi,Pigskin,Oops I Did it Again,Britney Spears,Oops!...I Did It Again,Britney Spears,dance,0.751,0.834,0.894,95.053,0.3,-5.444,77.0,2000.0,90.7
+2022,Alpha Phi,Magic in Phi,Pigskin,Working for the Weekend,Loverboy,Working for the Weekend,Loverboy,hard-rock,0.349,0.961,0.569,144.28,0.000133,-3.478,8.0,2012.0,100.0
+2022,Alpha Tau Omega,,Pigskin,All My Rowdy Friends are Coming Over Tonight,Hank Williams Jr.,All My Rowdy Friends Are Coming Over Tonight,"Hank Williams, Jr.",country,0.607,0.904,0.877,146.831,0.13,-7.693,16.0,2012.0,99.2
+2022,Alpha Tau Omega,,Pigskin,Hey Brother,Avicii,Hey Brother,Avicii,dance,0.545,0.78,0.458,125.014,0.0309,-4.867,77.0,2013.0,100.0
+2022,Alpha Tau Omega,,Pigskin,I'll Fly Away,The Dillards,I'll Fly Away,The Dillards,country,0.468,0.0974,0.655,109.659,0.946,-11.668,21.0,2005.0,100.0
+2022,Alpha Tau Omega,,Pigskin,I'll Make A Man Out of You,Donny Osmond,"I'll Make a Man Out of You - From ""Mulan""/Soundtrack",Donny Osmond,pop,0.678,0.425,0.536,113.855,0.158,-13.476,45.0,2013.0,75.9
+2022,Alpha Tau Omega,,Pigskin,Lost Boy,Ruth B,Lost Boy,Ruth B.,pop,0.71,0.0565,0.348,123.994,0.965,-15.099,70.0,2015.0,97.1
+2022,Alpha Tau Omega,,Pigskin,Second Star to the Right,Jonatha Brook,Second Star to the Right,Jon Sarta,piano,0.675,0.134,0.114,84.204,0.99,-18.714,29.0,2017.0,78.9
+2022,Alpha Tau Omega,,Pigskin,Wild Ones,Flo Rida,Wild Ones,Flo Rida,dance,0.608,0.86,0.437,127.075,0.1,-5.324,1.0,2023.0,100.0
+2022,Chi Omega,Taken for Granite,Pigskin,All By Myself,Celine Dion,All by Myself,Eric Carmen,disco,0.377,0.342,0.176,116.949,0.697,-13.844,29.0,2010.0,77.8
+2022,Chi Omega,Taken for Granite,Pigskin,Bohemian Rhapsody,Queen,Bohemian Rhapsody,Queen,rock,0.397,0.386,0.21,144.242,0.271,-10.405,65.0,2006.0,100.0
+2022,Chi Omega,Taken for Granite,Pigskin,Edge of Seventeen,Stevie Nicks,Edge of Seventeen,Stevie Nicks,rock,0.59,0.828,0.636,111.353,0.277,-6.28,66.0,2007.0,100.0
+2022,Chi Omega,Taken for Granite,Pigskin,Feel Again,OneRepublic,Feel Again,OneRepublic,piano,0.467,0.815,0.335,140.047,0.0198,-7.929,56.0,2014.0,100.0
+2022,Chi Omega,Taken for Granite,Pigskin,I Will Survive,Gloria Gaynor,I Will Survive,Gloria Gaynor,disco,0.648,0.648,0.406,119.27,0.0372,-11.528,46.0,2012.0,100.0
+2022,Chi Omega,Taken for Granite,Pigskin,Staying Alive,Lizzo,Stayin Alive,Axxis,german,0.56,0.869,0.902,103.984,0.0237,-6.097,19.0,2012.0,78.0
+2022,Chi Omega,Taken for Granite,Pigskin,Welcome to the 60's,The Hit Crew,Welcome To The Club,The Prophet,hardstyle,0.531,0.906,0.338,155.006,0.0849,-3.738,17.0,2017.0,74.6
+2022,Delta Delta Delta,We Got the Reef,2nd,Holding out for a Hero,Bonnie Tyler,Holding Out For A Hero,Bonnie Tyler,disco,0.498,0.932,0.328,147.905,0.000599,-3.129,30.0,2004.0,100.0
+2022,Delta Delta Delta,We Got the Reef,2nd,Hooked on a Feeling,Blue Swede,Hooked On A Feeling,Blue Swede,pop,0.547,0.82,0.933,118.208,0.261,-6.728,64.0,2014.0,100.0
+2022,Delta Delta Delta,We Got the Reef,2nd,How Far I'll Go (Reprise),Auli'I Cravalho,How Far I'll Go,Auli'i Cravalho,show-tunes,0.571,0.307,0.108,83.72,0.649,-10.958,22.0,2017.0,86.8
+2022,Delta Delta Delta,We Got the Reef,2nd,Rock Lobster,The B-52's,Rock Lobster,The B-52's,dance,0.597,0.88,0.461,92.21,0.00947,-8.277,15.0,2002.0,100.0
+2022,Delta Delta Delta,We Got the Reef,2nd,Run The World (Girls),Beyonce,Run the World (Girls),Beyoncé,dance,0.732,0.899,0.759,127.091,0.00496,-4.237,71.0,2011.0,96.8
+2022,Delta Delta Delta,We Got the Reef,2nd,We Got the Beat,The Go-Go's,We Got The Beat,Dora The Explorer,party,0.76,0.939,0.776,151.882,0.36,-4.726,6.0,2004.0,75.0
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,At the Hop,Danny and the Juniors,At The Hop,Danny & The Juniors,rock-n-roll,0.407,0.826,0.891,192.21,0.693,-8.29,11.0,2021.0,90.9
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,Crusin' for a Brusin',Ross Lynch and Grace Phipps,"Cruisin' for a Bruisin' - From ""Teen Beach Movie""",Ross Lynch,pop,0.585,0.911,0.781,163.933,0.0263,-4.623,63.0,2013.0,70.8
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,Rock this Town,Brian Setzer,Rock This Town - Live,Brian Setzer,rock-n-roll,0.319,0.968,0.37,107.94,0.0318,-5.391,2.0,2012.0,89.2
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,This Cat's on a Hot Tin Roof,The Brian Setzer Orchestra,This Cat's on a Hot Tin Roof - Live,Brian Setzer,rock-n-roll,0.446,0.966,0.609,98.737,0.0114,-4.292,3.0,2012.0,80.4
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,We Go Together,Sugar Factory Singers,Lets Get Together,Suga Free,funk,0.965,0.367,0.702,123.021,0.0334,-13.554,11.0,2006.0,68.7
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,Wild Child,Lee Rocker,Here Now,Wild Child,folk,0.508,0.139,0.357,170.067,0.982,-15.138,26.0,2015.0,77.3
+2022,Kappa Omega Tau,It's a Gnome's World,1st,I Can't Get No Satisfaction,The Rolling Stones,(I Can't Get No) Satisfaction - Mono,The Rolling Stones,rock,0.723,0.878,0.917,136.295,0.0382,-6.962,25.0,2023.0,89.5
+2022,Kappa Omega Tau,It's a Gnome's World,1st,It's  Man's Man's Man's World,James Brown,"It's A Man's, Man's, Man's World - Live",James Brown,funk,0.496,0.228,0.585,133.558,0.0779,-13.917,20.0,2006.0,88.4
+2022,Kappa Omega Tau,It's a Gnome's World,1st,Rapper's Delight,The Sugarhill Gang,Rapper's Delight,The Sugarhill Gang,electro,0.914,0.754,0.827,111.69,0.0717,-9.669,46.0,2017.0,100.0
+2022,Kappa Omega Tau,It's a Gnome's World,1st,Respect,Aretha Franklin,Respect,Aretha Franklin,soul,0.805,0.558,0.965,114.95,0.164,-5.226,0.0,2023.0,100.0
+2022,Kappa Omega Tau,It's a Gnome's World,1st,Superstition,Stevie Wonder,Superstition,Stevie Wonder,funk,0.611,0.636,0.879,99.744,0.0265,-11.865,32.0,2002.0,100.0
+2022,Kappa Omega Tau,It's a Gnome's World,1st,That's Just the Way We Roll,Jonas Brothers,That's Just The Way We Roll,Jonas Brothers,dance,0.558,0.855,0.768,150.039,0.0048,-3.374,50.0,2007.0,100.0
+2022,Kappa Sigma,,Pigskin,Come With me Now,Kongos,Come with Me Now,KONGOS,alt-rock,0.654,0.726,0.728,103.987,0.0311,-3.803,65.0,2014.0,100.0
+2022,Kappa Sigma,,Pigskin,Give up the Funk,Parliament,Parliament Funk,Knife Party,edm,0.654,0.994,0.314,127.995,0.00157,-2.392,25.0,2015.0,75.9
+2022,Kappa Sigma,,Pigskin,Old Time Rock and Roll,Bob Seger,Old Time Rock And Roll - Remastered 2011,Bob Seger,country,0.715,0.938,0.964,124.128,0.205,-3.01,38.0,2011.0,79.1
+2022,Kappa Sigma,,Pigskin,Play Something Country,Brooks and Dunn,Play Something Country,Brooks & Dunn,country,0.685,0.909,0.864,115.043,0.0782,-3.797,26.0,2012.0,92.3
+2022,Kappa Sigma,,Pigskin,Rock with You,Michael Jackson,You Rock My World,Michael Jackson,pop,0.854,0.673,0.955,95.0,0.038,-3.132,66.0,2001.0,84.8
+2022,Kappa Sigma,,Pigskin,These Will Be the Good Old Days (Twenty Years From Now),Judy Holliday,,,,,,,,,,,,
+2022,Kappa Sigma,,Pigskin,Uptown Funk,Bruno Mars,Count on Me,Bruno Mars,pop,0.589,0.389,0.501,89.1,0.851,-5.972,73.0,2010.0,75.0
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,Dig it,D-Tent Boys,G Code,Geto Boys,funk,0.605,0.859,0.592,94.072,0.0727,-2.341,54.0,2005.0,68.4
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,Finesse,Bruno Mars,Finesse,Bruno Mars,dance,0.741,0.798,0.939,104.953,0.00781,-5.342,69.0,2016.0,100.0
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,Greedy,Ariana Grande,Greedy,Ariana Grande,dance,0.619,0.705,0.844,109.975,0.0323,-5.335,57.0,2016.0,100.0
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,Like I Can,Sam Smith,Like I Can,Sam Smith,pop,0.656,0.627,0.481,99.933,0.343,-6.627,78.0,2014.0,100.0
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,You are my Vision,Rend Connect,You Are My Vision,Rend Collective,alt-rock,0.495,0.77,0.251,123.013,0.0196,-14.424,37.0,2012.0,89.6
+2023,Alpha Chi Omega,,Participated,You Make My Dreams (Come True),Hall & Oates,Your Dreams Have Come True,Sloan,power-pop,0.628,0.508,0.442,156.056,0.00679,-10.057,5.0,2001.0,70.9
+2023,Alpha Chi Omega,,Participated,...Ready for It?,Taylor Swift,...Ready For It?,Taylor Swift,pop,0.613,0.764,0.417,160.015,0.0527,-6.509,75.0,2017.0,100.0
+2023,Alpha Chi Omega,,Participated,Little Girls (Criminals),Cast of Annie the Musical,,,,,,,,,,,,
+2023,Alpha Chi Omega,,Participated,Save The City,Hawkeye Vol. 2,Key To The City,Sorry,psych-rock,0.568,0.561,0.322,133.086,0.553,-9.453,37.0,2022.0,67.9
+2023,Alpha Chi Omega,,Participated,I'm a Believer,Bowling for Soup,Belgium,Bowling For Soup,punk,0.459,0.819,0.58,167.22,8.64e-05,-4.489,11.0,2000.0,78.0
+2023,Alpha Chi Omega,,Participated,Call Me,Blondie,Call Me,Blondie,power-pop,0.557,0.825,0.768,142.648,0.000644,-6.707,10.0,2020.0,100.0
+2023,Alpha Delta Pi,I30-pi,Participated,Shut Up and Drive,Rihanna,Shut Up And Drive,Rihanna,pop,0.735,0.826,0.74,132.964,0.00101,-4.902,62.0,2007.0,100.0
+2023,Alpha Delta Pi,I30-pi,Participated,Fire Burning,Sean Kingston,Fire Burning,Sean Kingston,dance,0.839,0.804,0.888,122.973,0.0192,-2.513,70.0,2009.0,100.0
+2023,Alpha Delta Pi,I30-pi,Participated,Dance of the Little Swans,Tchaikovsky,Swan Lake- Dance of the Swans,Pyotr Ilyich Tchaikovsky,classical,0.513,0.0173,0.536,107.59,0.868,-36.286,49.0,2009.0,77.9
+2023,Alpha Delta Pi,I30-pi,Participated,You'll Always Find Your Way Back Home,Hannah Montana,You'll Always Find Your Way Back Home,Hannah Montana,dance,0.577,0.906,0.692,152.946,0.0304,-3.673,65.0,2009.0,100.0
+2023,Alpha Delta Pi,I30-pi,Participated,Hard Working Man,Brooks & Dunn,Neon Moon,Brooks & Dunn,country,0.698,0.632,0.458,102.408,0.554,-6.508,38.0,2012.0,73.7
+2023,Alpha Delta Pi,I30-pi,Participated,Workin on the Highway,Bruce Springsteen,Working On The Highway - Live,Bruce Springsteen,singer-songwriter,0.381,0.708,0.518,93.064,0.821,-8.213,9.0,2013.0,91.1
+2023,Alpha Delta Pi,I30-pi,Participated,Take on Me,Ha,Take On Me,a-ha,rock,0.535,0.913,0.811,169.197,0.0107,-6.874,2.0,2023.0,93.8
+2023,Alpha Phi,Hotel Phiasco!,Participated,Zack and Cody Theme Song,Cast of Suite Life of Zack and Cody,,,,,,,,,,,,
+2023,Alpha Phi,Hotel Phiasco!,Participated,Celebration,Kool and the Gang,Celebration,Kool & The Gang,disco,0.857,0.782,0.899,120.763,0.139,-5.633,0.0,2023.0,90.0
+2023,Alpha Phi,Hotel Phiasco!,Participated,You Make Me Feel,Cobra Starship,You Make Me Feel...,Cobra Starship,punk,0.668,0.858,0.755,131.959,0.0189,-2.944,0.0,2023.0,95.7
+2023,Alpha Phi,Hotel Phiasco!,Participated,Dancing in the Kitchen,Tim Kubart,dancing in the kitchen,LANY,pop,0.619,0.736,0.299,93.993,0.0328,-7.651,65.0,2021.0,81.2
+2023,Alpha Phi,Hotel Phiasco!,Participated,Big Girls Don't Cry,Fergie,Big Girls Don't Cry (Personal),Fergie,dance,0.707,0.642,0.249,113.083,0.204,-4.271,65.0,2006.0,83.6
+2023,Alpha Phi,Hotel Phiasco!,Participated,Mr. Lonely,Akon,Lonely,Akon,dance,0.627,0.627,0.555,90.061,0.367,-5.861,0.0,2023.0,86.7
+2023,Alpha Phi,Hotel Phiasco!,Participated,Feel it Still,Portugal. The Man,Feel It Still - Medasin Remix,Portugal. The Man,alt-rock,0.536,0.463,0.148,157.736,0.532,-10.623,48.0,2017.0,80.5
+2023,Alpha Phi,Hotel Phiasco!,Participated,Be Our Guest,Disney,Burnt Tongues,Your Demise,hardcore,0.168,0.994,0.143,195.973,8.75e-06,-2.623,18.0,2010.0,70.8
+2023,Beta Theta Pi,Man Or Mathlete,Participated,Fantasy,Mariah Carey,Fantasy,Mariah Carey,dance,0.652,0.741,0.818,102.35,0.109,-7.394,33.0,2001.0,100.0
+2023,Beta Theta Pi,Man Or Mathlete,Participated,Changes,David Bowie,Let's Dance,David Bowie,rock,0.649,0.656,0.764,114.698,0.00566,-9.317,36.0,2009.0,73.9
+2023,Beta Theta Pi,Man Or Mathlete,Participated,All-Star,Smash Mouth,All Star,Smash Mouth,alt-rock,0.731,0.867,0.776,104.02,0.0394,-5.881,0.0,2023.0,77.3
+2023,Beta Theta Pi,Man Or Mathlete,Participated,You Belong with Me,Taylor Swift,You Belong With Me,Taylor Swift,pop,0.687,0.783,0.443,129.964,0.162,-4.44,68.0,2008.0,100.0
+2023,Beta Theta Pi,Man Or Mathlete,Participated,I Won't Say (I'm in Love),Disney / Hercules Cast,I Won't Say (I'm in Love),Carrie Hope Fletcher,show-tunes,0.624,0.596,0.618,121.632,0.213,-7.061,43.0,2018.0,75.5
+2023,Beta Theta Pi,Man Or Mathlete,Participated,Man or a Muppet,Muppets Cast,,,,,,,,,,,,
+2023,Beta Theta Pi,Man Or Mathlete,Participated,Want U Back,Cher Lloyd,Want U Back,Cher Lloyd,dance,0.694,0.891,0.563,97.939,0.0562,-2.94,62.0,2012.0,100.0
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,Somethings Got a Hold on Me,Christina Aguilera,Something's Got A Hold On Me,Etta James,blues,0.458,0.566,0.569,150.315,0.7,-6.382,31.0,2021.0,74.2
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,Sharp Dressed Man,ZZ Top,Sharp Dressed Man,ZZ Top,blues,0.683,0.645,0.391,126.666,0.024,-12.32,26.0,2014.0,100.0
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,"Oh, Pretty Woman",Roy Orbison,"Oh, Pretty Woman",Roy Orbison,rock-n-roll,0.66,0.568,0.759,126.631,0.183,-7.827,16.0,2014.0,100.0
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,Johnny B. Goode,Chuck Berry,Johnny B. Goode,Chuck Berry,blues,0.545,0.877,0.97,167.691,0.756,-6.105,37.0,2013.0,100.0
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,Come on Eileen,Dexys Midnight Runners,Come On Eileen - Single Edit,Dexys Midnight Runners,pop,0.41,0.874,0.824,107.08,0.197,-4.286,61.0,2009.0,84.8
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,24K Magic,Bruno Mars,24K Magic,Bruno Mars,dance,0.818,0.803,0.632,106.97,0.034,-4.282,77.0,2016.0,100.0
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,Rockin’ on Top of the World,Steven Tyler,Rockin' on Top of the World,Steven Tyler,country,0.559,0.909,0.742,115.107,0.0618,-3.937,36.0,2004.0,97.6
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,Real Gone,Sheryl Crow,Real Gone,Sheryl Crow,pop,0.608,0.785,0.806,117.983,0.00173,-5.346,67.0,2006.0,100.0
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,R.O.C.K. in the USA,John Mellencamp,Rural Route,John Mellencamp,singer-songwriter,0.467,0.372,0.322,91.367,0.735,-8.783,7.0,2007.0,75.8
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,DAnger Zone,Kenny Loggins,Undying,Danger Zone,heavy-metal,0.567,0.853,0.5,107.978,0.000391,-3.001,1.0,2022.0,75.0
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,Rolling in the Deep,Adele,Rolling in the Deep,Adele,pop,0.73,0.769,0.507,104.948,0.138,-5.114,79.0,2011.0,100.0
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,Don't Stop Me Now,Queen,Don't Quit Me Now,Savoy,dub,0.575,0.888,0.253,87.483,0.00172,-3.579,27.0,2018.0,80.0
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,Good to be Alive (Hallelujah),Andy Grammar,Good To Be Alive (Hallelujah),Andy Grammer,pop,0.797,0.896,0.685,120.037,0.0349,-3.678,57.0,2015.0,97.7
+2023,Delta Tau Delta,Under the Big Top,Participated,Jungle,X Ambassadors,Jungle,X Ambassadors,alt-rock,0.389,0.748,0.216,78.056,0.000821,-4.461,58.0,2015.0,100.0
+2023,Delta Tau Delta,Under the Big Top,Participated,Circus,Britney Spears,Circus,Britney Spears,dance,0.791,0.733,0.761,114.98,0.147,-5.215,73.0,2008.0,100.0
+2023,Delta Tau Delta,Under the Big Top,Participated,Entrance of the Gladiators,Julius Fučík,Look Is Deceiving,The Gladiators,dub,0.632,0.541,0.7,79.229,0.152,-7.592,35.0,2001.0,66.7
+2023,Delta Tau Delta,Under the Big Top,Participated,Welcome to the Party,"Diplo, French Montana, Lil Pump","Welcome to the Party (with Lil Pump, Juicy J, Famous Dex, & French Montana) - Remix",Diplo,dance,0.693,0.893,0.515,171.971,0.0829,-0.257,52.0,2018.0,71.7
+2023,Delta Tau Delta,Under the Big Top,Participated,Forget You,Cee Lo Green,Forget You,CeeLo Green,hip-hop,0.696,0.875,0.772,127.39,0.134,-3.682,63.0,2010.0,89.8
+2023,Delta Tau Delta,Under the Big Top,Participated,Leave a Light On,Tom Walker,Leave a Light On,Tom Walker,folk,0.586,0.624,0.267,68.976,0.0153,-5.946,69.0,2017.0,100.0
+2023,Delta Tau Delta,Under the Big Top,Participated,Rocket Man,Elton John,Rocket Man - Live,Elton John,piano,0.436,0.6,0.243,138.417,0.375,-8.027,35.0,2000.0,86.8
+2023,Delta Tau Delta,Under the Big Top,Participated,Show Goes On,Lupe Fiasco,The Show Goes On,Lupe Fiasco,hip-hop,0.591,0.889,0.65,143.067,0.0189,-3.839,68.0,2011.0,92.9
+2023,Kappa Alpha Theta,,Participated,Baba O-Riley,The Who,Baba O'Riley,The Who,blues,0.392,0.578,0.173,117.712,0.405,-12.972,25.0,2014.0,95.5
+2023,Kappa Alpha Theta,,Participated,Ready or Not,The Delfonics,I'm Sorry,The Delfonics,funk,0.559,0.358,0.641,74.265,0.817,-9.544,18.0,2005.0,79.2
+2023,Kappa Alpha Theta,,Participated,Everybody Wants to Rule the World,Tears for Fears,Everybody Wants To Rule The World,Tears For Fears,rock,0.641,0.931,0.508,111.989,0.304,-5.779,0.0,2023.0,100.0
+2023,Kappa Alpha Theta,,Participated,Whatever it Takes,Imagine Dragons,Whatever It Takes,Imagine Dragons,rock,0.672,0.655,0.556,134.945,0.0362,-5.021,80.0,2017.0,100.0
+2023,Kappa Alpha Theta,,Participated,Running Up That Hill,Kate Bush,Running Up That Hill,Placebo,alt-rock,0.45,0.357,0.0838,179.935,0.268,-13.691,64.0,2003.0,80.6
+2023,Kappa Alpha Theta,,Participated,Sorry Not Sorry,Demi Lovato,Sorry Not Sorry,Demi Lovato,dance,0.706,0.643,0.885,143.931,0.0242,-6.929,74.0,2017.0,100.0
+2023,Kappa Alpha Theta,,Participated,Blinding Lights,The Weeknd,Blinding Lights,The Weeknd,pop,0.514,0.73,0.334,171.005,0.00146,-5.934,90.0,2020.0,100.0
+2023,Kappa Alpha Theta,,Participated,Rather Be,Clean Bandit,Drive,Clean Bandit,edm,0.81,0.571,0.771,125.994,0.0624,-7.189,0.0,2023.0,77.3
+2023,Kappa Chi Alpha,,Participated,Chim-Chim-er-Ree (East Wind),Saving Mr. Banks,,,,,,,,,,,,
+2023,Kappa Chi Alpha,,Participated,Takin' Care of Business,Bachman-Turner Overdrive,Takin' Care Of Business,Bachman-Turner Overdrive,blues,0.728,0.877,0.961,130.182,0.109,-7.888,13.0,2013.0,100.0
+2023,Kappa Chi Alpha,,Participated,I Ain't Worried,One Republic,I Ain't Worried,OneRepublic,piano,0.704,0.797,0.825,139.994,0.0826,-5.927,91.0,2022.0,98.3
+2023,Kappa Chi Alpha,,Participated,I Want You Back,The Jackson 5,I Want You Back,The Plimsouls,power-pop,0.488,0.907,0.843,123.669,0.0371,-7.624,3.0,2010.0,77.4
+2023,Kappa Chi Alpha,,Participated,One Way or Another,Blondie,One Way Or Another,Blondie,power-pop,0.442,0.921,0.855,162.267,0.0532,-5.086,12.0,2019.0,100.0
+2023,Kappa Chi Alpha,,Participated,Spoonful of Sugar,Mary Poppins Musical Cover,A Spoonful of Sugar,Michael Hanley,piano,0.593,0.144,0.96,165.01,0.99,-25.344,30.0,2020.0,70.7
+2023,Kappa Chi Alpha,,Participated,Any Way You Want It,Journey,Any Way You Want It,Journey,hard-rock,0.519,0.934,0.586,138.162,0.000312,-7.137,59.0,2001.0,100.0
+2023,Kappa Chi Alpha,,Participated,Supercalifragilistic,The Hit rew,Supercalifragilistico,Leda Moreno,rock-n-roll,0.666,0.504,0.904,150.48,0.203,-13.766,9.0,2014.0,75.4
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,Welcome to the Working Week,Elvis Costello,The Whirlwind,Elvis Costello,power-pop,0.41,0.172,0.143,126.047,0.837,-12.857,10.0,2020.0,70.3
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,Manic Monday,The Bangles,Manic Monday,The Bangles,disco,0.715,0.759,0.875,121.48,0.337,-5.125,36.0,2004.0,100.0
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,A Hard Day's Night,The Beatles,A Hard Day's Night - Remastered 2015,The Beatles,psych-rock,0.546,0.818,0.756,138.561,0.0487,-4.89,55.0,2000.0,78.0
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,Livin' on a Prayer,Bon Jovi,Livin' On A Prayer,Bon Jovi,metal,0.528,0.889,0.817,122.495,0.0657,-3.334,45.0,2010.0,100.0
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,She Works for the Money,Donna Summer,She Works Hard For The Money,Donna Summer,disco,0.747,0.836,0.988,136.447,0.00627,-7.821,31.0,2023.0,93.8
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,Walkin' on Sunshine,Katrina & the Waves,Walking on Sunshine - 2004 Version,Katrina & The Waves,pop,0.595,0.943,0.961,109.014,0.00111,-7.255,53.0,2004.0,82.5
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Feeling Good,Michael Buble,Feeling Good,Michael Bublé,jazz,0.378,0.482,0.428,106.705,0.355,-6.536,35.0,2019.0,96.4
+2023,Kappa Omega Tau,Against All Oz,Pigskin,"Bright Lights, Bigger City",Cee Lo Green,Bright Lights Bigger City,CeeLo Green,hip-hop,0.632,0.749,0.702,108.994,0.000282,-5.125,46.0,2010.0,92.5
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Fortunate Son,Creedence Clearwater Revival,Lodi,Creedence Clearwater Revival,country,0.737,0.773,0.815,126.869,0.13,-5.68,20.0,2009.0,81.0
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Do I Wanna Know?,Arctic Monkeys,Do I Wanna Know?,Arctic Monkeys,garage,0.548,0.532,0.405,85.03,0.186,-7.596,86.0,2013.0,100.0
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Glory,John Legend (From Motion Picture Selma),Glory (From the Motion Picture Selma),Common,hip-hop,0.567,0.587,0.572,83.046,0.867,-5.626,49.0,2014.0,75.3
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Cold as Ice,Foreigner,Cold as Ice,Foreigner,hard-rock,0.562,0.609,0.512,130.753,0.0264,-7.063,16.0,2014.0,100.0
+2023,Kappa Omega Tau,Against All Oz,Pigskin,Freedom 90',George Michael,Freeek! '04,George Michael,dance,0.644,0.819,0.904,87.897,0.00759,-7.225,40.0,2004.0,75.0
+2023,Kappa Sigma,,Participated,Suit & Jacket,Judah & the Lion,Suit and Jacket,Judah & the Lion,folk,0.451,0.58,0.111,164.163,0.223,-8.616,56.0,2016.0,90.9
+2023,Kappa Sigma,,Participated,Born to Run,American Authors,I'm Born To Run,American Authors,indie-pop,0.62,0.93,0.675,126.041,0.0662,-5.615,63.0,2016.0,93.8
+2023,Kappa Sigma,,Participated,Mountain Sound,Monsters & Men,Mountain Sound,Of Monsters and Men,folk,0.379,0.879,0.37,102.021,0.0421,-4.336,61.0,2012.0,86.6
+2023,Kappa Sigma,,Participated,Spirit,Judah & the Lion,Spirit,Judah & the Lion,folk,0.62,0.368,0.148,132.956,0.545,-7.587,51.0,2021.0,100.0
+2023,Kappa Sigma,,Participated,Bring it on Home,American Authors,Bring It On Home,American Authors,indie-pop,0.652,0.859,0.734,99.04,0.0302,-5.393,46.0,2019.0,100.0
+2023,Phi Gamma Delta,,Participated,Start Me Up,The Rolling Stones,Gimme Shelter,The Rolling Stones,rock,0.634,0.63,0.489,118.642,0.447,-8.277,1.0,2023.0,81.8
+2023,Phi Gamma Delta,,Participated,Blitzkreig Bop,The Ramones,Blitzkrieg Bop,Ramones,punk,0.547,0.733,0.962,176.198,0.0103,-6.558,53.0,2017.0,88.5
+2023,Phi Gamma Delta,,Participated,Hey Ya!,The OutKast,Hey Ya!,Outkast,hip-hop,0.724,0.955,0.966,79.508,0.0666,-3.9,48.0,2015.0,89.5
+2023,Phi Gamma Delta,,Participated,Footloose,Kenny Loggins,Footloose,Kenny Loggins,pop,0.603,0.807,0.659,173.911,0.0438,-8.571,41.0,2001.0,100.0
+2023,Phi Gamma Delta,,Participated,We are Young,Fun.,We Are Young,fun.,rock,0.379,0.637,0.757,184.087,0.0197,-5.574,0.0,2023.0,100.0
+2023,Phi Kappa Chi,,Participated,Cold,Chris Stapleton,Cold,Chris Stapleton,country,0.555,0.505,0.293,117.481,0.0519,-7.334,63.0,2020.0,100.0
+2023,Phi Kappa Chi,,Participated,Trouble,Elvis Presley,Trouble,Elvis Presley,rock-n-roll,0.424,0.385,0.866,86.005,0.87,-10.855,14.0,2018.0,100.0
+2023,Phi Kappa Chi,,Participated,Something's Got to Give,Labrinth,Something's Got To Give,Labrinth,indie-pop,0.514,0.757,0.588,109.151,0.027,-5.718,46.0,2019.0,100.0
+2023,Phi Kappa Chi,,Participated,All Things New,Big Daddy Weave,All Things New,Big Daddy Weave,alt-rock,0.475,0.328,0.188,77.149,0.683,-7.667,40.0,2019.0,100.0
+2023,Phi Kappa Chi,,Participated,Power of Love,Ben Rector,The Power of Love,Ben Rector,acoustic,0.771,0.471,0.339,118.982,0.0137,-8.988,20.0,2014.0,92.9
+2023,Pi Beta Phi,Be My Girl,2nd,Take Me Out,Franz Ferdinand,Take Me Out,Franz Ferdinand,alt-rock,0.239,0.784,0.471,104.457,0.000783,-3.611,38.0,2022.0,100.0
+2023,Pi Beta Phi,Be My Girl,2nd,Are You Gonna Be My Girl?,Jet,Are You Gonna Be My Girl,Jet,garage,0.613,0.953,0.537,105.046,0.00148,-3.435,22.0,2016.0,98.4
+2023,Pi Beta Phi,Be My Girl,2nd,Ladies's Choice,From Hairspray the Musical,,,,,,,,,,,,
+2023,Pi Beta Phi,Be My Girl,2nd,Material Girl,Madonna,Material Girl,Madonna,dance,0.742,0.883,0.978,136.506,0.333,-3.419,74.0,2009.0,100.0
+2023,Pi Beta Phi,Be My Girl,2nd,Rumor Has It,Adele,Rumour Has It,Adele,pop,0.612,0.749,0.574,120.052,0.615,-5.014,66.0,2011.0,97.6
+2023,Pi Beta Phi,Be My Girl,2nd,Someone Like You,Adele,Someone Like You,Adele,pop,0.556,0.319,0.294,135.187,0.893,-8.251,78.0,2011.0,100.0
+2023,Pi Beta Phi,Be My Girl,2nd,River Deep Mountain High,Tina Turner,River Deep - Mountain High,Ike & Tina Turner,funk,0.621,0.972,0.866,155.113,0.472,-3.791,53.0,2008.0,90.5
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Nigh Shift,Jon Pardi,Night Shift,Jon Pardi,country,0.63,0.754,0.73,95.999,0.0963,-3.564,73.0,2016.0,97.8
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Killer Queen,Queen,Que Lloren,Ivy Queen,hip-hop,0.819,0.707,0.777,92.003,0.242,-7.449,41.0,2007.0,76.2
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Crocodile Rock,Elton John,Crocodile Rock,Elton John,piano,0.624,0.769,0.971,150.23,0.0439,-7.778,46.0,2022.0,100.0
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Twist and Shout,The Beatles,Twist And Shout,The Shirelles,blues,0.653,0.561,0.814,130.668,0.587,-10.073,22.0,2005.0,86.7
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Hound Dog,Elvis Presley,Hound Dog,Elvis Presley,rock-n-roll,0.478,0.75,0.944,87.821,0.759,-8.511,36.0,2018.0,100.0
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,From Now On,The Greatest Showman,The Greatest Show on Earth,Ten,hard-rock,0.376,0.531,0.313,158.913,0.0112,-10.654,11.0,2023.0,75.8
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Great Balls of Fire,Jerry Lee Lewis,Great Balls of Fire,Jerry Lee Lewis,piano,0.442,0.87,0.928,160.063,0.381,-3.977,18.0,2012.0,100.0
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Flashing Lights,Kanye West,Flashing Lights,Subjoi,disco,0.721,0.868,0.411,122.996,0.424,-9.582,52.0,2017.0,73.1
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Boot Scootin' Bougie,Brooks and Dunn,Boot Scootin' Boogie,Brooks & Dunn,country,0.656,0.817,0.862,130.448,0.22,-4.296,41.0,2012.0,78.4
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,We're Not Gonna Take It,Twisted Sister,We're Not Gonna Take It,Twisted Sister,hard-rock,0.502,0.925,0.923,149.188,0.0129,-6.298,0.0,2023.0,100.0
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Boulevard of Broken Dreams,Green Day,Boulevard of Broken Dreams,Green Day,punk,0.496,0.682,0.474,167.06,0.00552,-4.095,75.0,2017.0,100.0
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Total Eclipse of the Heart,Bonnie Tyler,Total Eclipse of the Heart,Bonnie Tyler,disco,0.431,0.723,0.19,130.141,0.145,-5.887,27.0,2014.0,100.0
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,We Belong,Pat Benatar,We Belong,RAC,alt-rock,0.437,0.326,0.187,99.978,0.865,-8.846,30.0,2014.0,73.7
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Heigh Ho,Bunny Berigan/ Dwarf's Marching Song from Disney's Snow White,,,,,,,,,,,,
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Dig a Little Deeper,Sierra Nelson,deeper,Son Little,funk,0.62,0.344,0.278,119.998,0.665,-9.679,36.0,2022.0,70.4
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Sweet Dreams,Eurthymics,Sweet Dreams,Prithvi,indian,0.575,0.327,0.0388,83.984,0.935,-18.395,15.0,2022.0,80.9
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Beat It,Michael Jackson,Beat It,Michael Jackson,pop,0.776,0.867,0.918,138.827,0.0495,-3.704,77.0,2008.0,100.0
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,I Did Something Bad,Taylor Swift,I Did Something Bad,Taylor Swift,pop,0.696,0.602,0.305,82.989,0.0679,-6.156,74.0,2017.0,100.0
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Why Can't We Be Friends?,War,Why Can't We Be Friends,Scary Pockets,funk,0.595,0.607,0.645,76.11,0.226,-6.474,28.0,2023.0,81.2
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,We Found Love,Rihanna & Calvin Harris,We Found Love,Rihanna,pop,0.734,0.766,0.6,127.986,0.025,-4.485,65.0,2012.0,74.2
+2023,Zeta Tau Alpha,Experiment Z,3rd,Workin' Day & Night,Michael Jackson,Rockin' Robin,Michael Jackson,soul,0.625,0.767,0.964,173.048,0.24,-6.786,14.0,2000.0,73.5
+2023,Zeta Tau Alpha,Experiment Z,3rd,Monster Mash,"Bobby ""Boris"" Pickett",,,,,,,,,,,,
+2023,Zeta Tau Alpha,Experiment Z,3rd,Another One Bites the Dust,Queen,Another One Bites The Dust,Saxity,deep-house,0.754,0.811,0.789,121.037,0.00128,-5.113,35.0,2018.0,84.1
+2023,Zeta Tau Alpha,Experiment Z,3rd,Don't Stop Believin',Journey,Don't Stop Believin',Journey,hard-rock,0.495,0.779,0.462,119.197,0.253,-8.106,29.0,2014.0,100.0
+2023,Zeta Tau Alpha,Experiment Z,3rd,Come Alive,From the Greatest Showman,The Rest of My Life,Sloan,indie-pop,0.59,0.722,0.67,116.035,0.00052,-5.783,41.0,2003.0,70.8
+2023,Zeta Tau Alpha,Experiment Z,3rd,Thriller,Michael Jackson,Thriller,Michael Jackson,pop,0.764,0.887,0.72,118.427,0.0816,-3.726,65.0,2017.0,100.0
+2023,Zeta Tau Alpha,Experiment Z,3rd,I'm In Love with a Monster,Fifth Harmony,I'm In Love With a Monster,Fifth Harmony,pop,0.666,0.812,0.868,145.059,0.0597,-4.07,64.0,2015.0,100.0
+2023,Zeta Tau Alpha,Experiment Z,3rd,I'm So Excited,The Pointer Sisters,I'm So Excited,The Pointer Sisters,disco,0.692,0.8,0.885,91.246,0.0983,-7.065,14.0,2017.0,100.0
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,The Winner Takes It All,ABBA,The Winner Takes It All,ABBA,swedish,0.456,0.563,0.528,126.802,0.373,-13.741,27.0,2012.0,100.0
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,Baby I'm a Star,Prince,"I'm a Raver, Baby",Scooter,techno,0.478,0.957,0.336,150.058,0.00901,-4.658,20.0,2012.0,74.5
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,Man I Feel like a Woman,Shania Twian,Man! I Feel Like A Woman!,Shania Twain,country,0.654,0.889,0.73,125.018,0.64,-3.058,0.0,2023.0,94.9
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,SOS,Rihanna,SOS,Rihanna,pop,0.677,0.671,0.527,137.046,0.004,-4.905,77.0,2006.0,100.0
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,Girls Just Want To Have Fun,Miley Cyrus / Cyndi Lauper,Girls Just Want to Have Fun,Cyndi Lauper,pop,0.707,0.788,0.746,120.465,0.214,-5.269,65.0,2014.0,85.7
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,I Want it All,High School Musical 3 Cast,I Want It All,High School Musical Cast,dance,0.791,0.813,0.913,142.876,0.179,-3.444,55.0,2008.0,97.6
+2024,Alpha Delta Pi,,Participated,I Wanna Be A Lifeguard,Blotto,I Wanna Be A Girl,The Pinheads,garage,0.208,0.914,0.518,205.668,9.17e-05,-8.318,23.0,2015.0,66.7
+2024,Alpha Delta Pi,,Participated,Surfin USA,The Beach Boys,Surfin' U.S.A.,The Beach Boys,pop,0.549,0.805,0.969,160.753,0.398,-7.436,55.0,2012.0,93.1
+2024,Alpha Delta Pi,,Participated,Shark attack,John Williams,At Rest,John Williams,guitar,0.519,0.161,0.15,104.678,0.992,-19.77,3.0,2016.0,78.4
+2024,Alpha Delta Pi,,Participated,Shark attack,Surf Punks,Shark Attack,Wolf,heavy-metal,0.509,0.992,0.19,116.004,2.29e-05,-4.488,18.0,2014.0,72.7
+2024,Alpha Delta Pi,,Participated,I’m always here,Jimi Jamison,I'm Always Here,Jimi Jamison,hard-rock,0.656,0.821,0.448,120.058,0.00289,-6.452,18.0,2003.0,96.7
+2024,Alpha Delta Pi,,Participated,Sorry,Justin Bieber,Sorry,Justin Bieber,pop,0.654,0.76,0.41,99.945,0.0797,-3.669,80.0,2015.0,100.0
+2024,Alpha Delta Pi,,Participated,All for one,High School Musical,All For One,High School Musical Cast,dance,0.657,0.985,0.776,150.038,0.119,-3.22,52.0,2007.0,93.0
+2024,Alpha Delta Pi,,Participated,Surf Crazy,Spencer Lee (Teen Beach Movie),,,,,,,,,,,,
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Better When I'm Dancin,Meghan Trainor,Better When I'm Dancin',Meghan Trainor,pop,0.756,0.789,0.873,127.987,0.53,-7.002,74.0,2015.0,98.7
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Wouldn't It Be Nice,The Beach Boys,Wouldn't It Be Nice,The Beach Boys,pop,0.385,0.657,0.672,124.895,0.724,-6.975,58.0,2012.0,100.0
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Pink,Lizzo,Phone,Lizzo,dance,0.914,0.526,0.819,140.005,0.0868,-3.698,51.0,2016.0,80.0
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Push it to the Limit,Corbin Bleu / High School Musical,Push It to the Limit,Corbin Bleu,pop,0.815,0.906,0.783,125.974,0.0116,-3.194,48.0,2007.0,75.6
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,We're All in this Together,High School Musical,We're All In This Together,High School Musical Cast,dance,0.76,0.941,0.805,116.013,0.0451,-6.356,64.0,2006.0,95.0
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Best Song Ever,One Direction,Best Song Ever,One Direction,pop,0.652,0.877,0.486,118.491,0.0227,-2.986,75.0,2013.0,100.0
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Never Say Never,Justin Bieber,Never Say Never,Justin Bieber,pop,0.739,0.807,0.632,97.048,0.0181,-5.063,70.0,2011.0,100.0
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,We Are Never Getting Back Together,Taylor Swift,We Are Never Ever Getting Back Together,Taylor Swift,pop,0.628,0.676,0.75,85.984,0.00957,-5.911,74.0,2012.0,95.1
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,Higher Ground,Stevie Wonder,Higher Ground,Stevie Wonder,funk,0.714,0.794,0.835,125.375,0.104,-11.719,28.0,2002.0,100.0
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,Made from the Stars,Aloe Blacc,Made From The Stars,Aloe Blacc,soul,0.64,0.819,0.713,129.158,0.0765,-3.664,41.0,2021.0,100.0
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,Fly As Me,Silk Sonic (Bruno Mars),Silk Sonic Intro,Bruno Mars,dance,0.696,0.553,0.674,114.993,0.097,-8.702,55.0,2021.0,68.8
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,"Hold On, I'm Coming",Sam and Davis,Hold On I'm Coming,Sam & Dave,funk,0.815,0.537,0.895,107.081,0.117,-6.18,23.0,2007.0,84.8
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,War,Edwin Starr,War,Edwin Starr,soul,0.571,0.752,0.721,109.015,0.0535,-9.245,34.0,2001.0,100.0
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,Get Down Tonight,KC and the Sunshine Band,Get Down Tonight,KC & The Sunshine Band,disco,0.664,0.853,0.873,113.016,0.0721,-8.164,16.0,2018.0,92.9
+2024,Beta Theta Pi,Fratty-Shack,Participated,Bet On It,High School Musical,All For One,High School Musical Cast,dance,0.657,0.985,0.776,150.038,0.119,-3.22,52.0,2007.0,75.4
+2024,Beta Theta Pi,Fratty-Shack,Participated,I Don't Dance,High School Musical,High School Dance,Gregory Isaacs,dub,0.736,0.418,0.766,180.505,0.397,-12.16,0.0,2000.0,72.5
+2024,Beta Theta Pi,Fratty-Shack,Participated,Don't You Want Me,Human League,Don't You Want a Man,The Slackers,ska,0.466,0.603,0.88,178.898,0.0743,-6.391,9.0,2008.0,77.6
+2024,Beta Theta Pi,Fratty-Shack,Participated,Should I Stay or Should I Go,The Clash,Should I Stay or Should I Go - Remastered,The Clash,punk,0.742,0.838,0.848,113.373,0.0832,-6.442,61.0,2013.0,86.0
+2024,Beta Theta Pi,Fratty-Shack,Participated,Can't Touch This,MC Hammer,U Can't Touch This,MC Hammer,hip-hop,0.871,0.696,0.799,133.35,0.0042,-7.153,35.0,2003.0,96.6
+2024,Beta Theta Pi,Fratty-Shack,Participated,Believer,Imagine Dragons,Believer,Imagine Dragons,rock,0.776,0.78,0.666,124.949,0.0622,-4.374,86.0,2017.0,100.0
+2024,Chi Omega,Caught Red-Handed,2nd,House of the Rising Sun,The Animals,House Of The Rising Sun,The Animals,blues,0.464,0.464,0.118,119.471,0.029,-9.779,31.0,2013.0,100.0
+2024,Chi Omega,Caught Red-Handed,2nd,Rockin Robin,Jackson 5,Rockin' Robin,Michael Jackson,soul,0.625,0.767,0.964,173.048,0.24,-6.786,14.0,2000.0,80.0
+2024,Chi Omega,Caught Red-Handed,2nd,Born to be Wild,Steppenwolf,Born To Be Wild,Steppenwolf,blues,0.45,0.833,0.552,145.826,0.292,-8.934,40.0,2018.0,100.0
+2024,Chi Omega,Caught Red-Handed,2nd,Would I Lie to You,The Eurythmics,Would You Notice,The Tories,power-pop,0.555,0.863,0.435,104.985,0.000367,-5.068,2.0,2001.0,71.9
+2024,Chi Omega,Caught Red-Handed,2nd,Hit the Road Jack,Ray Charles,Hit the Road Jack,Ray Charles,blues,0.598,0.571,0.962,173.141,0.704,-12.616,70.0,2021.0,100.0
+2024,Chi Omega,Caught Red-Handed,2nd,Zero to Hero,Hercules Cast,Zero to the Third,Matt Pless,acoustic,0.471,0.847,0.635,174.798,0.00633,-5.456,2.0,2005.0,69.0
+2024,Delta Delta Delta,Weather or Not!,Pigskin,Reach Out I'll Be there,Gloria Gaynor,Reach Out I'll Be There,Gloria Gaynor,disco,0.667,0.558,0.295,123.586,0.0151,-7.429,12.0,2000.0,100.0
+2024,Delta Delta Delta,Weather or Not!,Pigskin,Blown Away,Carrie Underwood,Blown Away,Carrie Underwood,country,0.531,0.843,0.392,136.991,0.0909,-2.569,63.0,2012.0,100.0
+2024,Delta Delta Delta,Weather or Not!,Pigskin,Barbie Girl,Aqua,Oh Baby Girl,Achu,pop-film,0.719,0.887,0.834,156.918,0.183,-5.262,53.0,2012.0,70.3
+2024,Delta Delta Delta,Weather or Not!,Pigskin,I Got the Music in Me,Kiki Dee,Don't let the music die,INNA,house,0.744,0.816,0.787,130.013,0.0528,-6.252,25.0,2010.0,71.0
+2024,Delta Delta Delta,Weather or Not!,Pigskin,No More Tears,Barbra Streisand & Donna Summer,No More Tears (Enough Is Enough) (feat. Donna Summer),Barbra Streisand,rock,0.634,0.644,0.286,135.24,0.51,-8.234,45.0,2002.0,77.3
+2024,Delta Tau Delta,,Participated,Whip It,Devo,Whip It,DEVO,punk,0.767,0.888,0.943,157.669,0.0639,-6.195,0.0,2023.0,100.0
+2024,Delta Tau Delta,,Participated,Sexy Back,Justin Timberlake,Supplies,Justin Timberlake,dance,0.793,0.554,0.225,119.993,0.00695,-6.624,45.0,2018.0,77.2
+2024,Delta Tau Delta,,Participated,I'm Gonna Be,Proclaimers,I'm Gonna Get,Viers,club,0.778,0.958,0.518,132.996,0.000125,-8.758,19.0,2019.0,76.6
+2024,Delta Tau Delta,,Participated,Push It To The Limit,Paul Engemann,Push it to the Limit,Necro,hardcore,0.461,0.911,0.792,92.132,0.378,-3.153,39.0,2004.0,71.9
+2024,Delta Tau Delta,,Participated,Radioactive,Imagine Dragons,Radioactive,Imagine Dragons,rock,0.448,0.784,0.236,136.245,0.106,-3.686,71.0,2012.0,100.0
+2024,Delta Tau Delta,,Participated,Hearts On Fire,John Cafferty,Hearts On Fire,Albert One,disco,0.724,0.783,0.679,125.015,5.32e-05,-6.6,19.0,2013.0,84.2
+2024,Kappa Alpha Order,,Participated,When The Saints Go Marching In,Louis Armstrong,When the Saints Go Marching In,Dr. John,blues,0.474,0.465,0.427,98.781,0.569,-8.833,12.0,2004.0,80.9
+2024,Kappa Alpha Order,,Participated,Bourbon Street,Jeff Tuohy,Bourbon street medley,Traditional,sleep,0.292,0.448,0.249,93.604,0.924,-11.7,0.0,2005.0,67.7
+2024,Kappa Alpha Order,,Participated,Voodoo Child,Jimi Hendrix,Voodoo Child (Slight Return),Jimi Hendrix,blues,0.375,0.91,0.424,87.455,0.494,-6.597,26.0,2001.0,77.1
+2024,Kappa Alpha Order,,Participated,Heads Will Roll,Yeah Yeah Yeahs,Heads Will Roll,Yeah Yeah Yeahs,alt-rock,0.562,0.903,0.791,132.013,0.000187,-4.46,0.0,2023.0,100.0
+2024,Kappa Alpha Order,,Participated,Fight For Your Right,Beastie Boys,Fight for Your Right,Deez Nuts,hardcore,0.47,0.935,0.589,142.816,0.000109,-4.403,30.0,2008.0,74.6
+2024,Kappa Alpha Order,,Participated,Stay Stay Stay,Taylor Swift,Stay Stay Stay,Taylor Swift,pop,0.729,0.748,0.928,99.981,0.307,-6.67,46.0,2012.0,100.0
+2024,Kappa Alpha Order,,Participated,Ballroom Blitz,Sweet,Ballroom Blitz,Sweet,blues,0.626,0.879,0.878,108.434,0.0228,-6.6,57.0,2017.0,100.0
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,West End Blues,Louis Armstrong,West End Blues,Louis Armstrong & His Hot Five,jazz,0.602,0.206,0.41,83.693,0.986,-12.063,26.0,2004.0,81.0
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,"Theme from New York, New York",Frank Sinatra,"Theme from New York, New York",The Ten Tenors,opera,0.515,0.276,0.605,109.78,0.467,-10.558,12.0,2014.0,76.9
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,Please Don't Stop the Music,Rihanna,Don't Stop The Music,Rihanna,pop,0.835,0.669,0.542,122.668,0.0336,-5.582,69.0,2007.0,89.6
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,Evacuate the Dance Floor,Casandra,Evacuate the Dancefloor,Cascada,dance,0.76,0.696,0.903,127.029,0.0195,-5.811,46.0,2012.0,79.4
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,Pump It,Black Eyed Peas,Pump It,Black Eyed Peas,dance,0.649,0.931,0.744,153.645,0.0093,-3.15,68.0,2005.0,100.0
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,All of the Lights,Kanye West,All Of The Lights,Coone,hardstyle,0.575,0.971,0.327,150.061,0.0888,-3.199,55.0,2023.0,80.0
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,Dance the Night,Dua Lipa,Dance Last Night,The Gants,garage,0.68,0.648,0.962,132.086,0.122,-9.304,2.0,2000.0,81.5
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,"Sing, Sing, Sing",Benny Goodman,"Sing, Sing, Sing",Benny Goodman,jazz,0.62,0.67,0.295,113.492,0.853,-11.575,50.0,2007.0,100.0
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,Uptown Girl,Billy Joel,Uptown Girl,Billy Joel,folk,0.65,0.241,0.615,84.34,0.16,-14.067,24.0,2014.0,100.0
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Friends On The Other Side,Princess and The Frog Cast,On The Other Side Of The Tracks,Faith Prince,show-tunes,0.501,0.386,0.515,52.692,0.78,-11.304,0.0,2000.0,70.0
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Pure Imagination,Charlie and the Chocolate Factory,"Pure Imagination (from ""Charlie and the Chocolate Factory"")",Josh Groban,opera,0.268,0.266,0.0752,120.24,0.868,-12.376,37.0,2015.0,73.6
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Another Day of Sun,La La Land,Another Land,Dave Holland,jazz,0.512,0.0464,0.488,138.79,0.948,-28.676,37.0,2021.0,72.4
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Wildest Dreams,Taylor Swift,Wildest Dreams,Taylor Swift,pop,0.554,0.666,0.472,140.056,0.0702,-7.414,71.0,2014.0,100.0
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Wonderland,Taylor Swift,Wonderland,Taylor Swift,pop,0.422,0.692,0.197,184.014,0.0493,-5.447,63.0,2014.0,100.0
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Bad to the Bone,George Thoroughgood and The Destroyers,Bad To The Bone,George Thorogood & The Destroyers,hard-rock,0.338,0.862,0.687,99.073,0.00226,-5.919,19.0,2017.0,91.6
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Dream On,Aerosmith,Dream On,Aerosmith,hard-rock,0.412,0.528,0.174,79.96,0.298,-6.613,17.0,2014.0,100.0
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Carry on Wayward Son,Kansas,Carry on Wayward Son,Kansas,hard-rock,0.474,0.78,0.803,126.748,0.00282,-5.736,18.0,2014.0,100.0
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,Saturday in the Park,Chicago,Saturday in the Park - 2002 Remaster,Chicago,folk,0.67,0.763,0.61,114.398,0.155,-6.864,30.0,2002.0,78.9
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,I Want You To Want Me,Cheap Trick,I Want You to Want Me - Live,Cheap Trick,power-pop,0.52,0.908,0.644,106.79,6.01e-05,-6.584,1.0,2018.0,90.9
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,Sir Duke,Stevie Wonder,Sir Duke,Stevie Wonder,funk,0.586,0.58,0.955,106.648,0.166,-9.75,47.0,2022.0,100.0
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,Have You Ever Seen The Rain,Creedence Clearwater Revival,Have You Ever Seen The Rain - Mono Single,Creedence Clearwater Revival,country,0.773,0.735,0.821,115.973,0.0787,-4.568,21.0,2009.0,89.2
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,You Can't Hurry Love,The Supremes,You Can't Hurry Love,The Supremes,disco,0.709,0.692,0.624,96.624,0.199,-4.903,0.0,2023.0,100.0
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,Right Back Where We Started,Maxine Nightingale,Right Back Where We Started From,Maxine Nightingale,pop,0.692,0.653,0.901,148.018,0.49,-5.715,58.0,2019.0,95.0
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,This Will Be (An Everlasting Love),Natalie Cole,I Will Not Be Moved,Natalie Grant,alt-rock,0.53,0.877,0.21,117.953,0.00869,-3.693,29.0,2008.0,66.7
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Hard to Handle,Black Crows,Hard to Handle,The Black Crowes,blues,0.479,0.879,0.688,98.215,0.00997,-7.139,25.0,2017.0,91.8
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Sweet Gingerbread Man,Sammy Davis Jr,The Gingerbread Man,Pokey Bear,soul,0.716,0.78,0.743,134.98,0.256,-4.9,13.0,2013.0,65.7
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Everybody,Backstreet Boys,Everyone,Backstreet Boys,dance,0.685,0.963,0.916,110.025,0.0254,-2.675,51.0,2000.0,90.6
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Can You Feel It,The Jackson 5,Can You Feel It,The Jacksons,disco,0.897,0.697,0.881,125.332,0.0521,-5.53,23.0,2004.0,95.1
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Boy Are Back In Town,The Bus Boys,The Boys Are Back In Town,Everclear,alt-rock,0.498,0.955,0.246,148.688,0.000394,-4.038,26.0,2008.0,77.8
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,I Feel Better,Gotye,I Feel Better,Hot Chip,alt-rock,0.598,0.672,0.338,125.086,0.0134,-5.291,43.0,2010.0,80.0
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,I Just Died In Your Arms,Cutting Crew,Die In Your Arms,Justin Bieber,pop,0.568,0.877,0.738,171.723,0.0309,-5.094,49.0,2012.0,70.4
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Wellerman,The Longest Johns,The Wellerman,Alestorm,metal,0.741,0.775,0.934,102.075,0.254,-6.757,41.0,2021.0,75.5
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Help!,Beatles,Help!,The Beatles,psych-rock,0.552,0.734,0.846,94.887,0.221,-7.126,55.0,2006.0,88.2
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Ain’t No Mountain High Enough,Marvin Gaye,Ain't No Mountain High Enough,Marvin Gaye,funk,0.665,0.698,0.797,130.098,0.452,-7.615,22.0,2013.0,97.7
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Eye of the Tiger,Survivor,Eye of the Tiger,Survivor,rock,0.815,0.438,0.552,108.966,0.216,-14.522,35.0,2014.0,100.0
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Safe and Sound,Capitol Cities,Safe And Sound,Capital Cities,rock,0.655,0.819,0.766,117.956,0.000176,-4.852,81.0,2013.0,96.8
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Brandy (You’re a Fine Girl),Looking Glass,Brandy (You're a Fine Girl),Walt's Piano,piano,0.349,0.117,0.171,131.109,0.985,-24.172,14.0,2023.0,75.3
+2024,Phi Kappa Chi,The Good Newsies,3rd,Land Of 1000 Dances,Wilson Pickett,Land of 1000 Dances,Wilson Pickett,funk,0.618,0.588,0.768,86.903,0.0128,-11.624,28.0,2016.0,100.0
+2024,Phi Kappa Chi,The Good Newsies,3rd,Go Tell It To The Mountian,Josh Turner,I'm No Stranger To The Rain,Josh Turner,country,0.509,0.598,0.277,88.012,0.605,-7.537,38.0,2020.0,71.6
+2024,Phi Kappa Chi,The Good Newsies,3rd,"Signed, Sealed, Delivered",Stevie Wonder,"Signed, Sealed, Delivered (I'm Yours)",Stevie Wonder,funk,0.643,0.764,0.827,109.067,0.0111,-5.49,29.0,2002.0,87.2
+2024,Phi Kappa Chi,The Good Newsies,3rd,Paint It Black,Rolling Stones,"Paint It, Black",The Rolling Stones,rock,0.496,0.858,0.773,159.69,0.0133,-7.927,0.0,2023.0,92.5
+2024,Phi Kappa Chi,The Good Newsies,3rd,Tell Her About It,Billy Joel,Tell Her About It,Billy Joel,folk,0.566,0.892,0.751,183.216,0.00683,-5.209,34.0,2001.0,100.0
+2024,Phi Kappa Chi,The Good Newsies,3rd,Think,Aretha Franklin,Think,Aretha Franklin,blues,0.687,0.661,0.88,109.743,0.48,-9.689,8.0,2007.0,100.0
+2024,Phi Kappa Chi,The Good Newsies,3rd,Proud Mary,Tina Turner,Proud Mary,Tina Turner,disco,0.371,0.7,0.364,174.825,0.0713,-3.944,25.0,2004.0,100.0
+2024,Pi Beta Phi,Our State Fair,Participated,Let's Go Crazy,Prince,Go Crazy,Medasin,electronic,0.837,0.628,0.492,127.014,0.208,-9.971,30.0,2020.0,73.2
+2024,Pi Beta Phi,Our State Fair,Participated,Misery,Maroon 5,Misery,Maroon 5,pop,0.704,0.81,0.726,102.98,0.000315,-4.874,62.0,2010.0,100.0
+2024,Pi Beta Phi,Our State Fair,Participated,Troublemaker,Olly Murs,Troublemaker,Grizfolk,alt-rock,0.566,0.819,0.525,112.91,0.00203,-5.246,45.0,2015.0,76.6
+2024,Pi Beta Phi,Our State Fair,Participated,Welcome To The Jungle,Guns n' Roses,Welcome To The Jungle,Guns N' Roses,hard-rock,0.44,0.98,0.324,123.412,0.0258,-4.963,41.0,2020.0,100.0
+2024,Pi Beta Phi,Our State Fair,Participated,You May Be Right,Billy Joel,You May Be Right,Billy Joel,folk,0.563,0.947,0.963,150.8,0.175,-7.245,39.0,2001.0,100.0
+2024,Pi Beta Phi,Our State Fair,Participated,Runaway Baby,Bruno Mars,Runaway Baby,Bruno Mars,dance,0.658,0.762,0.823,163.864,0.263,-3.028,70.0,2010.0,100.0
+2024,Pi Beta Phi,Our State Fair,Participated,Uptight (Everything’s Alright),Glee Cast / Stevie Wonder,Uptight (Everything's Alright),Stevie Wonder,funk,0.578,0.756,0.88,134.209,0.136,-5.064,24.0,2002.0,86.5
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Suit and Tie,Justin Timberlake,Not a Bad Thing,Justin Timberlake,pop,0.308,0.563,0.109,85.901,0.527,-9.169,54.0,2013.0,80.6
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Runaway,Bon Jovi,Runaway,Bon Jovi,metal,0.466,0.844,0.606,153.014,0.00456,-6.65,43.0,2017.0,100.0
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Sh-Boom,The Chords,Soon,The Cars,hard-rock,0.454,0.545,0.131,167.989,0.0162,-7.783,25.0,2011.0,74.3
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Hopelessly Devoted to You,Glee Cast,Hopelessly Devoted to You,PIG,industrial,0.451,0.508,0.369,149.817,0.0504,-10.703,7.0,2019.0,79.4
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Love Runs Out,OneRepublic,Love Runs Out,OneRepublic,piano,0.719,0.935,0.738,120.022,0.167,-3.752,62.0,2014.0,100.0
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Midnight Sky,Miley Cyrus,Midnight Sky,Miley Cyrus,pop,0.699,0.805,0.232,109.976,0.00161,-5.535,78.0,2020.0,100.0
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,Counting Stars,One Republic,Counting Stars,OneRepublic,piano,0.664,0.705,0.477,122.017,0.0654,-4.972,76.0,2014.0,98.2
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,I Was Made For Loving You,Kiss,I Was Made For Lovin' You,KISS,hard-rock,0.723,0.863,0.898,128.476,0.0509,-5.674,23.0,2017.0,96.9
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,No Scrubs,TLC,No Scrubs,TLC,dance,0.799,0.633,0.548,92.901,0.0552,-5.502,41.0,2013.0,100.0
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,Goodbye Stranger,Supertramp,Goodbye Stranger,Supertramp,piano,0.425,0.712,0.336,125.014,0.598,-6.25,25.0,2005.0,100.0
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,Bad Blood,Taylor Swift,Bad Blood,Taylor Swift,pop,0.65,0.802,0.295,170.146,0.0871,-6.114,68.0,2014.0,100.0
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,SOS,ABBA,SOS,ABBA,swedish,0.389,0.565,0.508,124.469,0.0599,-9.947,31.0,2012.0,100.0
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,Since You've Been Gone,Kelly Clarkson,Since U Been Gone,Kelly Clarkson,dance,0.661,0.76,0.425,131.0,0.00193,-4.882,47.0,2012.0,93.2
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,Mambo Italiano,Dean Martin,Mambo Italiano,Anna Maria Kaufmann,show-tunes,0.677,0.842,0.558,140.156,0.534,-5.909,0.0,2012.0,75.0
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,Fly Me To The Moon,Frank Sinatra,Fly Me to the Moon,Sungha Jung,acoustic,0.497,0.108,0.233,64.432,0.913,-19.61,24.0,2017.0,78.8
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,That's Amore,Dean Martin,That's Amore,André Rieu,opera,0.158,0.49,0.421,61.351,0.555,-7.12,41.0,2014.0,78.4
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,Ave Maria,Renee Fleming / Franz Schubert,Ave Maria,Franz Schubert,classical,0.237,0.122,0.119,84.963,0.989,-19.907,12.0,2002.0,76.5
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,Get Cha Head In The Game,High School Musical,Can I Have This Dance,High School Musical Cast,dance,0.555,0.619,0.426,136.069,0.203,-5.246,63.0,2008.0,76.6
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,The Chain,Fleetwood Mac,Thrown Down,Fleetwood Mac,rock,0.626,0.791,0.864,129.976,0.527,-5.735,52.0,2003.0,76.9
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,Boogie Wonderland,"Earth, Wind, & Fire",Boogie Wonderland,"Earth, Wind & Fire",disco,0.803,0.763,0.963,131.714,0.0895,-10.785,40.0,2014.0,98.7
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,Boogie Shoes,Glee Cast / KC & The Sunshine Band,Boogie Shoes,KC & The Sunshine Band,disco,0.935,0.883,0.965,113.996,0.458,-7.876,21.0,2017.0,86.0
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,All Night Dancin,The Jacksons,Bring On The Night,Alan Jackson,country,0.603,0.328,0.187,79.09,0.139,-10.406,30.0,2002.0,81.2
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,Hungry like the wolf,Duran Duran,Hungry Like The Wolf,Duran Duran,dance,0.671,0.833,0.587,129.624,0.0322,-8.31,24.0,2008.0,100.0
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,Get Down On It,Kool & the Gang,Get Down On It,Kool & The Gang,disco,0.851,0.558,0.968,111.524,0.086,-8.819,1.0,2023.0,100.0
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,What I like About You,The Romantics,What I Like About You,The Romantics,power-pop,0.512,0.94,0.924,159.853,0.288,-8.412,16.0,2014.0,100.0
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,I Wanna Dance With Somebody,Whitney Houston,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,dance,0.7,0.913,0.832,118.821,0.204,-5.38,29.0,2014.0,85.7
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,The Safety Dance,Men Without Hats,Stay With Me,The Dictators,blues,0.426,0.98,0.395,158.725,0.00205,-5.056,31.0,2018.0,73.0
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Jolene,Dolly Parton,Jolene,Dolly Parton,country,0.683,0.529,0.774,110.551,0.546,-11.535,23.0,2003.0,100.0
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Seven Nation Army,The White Stripes,Seven Nation Army,The White Stripes,blues,0.741,0.469,0.313,123.904,0.00601,-7.627,23.0,2014.0,100.0
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Revenge Party,Mean Girls,Revenge Party,Grey Henson,show-tunes,0.525,0.702,0.653,99.787,0.241,-4.747,53.0,2018.0,79.2
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,These Boots Are Made for Walking,Nancy Sinatra,These Boots Are Made for Walkin',Nancy Sinatra,folk,0.628,0.42,0.337,165.304,0.395,-10.547,64.0,2021.0,97.9
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Ces Bottes Sont Faites Pour Marcher,Eileen,Ces bottes sont faites pour marcher,Emilie-Claire Barlow,jazz,0.706,0.272,0.266,112.25,0.829,-11.909,46.0,2012.0,84.3
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Edge of Glory,Lady Gaga,The Edge Of Glory,Lady Gaga,dance,0.583,0.766,0.395,127.95,0.000348,-6.47,0.0,2023.0,92.6
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Maniac,Michael Sembello,Intimacy,Michael Somerville,comedy,0.433,0.524,0.464,84.78,0.967,-18.725,2.0,2005.0,74.1
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Viva La Vida,Coldplay,Viva La Vida,Coldplay,pop,0.486,0.617,0.417,138.015,0.0954,-7.115,0.0,2023.0,100.0
+2025,Alpha Delta Pi,The Diamond Salon,Participated,New Day,Alicia Keys,New Day,Alicia Keys,soul,0.493,0.81,0.422,193.592,0.0166,-6.026,41.0,2012.0,100.0
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Kids in America,Kim Wilde,Kids in America,LEN,pop,0.51,0.849,0.303,167.387,0.0022,-4.718,33.0,2000.0,83.3
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Venus,Bananarama,Venus,Bananarama,disco,0.685,0.957,0.892,126.104,0.0223,-4.403,41.0,2017.0,100.0
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Please Please Please,Sabrina Carpenter,Please Please Please,The Blasters,rock-n-roll,0.464,0.587,0.742,118.391,0.605,-6.571,7.0,2012.0,74.7
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Never Gonna Give You Up,Rick Astley,Never Gonna Give You Up,Rick Astley,disco,0.724,0.984,0.925,113.331,0.137,-6.499,22.0,2018.0,100.0
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Hair Up,Trolls,Habits,PUP,emo,0.246,0.791,0.301,133.537,0.000814,-3.583,32.0,2022.0,71.4
+2025,Alpha Delta Pi,The Diamond Salon,Participated,Hair,Lady Gaga,Hair,Lady Gaga,dance,0.57,0.923,0.403,135.006,0.00116,-3.433,45.0,2011.0,100.0
+2025,Alpha Phi,Escaping Ivy Manor,Participated,Mad World,Gary Jules,Mad World,Buyer Beware,psych-rock,0.414,0.336,0.16,87.637,0.868,-8.519,12.0,2019.0,73.9
+2025,Alpha Phi,Escaping Ivy Manor,Participated,Break Free,Ariana Grande,Break Free,Ariana Grande,dance,0.687,0.702,0.284,129.956,0.0064,-5.324,75.0,2014.0,100.0
+2025,Alpha Phi,Escaping Ivy Manor,Participated,The House is Haunted,Mark Almond,This House Is Haunted,I Am Kloot,acoustic,0.306,0.7,0.0742,113.041,0.162,-7.336,0.0,2003.0,76.5
+2025,Alpha Phi,Escaping Ivy Manor,Participated,I'm Coming Out,Diana Ross,I'm Coming Out,Diana Ross,disco,0.762,0.874,0.788,109.846,0.0945,-6.559,46.0,2017.0,100.0
+2025,Alpha Phi,Escaping Ivy Manor,Participated,I Think We're Alone Now,Tiffany,I Think We're Alone Now,Tiffany,pop,0.646,0.892,0.7,130.297,3.76e-05,-5.406,45.0,2008.0,100.0
+2025,Alpha Phi,Escaping Ivy Manor,Participated,Smooth Criminal,Michael Jackson,Smooth Criminal - Immortal Version,Michael Jackson,pop,0.826,0.938,0.731,118.161,0.133,-4.866,55.0,2011.0,77.6
+2025,Alpha Phi,Escaping Ivy Manor,Participated,Tainted Love,Soft Cell,Tainted Love,Soft Cell,pop,0.569,0.493,0.616,143.221,0.106,-9.112,46.0,2009.0,100.0
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Larger Than Life,Backstreet Boys,Larger Than Life,Backstreet Boys,dance,0.652,0.967,0.782,108.03,0.103,-3.772,39.0,2001.0,100.0
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Maneater,Hall & Oates,Maneater,Daryl Hall & John Oates,rock,0.65,0.493,0.831,177.503,0.0145,-12.159,43.0,2001.0,80.7
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Free Bird,Lynyrd Skynyrd,Free Bird,Lynyrd Skynyrd,blues,0.18,0.872,0.311,150.672,0.0761,-6.842,15.0,2005.0,100.0
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Dance Machine,The Jackson 5,Medicine,The Last Dance,goth,0.381,0.776,0.439,180.276,3.28e-05,-7.363,1.0,2015.0,74.1
+2025,Alpha Tau Omega,Underneath the Tree,2nd,The Nutcracker (Act 1: March),London Symphony Orchestra (George Balanchine),"Chinese Dance from The Nutcracker Suite, Op. 71a",London Symphony Orchestra,classical,0.552,0.277,0.898,125.277,0.963,-16.278,22.0,2010.0,65.4
+2025,Alpha Tau Omega,Underneath the Tree,2nd,You Don't Mess Around With Jim,Jim Croce,You Don't Mess Around With Jim,Jim Croce,country,0.702,0.749,0.968,163.782,0.479,-6.362,44.0,2017.0,100.0
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Papa's Got A Brand New Bag,James Brown,Papa's Got A Brand New Bag - Pt. 1,James Brown,funk,0.774,0.718,0.9,129.423,0.564,-8.94,17.0,2014.0,90.9
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Run Rudolph Run,Chuck Berry,Run Rudolph Run,Chuck Berry,rock-n-roll,0.677,0.906,0.954,151.908,0.831,-3.861,17.0,2017.0,100.0
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Underneath the Tree,Kelly Clarkson,Underneath the Tree,Kelly Clarkson,dance,0.509,0.812,0.689,159.878,0.00128,-5.439,57.0,2013.0,100.0
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Fishin' in the Dark,Nitty Gritty Dirt Band,Fishing In The Dark,Nitty Gritty Dirt Band,country,0.765,0.494,0.91,77.724,0.31,-7.348,71.0,2017.0,97.7
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Up Down,Morgan Wallen,Cover Me Up,Morgan Wallen,country,0.525,0.437,0.195,127.994,0.236,-8.285,57.0,2019.0,80.0
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Jesus Take the Wheel,Carrie Underwood,"Jesus, Take the Wheel",Carrie Underwood,country,0.285,0.511,0.138,152.05,0.657,-2.981,38.0,2014.0,98.7
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Shut Up and Fish,Maddy & Tay,Stand Up And Shout,ASTERISM,heavy-metal,0.419,0.945,0.208,105.967,2.31e-05,-5.676,3.0,2018.0,67.8
+2025,Beta Upsilon Chi,Gone Fishin',Participated,I'm Gonna Miss Her,Brad Paisley,I'm Gonna Miss Her,Brad Paisley,country,0.559,0.464,0.351,98.354,0.55,-9.687,61.0,2001.0,100.0
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Careless Whisper,George Michael,Careless Whisper - Remastered,George Michael,dance,0.596,0.641,0.792,76.59,0.138,-8.88,51.0,2006.0,83.5
+2025,Beta Upsilon Chi,Gone Fishin',Participated,All Summer Long,Kid Rock,All Summer Long,Kid Rock,metal,0.7,0.864,0.887,102.997,0.0212,-3.629,28.0,2015.0,100.0
+2025,Chi Omega,Back on Track,1st,Trashin' the Camp,Phil Collins,In the Air Tonight,Phil Collins,rock,0.429,0.233,0.268,189.567,0.538,-14.292,46.0,2014.0,70.8
+2025,Chi Omega,Back on Track,1st,Vacation,The Go Go's,Vacation,The Orwells,garage,0.333,0.915,0.733,182.02,0.000122,-5.014,25.0,2017.0,77.3
+2025,Chi Omega,Back on Track,1st,Ease on Down the Road,The Wiz,The Road,We Are The Ocean,alt-rock,0.379,0.968,0.362,152.93,0.000833,-5.133,33.0,2012.0,75.9
+2025,Chi Omega,Back on Track,1st,Crazy Train,Ozzy Ozborne,Crazy Train,Ozzy Osbourne,hard-rock,0.45,0.915,0.507,137.645,0.361,-3.338,35.0,2014.0,94.3
+2025,Chi Omega,Back on Track,1st,Move Your Feet,Junior Senior,Move Your Feet,Junior Senior,pop,0.755,0.895,0.844,118.871,0.0507,-2.619,58.0,2003.0,100.0
+2025,Chi Omega,Back on Track,1st,Come So Far (Got So Far to Go),Hairspray (movie version),,,,,,,,,,,,
+2025,Delta Delta Delta,When Pigs Fly,3rd,Fame,Irene Cara,Flashdance,Irene Cara,disco,0.667,0.741,0.615,129.02,0.215,-5.937,10.0,2007.0,80.0
+2025,Delta Delta Delta,When Pigs Fly,3rd,Down at the Twist and Shout,Mary Chapin Carpenter,I Was A Bird,Mary Chapin Carpenter,country,0.56,0.478,0.395,83.984,0.542,-9.812,23.0,2010.0,69.0
+2025,Delta Delta Delta,When Pigs Fly,3rd,Crazy In Love,Beyonce/Jay-Z,Crazy In Love - Live,Beyoncé,dance,0.562,0.967,0.268,99.13,0.0496,-4.919,45.0,2010.0,74.6
+2025,Delta Delta Delta,When Pigs Fly,3rd,Does Your Mother Know,ABBA,Does Your Mother Know,ABBA,swedish,0.716,0.695,0.978,135.638,0.147,-10.853,26.0,2012.0,100.0
+2025,Delta Delta Delta,When Pigs Fly,3rd,I'm Still Standing,Taron Egerton,I'm Still Standing,For The Win,emo,0.428,0.989,0.719,169.982,0.00362,-3.115,18.0,2014.0,75.8
+2025,Delta Delta Delta,When Pigs Fly,3rd,You Can't Stop the Beat,Glee Cast (Hairspray the Musical),You Can't Stop The Beat,Glee Cast,club,0.501,0.949,0.668,170.023,0.152,-3.88,25.0,2012.0,74.5
+2025,Delta Delta Delta,When Pigs Fly,3rd,Goodbye Yellow Brick Road,Elton John,Goodbye Yellow Brick Road - Live,Elton John,piano,0.486,0.675,0.417,129.08,0.466,-6.345,37.0,2000.0,91.6
+2025,Delta Tau Delta,Rumble in Rome,Participated,Renegade,Styx,Renegade,Styx,hard-rock,0.556,0.795,0.717,108.059,0.00123,-4.378,17.0,2014.0,100.0
+2025,Delta Tau Delta,Rumble in Rome,Participated,Bad,Michael Jackson,Michael Jackson,Jo Brand,comedy,0.718,0.144,0.628,120.343,0.65,-25.038,5.0,2007.0,89.4
+2025,Delta Tau Delta,Rumble in Rome,Participated,Livin' La Vida Loca,Ricky Martin,Livin` La Vida Loca,Megaraptor,heavy-metal,0.269,0.964,0.234,180.095,2.1e-05,-10.022,6.0,2021.0,78.8
+2025,Delta Tau Delta,Rumble in Rome,Participated,Abracadabra,Steve Miller Band,Abracadabra,Steve Miller Band,blues,0.759,0.778,0.959,127.528,0.0454,-5.799,51.0,2019.0,100.0
+2025,Delta Tau Delta,Rumble in Rome,Participated,Cooler Than Me,Mike Posner,Cooler Than Me,Mike Posner,dance,0.84,0.504,0.79,129.014,0.15,-4.277,55.0,2009.0,100.0
+2025,Delta Tau Delta,Rumble in Rome,Participated,It Ain't Over til It's Over,Lenny Kravitz,It Ain't Over 'Til It's Over,Lenny Kravitz,pop,0.663,0.748,0.926,159.719,0.277,-5.83,49.0,2000.0,89.7
+2025,Kappa Alpha Theta,It Takes Two,Participated,Bad Day,Daniel Powter,Bad Day,Daniel Powter,pop,0.599,0.785,0.52,140.046,0.448,-4.013,74.0,2005.0,100.0
+2025,Kappa Alpha Theta,It Takes Two,Participated,Me Too,Meghan Trainor,Me Too,Meghan Trainor,dance,0.934,0.694,0.833,123.831,0.0971,-5.849,73.0,2017.0,100.0
+2025,Kappa Alpha Theta,It Takes Two,Participated,Mamma Knows Best,Jessi J,Mamma Knows Best,Jessie J,dance,0.708,0.614,0.806,100.048,0.258,-3.441,32.0,2011.0,98.1
+2025,Kappa Alpha Theta,It Takes Two,Participated,Bad Moon Rising,Creedence Clearwater Revival,Travelin' Band - Mono Single,Creedence Clearwater Revival,country,0.477,0.919,0.911,165.789,0.211,-4.488,27.0,2009.0,81.9
+2025,Kappa Alpha Theta,It Takes Two,Participated,Wanna Be Startin' Somethin',Michael Jackson,Wanna Be Startin' Somethin',Michael Jackson,pop,0.847,0.922,0.899,122.195,0.0217,-4.206,62.0,2008.0,100.0
+2025,Kappa Alpha Theta,It Takes Two,Participated,Imagine,John Lennon,Again,John Legend,soul,0.37,0.313,0.157,172.616,0.811,-10.357,34.0,2006.0,75.0
+2025,Kappa Alpha Theta,It Takes Two,Participated,It Takes Two,Rob Base & DJ EZ Rock,It Takes Two,Rob Base & DJ EZ Rock,electro,0.767,0.776,0.608,111.686,0.0143,-8.915,23.0,2009.0,100.0
+2025,Kappa Alpha Theta,It Takes Two,Participated,I'm Alright,Kenny Loggins,It's Alright,Vickie Winans,gospel,0.697,0.898,0.835,111.977,0.152,-4.824,7.0,2006.0,69.1
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,Please Mr. Postman,The Marvelettes,Please Mr. Postman,The Marvelettes,blues,0.779,0.796,0.963,120.989,0.715,-3.526,18.0,2008.0,100.0
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,Sweet Child O' Mine,Guns n' Roses,Sweet Child O' Mine,Guns N' Roses,hard-rock,0.436,0.947,0.637,125.132,0.0876,-4.759,41.0,2020.0,100.0
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,Hard Times,Paramore,Hard Times,Paramore,emo,0.695,0.818,0.916,119.965,0.00647,-5.379,72.0,2017.0,100.0
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,I Want It That Way,Backstreet Boys,I Want It That Way,Backstreet Boys,dance,0.689,0.702,0.484,99.031,0.216,-5.642,67.0,2001.0,100.0
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,Don't You Worry 'Bout a Thing,Tori Kelly,Don't You Worry 'Bout A Thing,Tori Kelly,dance,0.617,0.832,0.573,127.022,0.0222,-4.192,56.0,2016.0,100.0
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,It's Raining Men,The Weather Girls,It's Raining Men,The Weather Girls,disco,0.69,0.744,0.56,136.918,0.034,-12.721,23.0,2014.0,100.0
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,It's Your Thing,Isley Brothers,It's Your Thing,The Isley Brothers,disco,0.379,0.704,0.898,184.919,0.0861,-9.175,11.0,2000.0,94.1
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,Go the Distance,Vanderbilt Melodores,Go the Distance,Kowrites,piano,0.395,0.0997,0.222,69.871,0.992,-13.281,21.0,2018.0,68.8
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,Jailhouse Rock,Elvis Presley,Jailhouse Rock,Elvis Presley,rock-n-roll,0.66,0.695,0.913,167.444,0.419,-5.52,9.0,2014.0,100.0
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,Can't Always Get What You Want,The Rolling Stones,You Can't Always Get What You Want - Cover of The Rolling Stones,Glee Cast,club,0.235,0.745,0.409,93.826,0.175,-6.017,27.0,2009.0,80.3
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,Soul Man,Sam and Dave,Soul Man,Sam & Dave,funk,0.666,0.631,0.643,112.593,0.0049,-5.932,21.0,2017.0,86.4
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,How You Like Me Now,The Heavy,How You Like Me Now,The Heavy,alt-rock,0.647,0.71,0.268,110.059,0.000973,-4.692,58.0,2009.0,100.0
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,Wiegenlied Op. 49 No. 4,Johannes Brahms,"Wiegenlied, Op. 49, No. 4",Johannes Brahms,classical,0.429,0.0048,0.109,99.916,0.992,-35.105,17.0,2013.0,97.6
+2025,Kappa Sigma,Back in Black,Participated,Mr. Blue Sky,Electric Light Orchestra,Mr. Blue Sky - 2012 Version,Electric Light Orchestra,rock,0.583,0.647,0.628,173.932,0.661,-5.395,46.0,2012.0,83.9
+2025,Kappa Sigma,Back in Black,Participated,Somebody's Watching Me,Rockwell,Somebody's Watching Me,Raunchy,death-metal,0.436,0.87,0.266,120.019,0.000563,-4.651,29.0,2008.0,83.1
+2025,Kappa Sigma,Back in Black,Participated,Intergalactic,Beastie Boys,Intergalactic,Beastie Boys,alt-rock,0.731,0.881,0.361,105.971,0.0105,-6.504,53.0,2005.0,100.0
+2025,Kappa Sigma,Back in Black,Participated,25 or 6 or 4,Chicago,25 or 6 to 4,Chicago,folk,0.445,0.85,0.402,147.241,0.0011,-6.34,32.0,2013.0,95.5
+2025,Kappa Sigma,Back in Black,Participated,Come Together,The Beatles,Come Together - Take 5,The Beatles,psych-rock,0.598,0.314,0.277,166.035,0.096,-15.136,31.0,2019.0,85.7
+2025,Kappa Sigma,Back in Black,Participated,The Boys are Back in Town,Thin Lizzy,The Boys Are Back In Town,Thin Lizzy,hard-rock,0.452,0.808,0.713,81.203,0.211,-6.71,7.0,2012.0,100.0
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,Money,Pink Floyd,Money,Pink Floyd,psych-rock,0.477,0.556,0.762,124.159,0.0238,-10.348,26.0,2001.0,100.0
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,One,Three Dog Night,One Night,The Game,hip-hop,0.481,0.764,0.487,175.005,0.0359,-3.704,39.0,2006.0,82.9
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,True Colors,Marina and the Diamonds,Colors,The Head And The Heart,folk,0.4,0.687,0.28,87.458,0.0242,-6.481,31.0,2016.0,73.5
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,We're Going to Be Friends,The White Stripes,We're Going To Be Friends,The White Stripes,alt-rock,0.521,0.171,0.384,97.175,0.807,-18.869,29.0,2016.0,100.0
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,Shout,Tears for Fears,Shout,Tears For Fears,rock,0.503,0.98,0.381,97.891,0.199,-5.423,0.0,2023.0,100.0
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,The Middle,Jimmy Eat World,The Middle,Jimmy Eat World,power-pop,0.618,0.861,0.881,162.147,0.0385,-4.669,21.0,2017.0,100.0
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,Don't You Worry Child,Swedish House Mafia,Don't You Worry Child,Swedish House Mafia,dance,0.632,0.88,0.338,129.007,0.0144,-4.051,61.0,2012.0,100.0
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,That's Life,Frank Sinatra,Dank State,Shit Life,grindcore,0.216,0.994,0.0271,128.826,1.15e-05,-5.268,2.0,2019.0,73.5
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,All Shook Up,Elvis Presley,All Shook Up,Elvis Presley,rock-n-roll,0.707,0.478,0.951,74.946,0.88,-11.978,42.0,2020.0,100.0
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,Wings,Glee Cast (Little Mix),Wings (Glee Cast Version),Glee Cast,club,0.677,0.909,0.539,114.994,0.00166,-4.63,34.0,2014.0,71.6
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,It's My Life,Bon Jovi,It's My Life,Bon Jovi,metal,0.549,0.937,0.573,120.001,0.0245,-3.109,2.0,2023.0,100.0
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,Go Your Own Way,Fleetwood Mac,Go Your Own Way - 2018 Remaster,Fleetwood Mac,rock,0.572,0.932,0.657,136.029,0.00528,-6.397,1.0,2023.0,79.5
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,Lead Me On,Chandler Moore,Lead Me On,Cory Morrow,country,0.494,0.819,0.479,149.98,0.00804,-3.894,32.0,2010.0,74.5
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,For Once in My Life,Stevie Wonder,For Once In My Life,Stevie Wonder,funk,0.572,0.646,0.821,109.233,0.152,-8.262,31.0,2002.0,100.0
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,Faith,Stevie Wonder & Ariana Grande,Faith,Stevie Wonder,funk,0.734,0.87,0.944,158.124,0.105,-4.16,36.0,2016.0,72.4
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,Gimme Some Lovin',Blues Brothers,Gimme some Lovin',The Blues Brothers,blues,0.577,0.959,0.784,143.683,0.0871,-5.925,20.0,2017.0,94.4
+2025,Sigma Chi,Careful What You Wish For,Participated,Freedom,Pharrell Williams,Freedom,Pharrell Williams,hip-hop,0.428,0.559,0.607,86.459,0.395,-6.374,62.0,2015.0,100.0
+2025,Sigma Chi,Careful What You Wish For,Participated,Can't Take My Eyes Off of You,Frankie Valle,Can't Take My Eyes Off Of You,Frankie Valli,disco,0.477,0.565,0.324,128.51,0.686,-11.3,9.0,2000.0,97.8
+2025,Sigma Chi,Careful What You Wish For,Participated,Money (That's What I Want),Barrett Strong,Money (That's What I Want),The Kingsmen,garage,0.549,0.706,0.975,135.905,0.747,-10.06,38.0,2006.0,73.8
+2025,Sigma Chi,Careful What You Wish For,Participated,Good Tonight,Daniel Pemberton,Good Rockin' Tonight,Elvis Presley,rock-n-roll,0.618,0.635,0.903,85.383,0.469,-6.118,6.0,2014.0,71.6
+2025,Sigma Chi,Careful What You Wish For,Participated,Oogie Boogie Song,"Ed Ivory, Ken Page",,,,,,,,,,,,
+2025,Sigma Chi,Careful What You Wish For,Participated,The Other Side of Hollywood,Julie and the Phantoms Cast,The Phantom of the Opera,Michael Crawford,opera,0.514,0.452,0.435,119.94,0.48,-14.143,1.0,2021.0,66.0
+2025,Sigma Chi,Careful What You Wish For,Participated,Toxic,Britney Spears,Toxic,Britney Spears,dance,0.774,0.838,0.924,143.04,0.0249,-3.914,54.0,2018.0,100.0
+2025,Sigma Chi,Careful What You Wish For,Participated,Magic Carpet Ride,Steppenwolf,Magic Carpet Ride,Steppenwolf,blues,0.622,0.863,0.677,111.729,0.0171,-9.008,20.0,2017.0,100.0
+2025,Sing Alliance,It's All in the Cards,Participated,The Greatest Show,The Greatest Showman,The Greatest Show on Earth,Ten,hard-rock,0.376,0.531,0.313,158.913,0.0112,-10.654,11.0,2023.0,77.8
+2025,Sing Alliance,It's All in the Cards,Participated,Do You Believe in Magic?,The Lovin' Spoonful,Do You Believe in Magic?,The Lovin' Spoonful,rock-n-roll,0.544,0.744,0.743,139.345,0.188,-7.782,2.0,2021.0,100.0
+2025,Sing Alliance,It's All in the Cards,Participated,Party Rock Anthem,"LMFAO, Lauren Bennett, Goon Rock",Party Rock Anthem - DJ Enferno Remix,LMFAO,dance,0.764,0.782,0.846,129.993,0.0128,-5.169,34.0,2011.0,68.8
+2025,Sing Alliance,It's All in the Cards,Participated,You Shook Me All Night Long,AC/DC,You Shook Me All Night Long,Big & Rich,country,0.631,0.876,0.648,136.02,0.583,-3.628,20.0,2007.0,77.3
+2025,Sing Alliance,It's All in the Cards,Participated,Baby One More Time,Britney Spears,...Baby One More Time,Britney Spears,dance,0.757,0.725,0.883,92.96,0.185,-4.86,38.0,2004.0,95.9
+2025,Sing Alliance,It's All in the Cards,Participated,Beggin',Maneskin,Beggin',Måneskin,indie-pop,0.714,0.8,0.589,134.002,0.127,-4.808,83.0,2017.0,94.4
+2025,Sing Alliance,It's All in the Cards,Participated,I Still Haven't Found What I'm Lookin' For,U2,I Still Haven't Found What I'm Looking For,U2,rock,0.564,0.84,0.663,100.649,0.012,-6.116,35.0,2006.0,97.9
+2025,Sing Alliance,It's All in the Cards,Participated,You're the One That I Want,"Grease (John Travolta, Olivia Newton John)",You're The One That I Want - Live,Olivia Newton-John,disco,0.696,0.778,0.362,110.998,0.0441,-7.142,36.0,2008.0,70.4
+2025,Sing Alliance,It's All in the Cards,Participated,It's Gonna Be Me,*NSYNC,It's Gonna Be Me,*NSYNC,dance,0.636,0.873,0.908,165.071,0.0407,-4.672,67.0,2000.0,100.0
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Running Down a Dream,Tom Petty,Runnin' Down A Dream,Tom Petty,pop,0.471,0.956,0.715,169.798,0.000596,-6.371,68.0,2019.0,96.9
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,School's Out,Alice Cooper,School's Out - Live,Alice Cooper,hard-rock,0.114,0.936,0.0505,71.398,2.16e-05,-5.744,12.0,2006.0,88.5
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Centerfield,John Fogerty,Centerfield - Live,John Fogerty,blues,0.523,0.985,0.646,151.856,0.0606,-2.94,22.0,2006.0,88.1
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Feels Like the First Time,Foreigner,Feels like the First Time,Foreigner,hard-rock,0.544,0.812,0.471,109.593,0.0599,-6.716,18.0,2014.0,100.0
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,(Don't Fear) The Reaper,Blue Oyster Cult,(Don't Fear) The Reaper,Blue Öyster Cult,blues,0.331,0.921,0.389,141.419,0.00319,-8.739,19.0,2012.0,83.3
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Green Onions,Booker T. & the MGs,Green Onions,Booker T. & the M.G.'s,funk,0.815,0.482,0.918,136.835,0.76,-9.809,18.0,2016.0,95.8
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Playing With the Boys,Kenny Loggins,Playing With the Planets,Lance Allen,guitar,0.492,0.348,0.964,156.507,0.895,-10.4,12.0,2013.0,69.3
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,There's No Business Like Show Business,Ethel Merman (Annie Get Your Gun Musical),,,,,,,,,,,,
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,Say a Little Prayer for You,Tori Kelly,I Say a Little Prayer for You,Dionne Warwick,disco,0.747,0.593,0.874,143.643,0.0802,-11.189,13.0,2005.0,76.7
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,You Keep Me Hangin' On,Kim Wilde (The Supremes),You Keep Me Hangin' On,The Supremes,disco,0.635,0.858,0.83,128.759,0.206,-0.671,0.0,2023.0,81.4
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,Mother Knows Best,Donna Murphy (Tangled soundtrack),,,,,,,,,,,,
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,Set Fire to the Rain,Adele,Set Fire to the Rain,Adele,pop,0.603,0.67,0.446,107.993,0.00408,-3.882,79.0,2011.0,100.0
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,Freedom,Beyonce,Freedom,Cryo,industrial,0.27,0.919,0.136,134.838,0.000726,-7.427,9.0,2007.0,77.4
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,Dancing With Myself,Billy Idol,Dancing With Myself - RAC Remix,Billy Idol,hard-rock,0.466,0.887,0.689,175.903,0.0269,-3.738,31.0,2018.0,84.2
+2026,Alpha Phi,No Strings Attached,Participated,Don't Stop 'til You Get Enough,,Don't Stop Till You Get Enough,James Chance & The Contortions,punk-rock,0.675,0.731,0.684,144.269,0.0337,-8.775,9.0,2004.0,83.3
+2026,Alpha Phi,No Strings Attached,Participated,Valerie,,Valerie,Ra Ra Riot,indie-pop,0.65,0.85,0.746,124.985,0.00278,-5.846,35.0,2012.0,100.0
+2026,Alpha Phi,No Strings Attached,Participated,Blue Suede Shoes,,Blue Suede Shoes,Carl Perkins,rock-n-roll,0.503,0.717,0.967,168.861,0.238,-6.148,13.0,2012.0,100.0
+2026,Beta Upsilon Chi,Grill of Rights,1st,It's the Hard-Knock Life,,The Harlot's Lie,Novembers Doom,goth,0.238,0.988,0.216,140.018,1.37e-06,-5.007,11.0,2009.0,75.0
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Witchy Woman,,Witchy Woman,The Hollies,psych-rock,0.528,0.581,0.477,104.126,0.0205,-7.13,17.0,2009.0,100.0
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Disturbia,,Disturbia,Jerome Price,deep-house,0.719,0.883,0.648,125.031,0.112,-4.261,33.0,2021.0,100.0
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Wake Me Up Before You Go Go,,Wake Me Up Before You Go-Go,Wham!,disco,0.607,0.696,0.746,81.312,0.0261,-6.647,27.0,2014.0,96.3
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Little Less Conversation,,A Little Less Conversation,Elvis Presley,rock-n-roll,0.587,0.739,0.787,114.868,0.447,-9.836,28.0,2019.0,96.0
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Treasure,,Treasure,Bruno Mars,dance,0.874,0.692,0.937,116.017,0.0412,-5.28,78.0,2012.0,100.0
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Blame it on the Boogie,,Blame It on the Boogie,The Jacksons,disco,0.745,0.786,0.889,112.908,0.131,-6.731,21.0,2018.0,100.0
+2026,Delta Delta Delta,When A Mouse Eats A Cookie,3rd,Just Can't Get Enough,,Just Can't Get Enough,Boyce Avenue,acoustic,0.741,0.622,0.325,93.977,0.452,-9.217,35.0,2012.0,100.0
+2026,Delta Delta Delta,When A Mouse Eats A Cookie,3rd,Cell Block Tango,,Cell Block Tango,Catherine Zeta-Jones,show-tunes,0.601,0.34,0.654,125.309,0.393,-12.092,57.0,2002.0,100.0
+2026,Delta Delta Delta,When A Mouse Eats A Cookie,3rd,Freak Out,,Freak Out,311,funk,0.713,0.843,0.6,96.435,0.00528,-8.129,14.0,2016.0,100.0
+2026,Delta Tau Delta,Model Citizens,Participated,Poker Face,,Poker face,Pianoholic,piano,0.702,0.402,0.518,108.004,0.988,-17.396,22.0,2012.0,100.0
+2026,Delta Tau Delta,Model Citizens,Participated,Poison,,POISON,Secret,k-pop,0.653,0.881,0.55,102.046,0.00873,-4.71,37.0,2012.0,100.0
+2026,Kappa Alpha Order,Baylor's First Dance,Participated,Smells Like Teen Spirit,,Smells Like Teen Spirit,The Gravel Spreaders,comedy,0.806,0.431,0.268,125.009,0.349,-9.56,2.0,2012.0,100.0
+2026,Kappa Alpha Order,Baylor's First Dance,Participated,Iris,,Iris,Visionist,club,0.607,0.529,0.2,134.051,0.000185,-11.775,0.0,2012.0,100.0
+2026,Kappa Chi Alpha & Beta Theta Pi,Hollywood Breakdown,Participated,Popular,,Popular,Saint Etienne,trip-hop,0.714,0.742,0.803,125.965,0.0356,-6.856,8.0,2012.0,100.0
+2026,Kappa Chi Alpha & Beta Theta Pi,Hollywood Breakdown,Participated,Applause,,Applause,Lady Gaga,dance,0.669,0.78,0.738,139.945,0.0265,-4.287,77.0,2013.0,100.0
+2026,Kappa Chi Alpha & Beta Theta Pi,Hollywood Breakdown,Participated,Fabulous,,Fabulous,Louie Vega,chicago-house,0.777,0.71,0.961,125.986,0.0158,-7.387,0.0,2013.0,100.0
+2026,Phi Kappa Chi,Cold as Ice!,2nd,Let It Snow,,Let It Snow,Glee Cast,club,0.39,0.578,0.689,86.812,0.311,-5.269,11.0,2012.0,100.0
+2026,Phi Kappa Chi,Cold as Ice!,2nd,Hot in Herre,,Hot In Herre,LION BABE,soul,0.795,0.774,0.568,117.978,0.0232,-6.166,40.0,2020.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Somebody to Love,,Somebody To Love,Rusko,dub,0.749,0.853,0.748,140.021,0.0101,-5.832,24.0,2012.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Candyman,,Candyman,Glee Cast,club,0.649,0.856,0.775,172.951,0.00133,-5.208,38.0,2012.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Nicest Kids in Town,,New Kids In Town,Before Their Eyes,metalcore,0.476,0.952,0.856,154.925,0.000581,-3.246,8.0,2008.0,85.7
+2026,Pi Beta Phi,Out of the Box,Pigskin,P.Y.T,,P.Y.T.,Amarionette,hardcore,0.664,0.87,0.885,127.307,0.427,-3.903,25.0,2021.0,90.9
+2026,Pi Beta Phi,Out of the Box,Pigskin,Shake Your Groove Thing,,Shake Your Groove Thing,Peaches & Herb,disco,0.893,0.782,0.915,129.688,0.175,-8.998,4.0,2012.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Hit Me with Your Best Shot,,Hit Me With Your Best Shot,Delain,goth,0.517,0.807,0.409,103.037,0.00457,-4.575,21.0,2012.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Smooth Operator,,Smooth Operator,Nick Waterhouse,funk,0.69,0.257,0.487,119.213,0.355,-12.463,30.0,2016.0,100.0
+2026,Pi Beta Phi,Out of the Box,Pigskin,Lets Here it for the Boy,,Let's Hear It for the Boy,Deniece Williams,disco,0.774,0.462,0.818,122.787,0.161,-12.758,39.0,2010.0,93.9
+2026,Sing Alliance,Psst…I See Dead People,Participated,Calling All The Monsters,,Calling All the Monsters,China Anne McClain,pop,0.561,0.826,0.499,141.98,0.00289,-5.842,53.0,2011.0,100.0
+2026,Sing Alliance,Psst…I See Dead People,Participated,Ain't It Fun,,Ain't It Fun,Paramore,emo,0.61,0.893,0.673,104.031,0.154,-3.681,72.0,2013.0,100.0
+2026,Sing Alliance,Psst…I See Dead People,Participated,Not Like Us,,Not Like Us,Brantley Gilbert,country,0.536,0.848,0.709,149.903,0.00246,-5.438,54.0,2019.0,100.0
