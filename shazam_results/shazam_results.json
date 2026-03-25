@@ -1,0 +1,64 @@
+{
+  "1990_Pi Beta Phi": {
+    "year": "1990",
+    "group": "Pi Beta Phi",
+    "url": "https://www.youtube.com/watch?v=CaRjgTxEuus",
+    "songs": [],
+    "existing_songs": "Singin' in the Rain"
+  },
+  "2015_Phi Kappa Chi": {
+    "year": "2015",
+    "group": "Phi Kappa Chi",
+    "url": "https://www.youtube.com/watch?v=nRjHFQCsJio",
+    "songs": [],
+    "existing_songs": ""
+  },
+  "2018_Kappa Kappa Gamma": {
+    "year": "2018",
+    "group": "Kappa Kappa Gamma",
+    "url": "https://www.youtube.com/watch?v=kWKEzFr_7pI",
+    "songs": [],
+    "existing_songs": ""
+  },
+  "2019_Delta Delta Delta & Alpha Tau Omega": {
+    "year": "2019",
+    "group": "Delta Delta Delta & Alpha Tau Omega",
+    "url": "https://www.youtube.com/watch?v=Xj7-gb_-rDA",
+    "songs": [],
+    "existing_songs": ""
+  },
+  "2019_Kappa Kappa Gamma": {
+    "year": "2019",
+    "group": "Kappa Kappa Gamma",
+    "url": "https://www.youtube.com/watch?v=lVMlZFR7wiU",
+    "songs": [],
+    "existing_songs": ""
+  },
+  "2019_Kappa Alpha Theta": {
+    "year": "2019",
+    "group": "Kappa Alpha Theta",
+    "url": "https://www.youtube.com/watch?v=pryctqYdnxg",
+    "songs": [
+      {
+        "title": "A Walk Through the Graveyard",
+        "artist": "Jim Shafer",
+        "key": "117734805"
+      }
+    ],
+    "existing_songs": ""
+  },
+  "2020_Kappa Kappa Gamma & Kappa Sigma": {
+    "year": "2020",
+    "group": "Kappa Kappa Gamma & Kappa Sigma",
+    "url": "https://www.youtube.com/watch?v=ylvHyZUpvfc",
+    "songs": [],
+    "existing_songs": "Beyond the Sea"
+  },
+  "2020_Sing Alliance": {
+    "year": "2020",
+    "group": "Sing Alliance",
+    "url": "https://www.youtube.com/watch?v=4_a4hd9m6ow",
+    "songs": [],
+    "existing_songs": ""
+  }
+}
