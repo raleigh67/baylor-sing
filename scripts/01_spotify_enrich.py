@@ -22,7 +22,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from scripts.spotify_enrich_utils import (
+from scripts.spotify_enrich_utils import (  # noqa: E402
     KAGGLE_FEATURE_COLS,
     fuzzy_match_kaggle,
     parse_songs,

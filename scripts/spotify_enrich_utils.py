@@ -156,18 +156,36 @@ def fuzzy_match_kaggle(
         query = title
         choices = titles
 
-    # Use rapidfuzz extractOne for fast matching.
-    result = process.extractOne(
-        query,
-        choices,
-        scorer=fuzz.token_sort_ratio,
-        score_cutoff=threshold,
-    )
-
-    if result is None:
-        return None
-
-    matched_str, score, idx = result
+    if not artist:
+        # Title-only: grab top candidates and pick the most popular to
+        # break ties (e.g. "Hey Jude" should match The Beatles, not a
+        # lesser-known cover that happens to sort first alphabetically).
+        candidates = process.extract(
+            query,
+            choices,
+            scorer=fuzz.token_sort_ratio,
+            score_cutoff=threshold,
+            limit=10,
+        )
+        if not candidates:
+            return None
+        best_score = candidates[0][1]
+        # Keep only candidates tied at the best score.
+        tied = [(s, sc, i) for s, sc, i in candidates if sc >= best_score]
+        # Pick the one with the highest popularity.
+        best = max(tied, key=lambda t: df.iloc[t[2]]["popularity"])
+        matched_str, score, idx = best
+    else:
+        # Artist present — extractOne is fine, ties are unlikely.
+        result = process.extractOne(
+            query,
+            choices,
+            scorer=fuzz.token_sort_ratio,
+            score_cutoff=threshold,
+        )
+        if result is None:
+            return None
+        matched_str, score, idx = result
     row = df.iloc[idx]
 
     output: dict[str, Any] = {}
