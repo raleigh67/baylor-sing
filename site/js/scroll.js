@@ -67,6 +67,10 @@
       if (steps.length === 0) return;
 
       var containerId = sectionToContainer[sectionId];
+      if (typeof scrollama !== "function") {
+        console.error("Scrollama not loaded — check CDN URL");
+        return;
+      }
       var scroller = scrollama();
 
       scroller
