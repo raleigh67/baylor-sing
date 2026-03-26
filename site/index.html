@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sound &amp; Color of Sing</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+  <!-- Plotly -->
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+       INTRO
+       ============================================================ -->
+  <section id="intro">
+    <h1>The Sound &amp; Color of Sing</h1>
+    <p class="subtitle">73 years of Baylor's biggest tradition, told through music and color</p>
+    <div id="counter" class="big-number">13</div>
+    <p class="hook">people watched 8 clubs sing in Waco Hall in 1953. Today, it's Baylor's largest student-produced show.</p>
+  </section>
+
+  <!-- ============================================================
+       ACT I — THE SOUND
+       ============================================================ -->
+  <header id="act1" class="act-header">
+    <span class="act-label">Act I</span>
+    <h2>The Sound</h2>
+  </header>
+
+  <!-- Sound 1: Audio Features -->
+  <section id="sound1" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="sound1_energy">
+        <h3>What Does Winning Sound Like?</h3>
+        <p>Every Sing act picks songs, arranges a medley, and performs it live. But do winners <em>sound</em> different from the rest? We pulled audio features from Spotify for hundreds of Sing songs and compared first-place acts to the field. Energy is where the gap shows up first.</p>
+      </div>
+      <div class="step" data-chart="sound1_valence">
+        <p>Valence measures musical positivity — higher means happier-sounding. Winners tend to skew brighter, choosing songs that leave the audience feeling good. But the spread is wide; a well-placed ballad can still take the crown.</p>
+      </div>
+      <div class="step" data-chart="sound1_danceability">
+        <p>Danceability captures rhythm and groove. Winning acts don't just sing — they move. The data shows a consistent danceability edge for top finishers, suggesting choreography-friendly song choices pay off on the Waco Hall stage.</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-sound1" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- Sound 2: Artists & Song Age -->
+  <section id="sound2" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="sound2_top_artists">
+        <h3>The Sing Jukebox</h3>
+        <p>Some artists just belong on the Sing stage. Over seven decades, certain names keep showing up in medleys — crowd favorites that directors know will land. These are the most-covered artists in Sing history.</p>
+      </div>
+      <div class="step" data-chart="sound2_song_age">
+        <p>How old are the songs that Sing acts choose? Some years lean into classics; others chase the charts. The age of a medley's songs reveals whether an act is playing it safe with nostalgia or betting on something fresh.</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-sound2" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- Sound 3: Genre Stream -->
+  <section id="sound3" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="sound3_genre_stream">
+        <h3>Genre DNA of a Medley</h3>
+        <p>Every Sing medley is a cocktail of genres — pop, rock, R&amp;B, country, musical theater. The mix has shifted dramatically over the decades. What once leaned Broadway and barbershop now pulls from Top 40 and hip-hop. This stream shows how Sing's sonic identity has evolved year by year.</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-sound3" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ACT II — THE COLOR
+       ============================================================ -->
+  <header id="act2" class="act-header">
+    <span class="act-label">Act II</span>
+    <h2>The Color</h2>
+  </header>
+
+  <!-- Color 1: Brightness Scatter -->
+  <section id="color1" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="color1_brightness_scatter">
+        <h3>The Palette of Performance</h3>
+        <p>Sing isn't just heard — it's seen. Costumes, backdrops, and lighting create a visual signature for every act. We extracted dominant colors from performance photos and mapped their brightness and saturation. Do winners dress differently than the rest?</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-color1" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- Color 2: Sound Meets Color -->
+  <section id="color2" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="color2_correlation">
+        <h3>Sound Meets Color</h3>
+        <p>Is there a relationship between how an act sounds and how it looks? We cross-referenced audio features with color palettes to find out. High-energy acts tend toward bolder, more saturated colors — the music and the visual identity reinforce each other.</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-color2" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPLORE — DASHBOARD
+       ============================================================ -->
+  <header id="explore-header" class="act-header">
+    <span class="act-label">Explore</span>
+    <h2>Your Turn</h2>
+  </header>
+
+  <section id="explore">
+    <div class="dashboard-controls">
+      <div class="control-group">
+        <label for="year-start">Year Range</label>
+        <div class="range-inputs">
+          <input type="range" id="year-start" min="1953" max="2026" value="1953">
+          <span id="year-start-label" class="range-label">1953</span>
+          <span class="range-separator">&ndash;</span>
+          <input type="range" id="year-end" min="1953" max="2026" value="2026">
+          <span id="year-end-label" class="range-label">2026</span>
+        </div>
+      </div>
+      <div class="control-group">
+        <label for="placement-filter">Placement</label>
+        <select id="placement-filter">
+          <option value="all">All</option>
+          <option value="1">1st Place</option>
+          <option value="top3">Top 3</option>
+          <option value="pigskin">Pigskin</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="search-input">Search</label>
+        <input type="text" id="search-input" placeholder="Search by group, song, or artist...">
+      </div>
+    </div>
+
+    <div id="act-grid" class="act-grid">
+      <!-- Cards populated by dashboard.js -->
+    </div>
+
+    <div id="act-detail" class="act-detail hidden">
+      <!-- Detail panel populated by dashboard.js -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       APPENDIX
+       ============================================================ -->
+  <header class="act-header">
+    <span class="act-label">Appendix</span>
+    <h2>The Data Behind the Data</h2>
+  </header>
+
+  <section id="appendix" class="scroll-section">
+    <div class="scroll-text">
+      <div class="step" data-chart="appendix_completeness">
+        <h3>Data Completeness</h3>
+        <p>Not every act has a full record. Early decades are sparse — no Spotify data, no photos, sometimes just a group name and a year. This chart shows what we have and what's missing, so you know where the data is strong and where we're filling in gaps.</p>
+      </div>
+    </div>
+    <div class="scroll-graphic sticky">
+      <div id="chart-appendix" class="chart-container"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <p>The Sound &amp; Color of Sing &mdash; A data visualization project</p>
+    <p class="footer-credit">Data: Baylor Sing Archives, Spotify, @tomatbaylor</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/intersection-observer@0.12.2/intersection-observer.js"></script>
+  <script src="https://unpkg.com/scrollama@3.2.0/scrollama.min.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/dashboard.js"></script>
+
+</body>
+</html>
