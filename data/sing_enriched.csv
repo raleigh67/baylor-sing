@@ -1,0 +1,291 @@
+Year,Group,Theme,Placement,Songs,YouTube_Link,danceability,energy,valence,tempo,acousticness,loudness,popularity,genres,song_count,palette_hex,palette_proportions,n_images,avg_hue,avg_saturation,avg_brightness
+1953,Athenians,,2nd,,,,,,,,,,,,,,,,,
+1953,Freshman Class,,3rd,,,,,,,,,,,,,,,,,
+1953,Peer Club,,1st,,,,,,,,,,,,,,,,,
+1970,Kappa Omega Tau,Magic,1st,,,,,,,,,,,,,,,,,
+1971,Kappa Omega Tau,Save The People,1st,,,,,,,,,,,,,,,,,
+1972,Kappa Omega Tau,Puppet Man,1st,,,,,,,,,,,,,,,,,
+1973,Kappa Omega Tau,Lonely Hearts Club,Participated,Hey Jude,,0.585,0.259,0.678,165.97,0.882,-8.896,8.0,disco,1.0,,,,,,
+1973,Phi Kappa Alpha,Sgt. Pepper's Make Your Own Kind of Music Down by the Bandstand Smiling Singing Band,1st,,,,,,,,,,,,,,,,,
+1975,Kappa Omega Tau,Something Coming Up,1st,,,,,,,,,,,,,,,,,
+1976,Kappa Omega Tau,Losing my Blues to the Inner City Rhythm,1st,,,,,,,,,,,,,,,,,
+1977,Sigma Tau Gamma,Damn Yankees,Pigskin,,,,,,,,,,,,,,,,,
+1978,Sigma Tau Gamma,Rise Again,5th,,,,,,,,,,,,,,,,,
+1979,Delta Delta Delta,Singing to Victory with the USO,3rd (tie),,,,,,,,,,,,,,,,,
+1979,Zeta Tau Alpha,You've Come a Long Way Lady,Participated,,,,,,,,,,,,,,,,,
+1980,Chamber of Commerce,After Hours,1st,,,,,,,,,,,,,,,,,
+1980,Zeta Tau Alpha,On the Sunny Side of the Street,Participated,,,,,,,,,,,,,,,,,
+1981,Zeta Tau Alpha,Roarin' Happy Times,Pigskin,,,,,,,,,,,,,,,,,
+1982,Zeta Tau Alpha,Rockin' Down the Highway,Participated,,,,,,,,,,,,,,,,,
+1983,Zeta Tau Alpha,Streetlife Serenade,Pigskin (6th),,,,,,,,,,,,,,,,,
+1984,Sigma Chi,Basement Full of Blues,1st,,,,,,,,,,,,,,,,,
+1985,Kappa Omega Tau,Just Another Cotton-Pickin Day,1st,,,,,,,,,,,,,,,,,
+1985,Zeta Tau Alpha,Go Into Your Dance,Pigskin,,,,,,,,,,,,,,,,,
+1986,Kappa Omega Tau,We Got To Try,1st,,,,,,,,,,,,,,,,,
+1986,Zeta Tau Alpha,Route 66,Pigskin (2nd),,,,,,,,,,,,,,,,,
+1987,Kappa Omega Tau,A Midsummer Knight's Dream,Pigskin,,,,,,,,,,,,,,,,,
+1987,Zeta Tau Alpha,Pages Out of Time,Pigskin (1st),,,,,,,,,,,,,,,,,
+1988,Kappa Omega Tau,"Long, Long Way From Home",Pigskin,,,,,,,,,,,,,,,,,
+1988,Zeta Tau Alpha,Back to Paradise,Participated,(I've Had) The Time of My Life,,0.459,0.77,0.168,110.706,0.0765,-5.993,24.0,club,1.0,,,,,,
+1989,Kappa Omega Tau,I Want You Back,Pigskin,,,,,,,,,,,,,,,,,
+1989,Zeta Tau Alpha,The Company B Boogie (USO),Pigskin,,,,,,,,,,,,,,,,,
+1990,Kappa Omega Tau,Higher Love,1st,,,,,,,,,,,,,,,,,
+1990,Pi Beta Phi,I Ought to be in the Pictures,Participated,Singin' in the Rain,https://www.youtube.com/watch?v=CaRjgTxEuus,0.622,0.536,0.486,144.035,0.278,-5.674,21.0,show-tunes,1.0,#18161D;#35314C;#4E1D13;#8E4A3E;#606AC7;#D28E7B,0.7024;0.0962;0.0932;0.0611;0.0321;0.0150,8.0,0.7411,0.3315,0.2085
+1992,Kappa Omega Tau,Showdown At Sundown,1st,,,,,,,,,,,,,,,,,
+1993,Kappa Omega Tau,,3rd,,,,,,,,,,,,,,,,,
+1993,Phi Gamma Delta,,1st,,,,,,,,,,,,,,,,,
+1993,Phi Kappa Chi,,2nd,,,,,,,,,,,,,,,,,
+1994,Phi Gamma Delta,,1st,,,,,,,,,,,,,,,,,
+1994,Phi Kappa Chi,,2nd,,,,,,,,,,,,,,,,,
+1995,Phi Gamma Delta,,1st,,,,,,,,,,,,,,,,,
+1995,Phi Kappa Chi,,2nd,,,,,,,,,,,,,,,,,
+1996,Kappa Alpha Theta,All in a Day's Work,Pigskin,,,,,,,,,,,,,,,,,
+1996,Phi Gamma Delta,,1st,,,,,,,,,,,,,,,,,
+1997,Kappa Omega Tau,Last Reville,1st,,,,,,,,,,,,,,,,,
+1997,Zeta Tau Alpha,The Power of a Dream,Pigskin,,,,,,,,,,,,,,,,,
+1998,Kappa Omega Tau,Thunder at Dawn,1st,,,,,,,,,,,,,,,,,
+1999,Chi Omega,,1st,,,,,,,,,,,,,,,,,
+1999,Zeta Tau Alpha,Titanic Ship of Dreams,Pigskin,,,,,,,,,,,,,,,,,
+2000,Kappa Omega Tau,1849,1st,,,,,,,,,,,,#0A0A0D;#383331;#AB947B;#CFCECF;#5B6177;#0C2E69,0.4370;0.1720;0.1250;0.1030;0.0930;0.0700,5.0,0.7451,0.2418,0.2997
+2000,Zeta Tau Alpha,Grand Hotel,Pigskin,,,,,,,,,,,,#BEC0CC;#DAFAFE;#161213;#A5807D;#57495B;#62C1B3,0.2670;0.2530;0.2140;0.1540;0.0840;0.0280,4.0,0.7231,0.1608,0.6349
+2002,Chi Omega,,Pigskin,,,,,,,,,,,,#1B100D;#5B392E;#BBA585;#9A6367;#E2DED4;#A72018,0.3936;0.1978;0.1469;0.1289;0.0839;0.0490,5.0,0.0453,0.4375,0.4042
+2002,Delta Delta Delta,Ease on Down the Road,1st,,,,,,,,,,,,#BCB3AE;#DFE1DB;#A98C75;#765F53;#201A21;#4D362B,0.2515;0.2064;0.1633;0.1603;0.1253;0.0932,5.0,0.0718,0.1898,0.5943
+2002,Kappa Alpha Theta,Greasy Spoon,2nd,,,,,,,,,,,,#4A2107;#1A1C1D;#7E466F;#B0A29F;#E0DFD3;#B90C0B,0.3654;0.3073;0.1001;0.0981;0.0971;0.0320,3.0,0.0352,0.4523,0.3667
+2002,Kappa Kappa Gamma,Let the Good Times Roll,3rd,,,,,,,,,,,,#FCFCFC;#E2D1C8;#D1A687;#966F68;#302132;#604246,0.2497;0.2136;0.1625;0.1384;0.1334;0.1023,4.0,0.0053,0.2019,0.7154
+2002,Kappa Omega Tau,,Pigskin,,,,,,,,,,,,#060708;#192432;#D1C5BC;#503E35;#A38056;#556784,0.4490;0.1960;0.1280;0.1070;0.0700;0.0500,4.0,0.6008,0.3101,0.2616
+2002,Kappa Sigma,,Pigskin,,,,,,,,,,,,,,,,,
+2002,Pi Beta Phi,,Pigskin,,,,,,,,,,,,,,,,,
+2003,Kappa Kappa Gamma & Kappa Sigma,On the Bayou Ball,Participated,,,,,,,,,,,,#FBFBFC;#000000;#15248F;#8A8EAA;#EEED05;#61602E,0.5351;0.2745;0.1142;0.0341;0.0271;0.0150,2.0,0.7321,0.1404,0.6465
+2003,Kappa Omega Tau,Boone County,1st,,,,,,,,,,,,#060809;#17243A;#D7D6D7;#58453E;#AB927E;#506487,0.3317;0.2547;0.1239;0.1169;0.1099;0.0629,5.0,0.636,0.354,0.3214
+2004,Phi Kappa Chi,Free At Last,1st,,,,,,,,,,,,#191715;#5F4131;#A07053;#E6C09E;#99A7C9;#5957C3,0.4560;0.1670;0.1300;0.1210;0.0780;0.0480,3.0,0.0647,0.2995,0.3958
+2005,Alpha Tau Omega & Kappa Chi Alpha,I Love the 80's,2nd,,,,,,,,,,,,#212122;#5C4B3D;#060505;#948475;#CCAE95;#E8E5DF,0.2288;0.2178;0.1848;0.1698;0.1099;0.0889,5.0,0.0248,0.1796,0.3808
+2005,Delta Delta Delta,Gimme That Country Side,1st,,,,,,,,,,,,#E4E7DF;#A5AEB5;#C0A389;#322429;#A57661;#6A575A,0.2720;0.1760;0.1680;0.1400;0.1280;0.1160,5.0,0.0881,0.1858,0.6563
+2005,Kappa Alpha Theta,Let the Good Times Roll,3rd,,,,,,,,,,,,#DDD6D8;#110A0C;#2A2C3C;#B29E8B;#765245;#57849F,0.2953;0.1832;0.1692;0.1642;0.1481;0.0400,5.0,0.9561,0.2512,0.5161
+2006,Kappa Kappa Gamma,Meet Me At The Fair,Participated,,,,,,,,,,,,#F8F9F9;#C9AAA6;#060806;#2A2C5B;#6E6369;#EEED05,0.3010;0.2360;0.2060;0.1460;0.0970;0.0140,4.0,0.458,0.1958,0.5934
+2006,Kappa Omega Tau,Up The Ladder,1st,,,,,,,,,,,,#121517;#C9C4C1;#59453D;#A38870;#0C2E69;#506487,0.4331;0.1597;0.1447;0.0968;0.0868;0.0788,4.0,0.6104,0.2854,0.3548
+2006,Sing Alliance,,Pigskin,,,,,,,,,,,,#5F3C28;#241612;#020202;#93715A;#BEAA85;#E8DFCE,0.2141;0.1932;0.1863;0.1673;0.1454;0.0936,5.0,0.0574,0.3396,0.3985
+2007,Delta Delta Delta,It's a Small World,1st (tie),,,,,,,,,,,,#B2A79F;#AC8063;#EFEDE3;#1A1619;#46342C;#735444,0.2218;0.1968;0.1578;0.1469;0.1439;0.1329,5.0,0.0514,0.2455,0.5499
+2007,Kappa Kappa Gamma,Dear Old Golden Rule Days,3rd,,,,,,,,,,,,#6B84A8;#0A060B;#6C4842;#D2A572;#E6D9D1;#16268E,0.2653;0.1942;0.1842;0.1692;0.1281;0.0591,4.0,0.8861,0.3952,0.5489
+2007,Kappa Sigma,Taking Out The Trash,1st (tie),,,,,,,,,,,,,,,,,
+2007,Sing Alliance,,Pigskin,,,,,,,,,,,,#5F3C28;#241612;#020202;#93715A;#BEAA85;#E8DFCE,0.2141;0.1932;0.1863;0.1673;0.1454;0.0936,5.0,0.0574,0.3396,0.3985
+2008,Kappa Kappa Gamma & Kappa Sigma,On the Town,1st,,,,,,,,,,,,#FCFAFA;#42150F;#E8252A;#7C4C49;#CF7B72;#E9B8B4,0.5960;0.1460;0.0700;0.0670;0.0620;0.0590,2.0,0.005,0.2452,0.8273
+2008,Kappa Omega Tau,From the Bayou to the Big Easy,2nd,,,,,,,,,,,,#120C0F;#D3BFBA;#996A62;#323948;#FEF7F6;#E8252A,0.5335;0.1301;0.1161;0.1051;0.0801;0.0350,4.0,0.9421,0.2991,0.3563
+2009,Alpha Tau Omega,Heroes and Villains,Participated,,,,,,,,,,,,#110E0E;#4E494B;#A99176;#F1F0EE;#CBC3C3;#BF4A20,0.3497;0.2348;0.1459;0.1359;0.0869;0.0470,5.0,0.014,0.165,0.4245
+2009,Kappa Omega Tau,Steppin' to the Badside,2nd,,,,,,,,,,,,#020101;#151620;#E5E3E3;#8E6358;#C6AFA1;#323948,0.2540;0.2060;0.1530;0.1430;0.1390;0.1050,4.0,0.9506,0.3116,0.3825
+2009,Sing Alliance,A Latte Love,3rd,,,,,,,,,,,,#120D0A;#5F3F2D;#946F57;#D4A775;#EBDFCA;#7F92A0,0.3273;0.2126;0.1557;0.1228;0.1148;0.0669,5.0,0.0711,0.4065,0.4424
+2010,Kappa Omega Tau,The Toys are Back in Town,1st,,,,,,,,,,,,#0E0D0E;#494C36;#D1C4AE;#193141;#A86C4B;#505C8C,0.4555;0.1538;0.1469;0.0969;0.0749;0.0719,4.0,0.9049,0.2336,0.3048
+2010,Sing Alliance,A News Sensation,3rd,,,,,,,,,,,,#0D0B09;#4A4229;#8E4C33;#E09544;#767195;#E4D0B1,0.3882;0.1766;0.1747;0.1128;0.0798;0.0679,5.0,0.0771,0.4232,0.3747
+2011,Alpha Tau Omega,,Pigskin,,,,,,,,,,,,#110A0A;#561A29;#972A37;#D9C6C6;#303A52;#A37976,0.5694;0.1299;0.0859;0.0849;0.0699;0.0599,5.0,0.9841,0.4401,0.2657
+2011,Chi Omega & Phi Kappa Chi,,Pigskin,,,,,,,,,,,,#130A08;#54272F;#CFBEC9;#94353B;#A27D6F;#5957C3,0.4449;0.2204;0.1102;0.1052;0.0832;0.0361,4.0,0.9929,0.4984,0.3367
+2011,Delta Delta Delta,,3rd,,,,,,,,,,,,#251313;#E7DFDD;#BCB5BF;#7E463C;#B48271;#5283B2,0.2583;0.2372;0.1612;0.1612;0.1291;0.0531,5.0,0.9844,0.3054,0.5809
+2011,Kappa Alpha Theta,,Pigskin,,,,,,,,,,,,#110805;#E3DEE8;#6B1D33;#C4BFBF;#262930;#7C7068,0.2816;0.1884;0.1623;0.1323;0.1283;0.1072,4.0,0.9444,0.3726,0.4362
+2011,Kappa Kappa Gamma,Who's Afraid of the Big Bad Wolf?,Pigskin,Mercy (Duffy); Be OK (Ingrid Michaelson),,0.8029999999999999,0.8235,0.9485,131.4835,0.194,-5.2455,28.0,soul;pop,2.0,#0E0603;#F8F9F9;#563539;#AB9780;#D9C1B9;#15248F,0.3159;0.3019;0.1274;0.1204;0.0772;0.0572,4.0,0.0624,0.3888,0.5336
+2011,Kappa Omega Tau,The Show Must Go On,2nd,,,,,,,,,,,,#050302;#1A151A;#3A333C;#E1E1E4;#926B5B;#C6AD9F,0.3674;0.2713;0.1401;0.0921;0.0801;0.0490,4.0,0.9299,0.3346,0.2341
+2011,Kappa Sigma,Playin' Around at the Playground,Pigskin,Come Play Away,,0.647,0.811,0.246,130.011,0.00981,-2.848,17.0,edm,1.0,#0E0804;#2B100A;#542117;#95432A;#B07F6A;#BAC5CE,0.4515;0.2617;0.1389;0.0689;0.0450;0.0340,1.0,0.0474,0.6949,0.2134
+2011,Pi Beta Phi,"Welcome to Your 80's, Ladies",1st,,,,,,,,,,,,#0E0804;#2B100A;#542117;#95432A;#B07F6A;#BAC5CE,0.4515;0.2617;0.1389;0.0689;0.0450;0.0340,1.0,0.0474,0.6949,0.2134
+2012,Alpha Chi Omega,Juke Box Heroes,Pigskin,Livin' On a Prayer,,0.521,0.653,0.706,170.341,0.618,-4.551,28.0,jazz,1.0,#5C5D5D;#180B0D;#521B23;#DB5D26;#9C3218;#EA9A76,0.3994;0.1702;0.1391;0.1281;0.1031;0.0601,1.0,0.0271,0.4127,0.4347
+2012,Chi Omega,,Pigskin,,,,,,,,,,,,#B58A75;#191216;#62534F;#48252A;#B7412B;#E7DECE,0.2550;0.2480;0.2200;0.1140;0.1080;0.0550,5.0,0.005,0.3463,0.4494
+2012,Delta Delta Delta & Alpha Tau Omega,,3rd,,,,,,,,,,,,#120B0F;#6B1D2F;#465870;#E2C5BF;#BF8570;#D93831,0.3902;0.1786;0.1477;0.0978;0.0928;0.0928,5.0,0.9316,0.4628,0.4026
+2012,Kappa Kappa Gamma & Kappa Sigma,,1st,,,,,,,,,,,,#FCFCFC;#BBAB95;#1E1A1C;#4D4444;#886B5A;#6C80AE,0.4995;0.1261;0.1151;0.1131;0.1041;0.0420,2.0,0.0046,0.1054,0.718
+2012,Kappa Omega Tau,Standing Small,2nd,,,,,,,,,,,,#070607;#2A2533;#6C6561;#D1BCB3;#BF4A20;#FFFFFF,0.3786;0.2627;0.1528;0.1159;0.0579;0.0320,4.0,0.8768,0.2066,0.298
+2012,Phi Gamma Delta,,Pigskin,,,,,,,,,,,,#120909;#594848;#B48A7C;#8C53FF;#BC5C26;#E7E8EC,0.2176;0.2016;0.1976;0.1826;0.1188;0.0818,5.0,0.964,0.4284,0.5711
+2012,Phi Kappa Chi,,Pigskin,,,,,,,,,,,,#1F1311;#58342B;#BE8B76;#B05836;#5F5C74;#D7C5CB,0.2790;0.1900;0.1740;0.1360;0.1330;0.0880,5.0,0.0039,0.4183,0.4577
+2012,Pi Beta Phi,,Pigskin,,,,,,,,,,,,#130B0B;#645B5F;#54262C;#C79A95;#DB5D26;#9C3218,0.4114;0.2513;0.1251;0.0971;0.0641;0.0511,2.0,0.9854,0.3849,0.3324
+2013,Alpha Tau Omega,,Pigskin,,,,,,,,,,,,#0A0707;#332129;#625C5C;#B6421C;#AA8575;#D3BEBC,0.3539;0.3021;0.1376;0.0738;0.0698;0.0628,5.0,0.9853,0.3123,0.2783
+2013,Chi Omega & Phi Gamma Delta,,Pigskin,,,,,,,,,,,,#1C100D;#682D23;#60655A;#AD7051;#CDA37B;#E2DCD0,0.3267;0.1908;0.1698;0.1159;0.1149;0.0819,5.0,0.0772,0.4342,0.4245
+2013,Kappa Omega Tau,Ghosts Call,1st,,,,,,,,,,,,#030303;#161E2B;#4F4546;#CEC2B9;#967F62;#FEFEFD,0.4134;0.2733;0.1111;0.0991;0.0711;0.0320,5.0,0.9776,0.1824,0.2391
+2013,Kappa Sigma,United We Stand,1st (tie),,,,,,,,,,,,#08070A;#231C20;#0F237C;#651E14;#79594B;#BE9C85,0.3950;0.3040;0.1410;0.0630;0.0540;0.0430,1.0,0.8091,0.3872,0.2084
+2013,Phi Kappa Chi,,3rd,,,,,,,,,,,,#221E1B;#5B483F;#7A8ABE;#A5755B;#DDB192;#E8E0D8,0.3030;0.2160;0.1950;0.1240;0.0960;0.0660,4.0,0.0465,0.2914,0.4863
+2013,Pi Beta Phi,,Pigskin,,,,,,,,,,,,#2A231E;#75391A;#B06331;#E3A46F;#EAE1D4;#63A7A6,0.2690;0.2200;0.2100;0.1500;0.0760;0.0750,1.0,0.0751,0.5138,0.5426
+2013,Sing Alliance,,Pigskin,,,,,,,,,,,,#120D0A;#5F3F2D;#946F57;#D4A775;#EBDFCA;#7F92A0,0.3273;0.2126;0.1557;0.1228;0.1148;0.0669,5.0,0.0711,0.4065,0.4424
+2013,Zeta Tau Alpha,Old Familiar Places,Pigskin,,,,,,,,,,,,#170E11;#69595D;#6F1530;#B88783;#BEC2C4;#E22C38,0.3234;0.2305;0.1517;0.1228;0.0938;0.0778,4.0,0.9517,0.3856,0.4198
+2014,Alpha Chi Omega,,Pigskin,,,,,,,,,,,,,,,,,
+2014,Alpha Tau Omega,,3rd,,,,,,,,,,,,#080606;#27262C;#5C574F;#A68F78;#DFD0CD;#BF4A20,0.3184;0.2495;0.1647;0.1457;0.0749;0.0469,5.0,0.9904,0.2223,0.3079
+2014,Delta Delta Delta,Take Me to the Pyramids,2nd,,,,,,,,,,,,#111213;#E6E7EA;#544443;#8E837B;#BBBBC6;#BE9425,0.2222;0.2152;0.1632;0.1562;0.1471;0.0961,5.0,0.7218,0.1665,0.5406
+2014,Kappa Alpha Theta,,Pigskin,,,,,,,,,,,,#492300;#23272E;#070606;#E2DFD8;#B0A79F;#6D5F66,0.2943;0.2192;0.1692;0.1211;0.1051;0.0911,3.0,0.0279,0.3981,0.3473
+2014,Kappa Kappa Gamma,,Pigskin,,,,,,,,,,,,#FCFCFC;#AF8E86;#E0D1CA;#2E2B33;#705252;#060605,0.2492;0.1722;0.1722;0.1461;0.1351;0.1251,4.0,0.0115,0.1372,0.6072
+2014,Kappa Omega Tau,The Battle Within,1st,,,,,,,,,,,,#030302;#181C23;#3C3D48;#CFC1BC;#8F786E;#FFFFFF,0.3786;0.2757;0.1309;0.1119;0.0709;0.0320,4.0,0.1237,0.2613,0.2418
+2014,Kappa Sigma,,Pigskin,,,,,,,,,,,,#060605;#30241F;#0E363A;#624D44;#9A867C;#E2C7C0,0.4990;0.1553;0.1222;0.1032;0.0762;0.0441,1.0,0.1322,0.284,0.1935
+2014,Pi Beta Phi & Phi Kappa Chi,,Pigskin,,,,,,,,,,,,#111A12;#6D4F3F;#043F7B;#D6C2C3;#4C71BB;#ECB024,0.4194;0.1662;0.1592;0.1251;0.0761;0.0541,5.0,0.3139,0.472,0.4014
+2015,Alpha Tau Omega,Into the Darkness,Pigskin,,,,,,,,,,,,#171011;#49494E;#787D91;#D8B295;#AE5630;#B9D7EE,0.4088;0.2463;0.1206;0.0997;0.0867;0.0379,5.0,0.882,0.2632,0.3598
+2015,Chi Omega,,Pigskin,,,,,,,,,,,,#1A1210;#57422F;#BB936B;#DACFBF;#974C32;#76919F,0.3526;0.1828;0.1798;0.1239;0.0909;0.0699,5.0,0.062,0.3908,0.4335
+2015,Delta Delta Delta,One Short Day,Pigskin,,,,,,,,,,,,#D0C8C6;#273231;#885643;#E7EDF4;#B8957D;#3485A7,0.2513;0.2252;0.1592;0.1562;0.1502;0.0581,5.0,0.0912,0.2388,0.6298
+2015,Kappa Kappa Gamma,,Pigskin,,,,,,,,,,,,#F8F9F9;#080603;#D9BA94;#614640;#817D9D;#15248F,0.3016;0.1894;0.1884;0.1713;0.0922;0.0571,4.0,0.1308,0.3053,0.6147
+2015,Kappa Omega Tau,The Grand Hotel,2nd,,,,,,,,,,,,#0C0B0F;#3F3B3F;#E8E2DB;#CEA98A;#9C6949;#777B9D,0.5120;0.1590;0.1100;0.0820;0.0740;0.0630,4.0,0.7901,0.2345,0.3198
+2015,Kappa Sigma,,Pigskin,,,,,,,,,,,,#583F2D;#1D140C;#7D7CA6;#996340;#DAA36B;#F6DCB7,0.2146;0.2086;0.1707;0.1667;0.1337;0.1058,1.0,0.0551,0.4624,0.5252
+2015,Phi Kappa Chi,Dust Bowl Days,1st,,https://www.youtube.com/watch?v=nRjHFQCsJio,,,,,,,,,,#090504;#4D342B;#99624C;#DAC5C2;#C3967C;#6170AA,0.5259;0.1976;0.0978;0.0699;0.0639;0.0449,12.0,0.0336,0.4789,0.2754
+2015,Pi Beta Phi,Back in the Habit,3rd,,,,,,,,,,,,#1F1813;#5C402F;#93684D;#C49A76;#E3CBAE;#7D7CA6,0.3327;0.1854;0.1453;0.1443;0.1072;0.0852,2.0,0.0616,0.3926,0.4529
+2016,Alpha Chi Omega,The Alpha Chi Coal Mining Company,Pigskin,,,,,,,,,,,,,,,,,
+2016,Alpha Delta Pi,Keep on Survivin',Participated,,,,,,,,,,,,#190C09;#53625D;#491C15;#B7502A;#DBA287;#F3E7DE,0.2816;0.2335;0.2034;0.1493;0.0681;0.0641,2.0,0.0722,0.5075,0.4023
+2016,Alpha Tau Omega,The King of Promise,Participated,,,,,,,,,,,,#140F0E;#514746;#958170;#D5AB8B;#E7E3DD;#BF4A20,0.3743;0.2685;0.1377;0.1008;0.0719;0.0469,5.0,0.0414,0.2601,0.3795
+2016,Baylor Chamber of Commerce,Time for the Show,Participated,,,,,,,,,,,,#0B2A27;#FAF9F4;#010103;#86766D;#CFB4A0;#4E483A,0.2977;0.1998;0.1728;0.1129;0.1129;0.1039,5.0,0.2256,0.4131,0.4297
+2016,Beta Theta Pi,Derailed,Participated,,,,,,,,,,,,#0E0A09;#552A20;#9C6971;#2E355B;#FBF6F3;#D2AB8E,0.3846;0.2118;0.1568;0.0849;0.0839;0.0779,5.0,0.0183,0.3906,0.3647
+2016,Chi Omega,Lunch Lady Land,3rd,,,,,,,,,,,,#1A100E;#454A46;#93826D;#821315;#D7AE83;#EDE4D7,0.4641;0.1707;0.1307;0.0828;0.0808;0.0709,5.0,0.0792,0.3684,0.3485
+2016,Delta Delta Delta,Can You Dig It?,Pigskin,,,,,,,,,,,,#AA7C66;#E6E7EA;#191515;#C8BEC1;#5D3C3A;#4283B5,0.2202;0.2152;0.2132;0.1882;0.1231;0.0400,5.0,0.9572,0.2071,0.5861
+2016,Delta Tau Delta,Lost in the Jungle,Participated,Tarzan (Disney),,0.807,0.766,0.434,140.006,0.0225,-7.879,0.0,dubstep,1.0,#EBE6E2;#181714;#AF8E7E;#CEB9B0;#67534D;#9DB3D7,0.2480;0.1900;0.1840;0.1620;0.1540;0.0620,5.0,0.068,0.1719,0.6181
+2016,Kappa Alpha Theta & Sigma Chi,"Sincerely Yours, Thetasig",Participated,,,,,,,,,,,,#2B130A;#222631;#C5BDB3;#F1EDE9;#3E695B;#9E7962,0.3293;0.2242;0.1872;0.1161;0.0751;0.0681,2.0,0.0565,0.3989,0.4261
+2016,Kappa Chi Alpha & Beta Upsilon Chi,Wonderful World,Participated,What a Wonderful World,,0.432,0.177,0.0892,151.84,0.861,-13.362,41.0,folk,1.0,#FDFBFC;#0F0C0D;#9A2232;#9A768A;#C3A9B9;#584757,0.3417;0.3357;0.1754;0.0571;0.0491;0.0411,2.0,0.9323,0.2343,0.5509
+2016,Kappa Kappa Gamma & Kappa Sigma,Come Dance With Me,Pigskin,,,,,,,,,,,,#FBFCFC;#59474B;#201517;#A18775;#F3D87A;#B5B6C3,0.3500;0.2080;0.1620;0.1590;0.0610;0.0600,3.0,0.9828,0.1773,0.6432
+2016,Kappa Omega Tau,Setting Sail,2nd,,,,,,,,,,,,#010101;#151622;#323848;#E6E5E7;#8F7964;#C6AF9D,0.4374;0.2452;0.1051;0.0911;0.0661;0.0551,4.0,0.8801,0.1579,0.2264
+2016,Phi Gamma Delta,The Dance of the Dead,Participated,Thriller (Michael Jackson),,0.764,0.887,0.72,118.427,0.0816,-3.726,65.0,pop,1.0,#27110D;#8C53FF;#AF5241;#5E645E;#EBEBEE;#C3A998,0.3323;0.1826;0.1527;0.1417;0.0978;0.0928,5.0,0.9898,0.4709,0.5561
+2016,Phi Kappa Chi,Workin' on a Building,Pigskin,,,,,,,,,,,,#1F1816;#5D392A;#A76A41;#C1BCC5;#344B99;#E3A668,0.2460;0.2310;0.1710;0.1330;0.1320;0.0870,3.0,0.0032,0.4429,0.4855
+2016,Pi Beta Phi,Meet Me in Ze Alps,1st,,,,,,,,,,,,,,,,,
+2016,Pi Kappa Phi,The Lost City,Participated,,,,,,,,,,,,,,,,,
+2016,Sing Alliance,Two Tickets Please,Participated,,,,,,,,,,,,#131018;#5B3D39;#A26E5F;#F9F4EB;#D1AA93;#6D7897,0.3656;0.1858;0.1329;0.1259;0.1069;0.0829,5.0,0.9124,0.3081,0.4448
+2016,Zeta Tau Alpha,We Have Awoken,Pigskin,Chandelier (Sia),,0.399,0.787,0.572,117.089,0.0197,-2.88,69.0,pop,1.0,#060606;#261F23;#423D54;#B69F9B;#8B6B6F;#E2D8DE,0.3870;0.1690;0.1650;0.1280;0.1100;0.0410,4.0,0.9445,0.1224,0.2763
+2017,Alpha Chi Omega & Pi Kappa Phi,,Pigskin,,,,,,,,,,,,#130E10;#8C7971;#553936;#DFD9CA;#BDAEBC;#5956C3,0.3521;0.2066;0.1715;0.1264;0.1083;0.0351,4.0,0.9813,0.2352,0.4145
+2017,Alpha Delta Pi,Swan's Shadow,Participated,,,,,,,,,,,,#190F0A;#5C5B4F;#AC9575;#B54822;#531E1D;#E1E2D8,0.3487;0.2134;0.1934;0.1002;0.0922;0.0521,3.0,0.0848,0.4449,0.3889
+2017,Beta Theta Pi,Raiders of the Lost Act,Participated,,,,,,,,,,,,#F9FAF6;#0A0B0A;#947973;#342858;#D2B594;#5B5739,0.2327;0.2207;0.1936;0.1374;0.1354;0.0802,3.0,0.1654,0.2119,0.5376
+2017,Chi Omega,Ice Ice Baby,3rd,,,,,,,,,,,,#1A1310;#B4906B;#58422C;#D1C8BB;#934E2F;#6FA698,0.3490;0.2060;0.1790;0.1320;0.0980;0.0360,5.0,0.0744,0.3998,0.4309
+2017,Delta Delta Delta,,Pigskin,,,,,,,,,,,,#E3E2E4;#C49C87;#9D6753;#583E36;#141112;#4B92AC,0.2683;0.1852;0.1832;0.1622;0.1461;0.0551,5.0,0.9536,0.262,0.5995
+2017,Delta Tau Delta,Firefighters,Participated,,,,,,,,,,,,#E8E9EA;#948574;#574E44;#CEAD9A;#A4B9D6;#1E1E1C,0.3303;0.2372;0.1341;0.1161;0.1121;0.0701,5.0,0.1145,0.1436,0.6827
+2017,Kappa Alpha Theta,,Pigskin,,,,,,,,,,,,#1A1E20;#492300;#B2A190;#A06B5A;#564A3D;#E6DFD6,0.2350;0.2210;0.1560;0.1330;0.1300;0.1250,4.0,0.0868,0.3995,0.4417
+2017,Kappa Chi Alpha,How To Save a Life,Participated,,,,,,,,,,,,#492300;#A78C7C;#4F4838;#11110D;#EEE1DA;#C05733,0.2943;0.2663;0.1622;0.1471;0.0731;0.0571,3.0,0.0897,0.4927,0.4298
+2017,Kappa Kappa Gamma,,Pigskin,,,,,,,,,,,,,,,,,
+2017,Kappa Omega Tau,Bein' Green,1st,,,,,,,,,,,,,,,,,
+2017,Kappa Sigma,Lewis & Clark: The Corps of Discovery,Participated,,,,,,,,,,,,,,,,,
+2017,Phi Gamma Delta,To Lands Beyond,Participated,,,,,,,,,,,,,,,,,
+2017,Phi Kappa Chi,Fool's Gold,2nd,,,,,,,,,,,,,,,,,
+2017,Pi Beta Phi,,Pigskin,,,,,,,,,,,,,,,,,
+2017,Sigma Chi,Bear Bucks,Participated,,,,,,,,,,,,,,,,,
+2017,Sing Alliance,Piece by Piece,Participated,,,,,,,,,,,,,,,,,
+2017,Zeta Tau Alpha,Can You Hear the Bells?,Participated,,,,,,,,,,,,,,,,,
+2018,Alpha Chi Omega,Sky Full of Stars,Participated,,,,,,,,,,,,,,,,,
+2018,Alpha Delta Pi,When Life Gives You Lemons,Participated,,,,,,,,,,,,,,,,,
+2018,Alpha Tau Omega,Life Ain't Half Dad,Pigskin,,,,,,,,,,,,,,,,,
+2018,Beta Theta Pi,Beta Our Guest,Participated,,,,,,,,,,,,,,,,,
+2018,Chi Omega,Shiny Teeth and Me,Pigskin,,,,,,,,,,,,,,,,,
+2018,Delta Delta Delta,Back to Our Roots,3rd,,,,,,,,,,,,,,,,,
+2018,Delta Tau Delta,Wizard School,Participated,,,,,,,,,,,,,,,,,
+2018,Kappa Alpha Theta,Alley Cats,Pigskin,,,,,,,,,,,,,,,,,
+2018,Kappa Chi Alpha,Singing in the Rain,Participated,,,,,,,,,,,,,,,,,
+2018,Kappa Kappa Gamma,Workin' at the Carwash,2nd,,https://www.youtube.com/watch?v=kWKEzFr_7pI,,,,,,,,,,,,,,,
+2018,Kappa Omega Tau,Sweet Dreams,Pigskin,,,,,,,,,,,,,,,,,
+2018,Phi Gamma Delta,Foos'n Around,Pigskin,,,,,,,,,,,,,,,,,
+2018,Pi Beta Phi & Phi Kappa Chi,The Tortoise and the Hare,1st,,,,,,,,,,,,,,,,,
+2018,Pi Kappa Phi,Greasers,Participated,,,,,,,,,,,,,,,,,
+2018,Sigma Chi,Texas Revolution,Participated,,,,,,,,,,,,,,,,,
+2018,Sing Alliance,Sweatin' With Sing Alliance,Participated,,,,,,,,,,,,,,,,,
+2018,Zeta Tau Alpha,Desktop Daydream,Participated,,,,,,,,,,,,,,,,,
+2019,Alpha Chi Omega,Soap Opera,Participated,,,,,,,,,,,,,,,,,
+2019,Alpha Delta Pi,Coming to You Live from ADPI,Participated,Good Morning Baltimore; Shut Up and Drive (Rihanna),,0.6815,0.829,0.742,133.0005,0.09600500000000001,-4.6335,57.5,show-tunes;pop,2.0,,,,,,
+2019,Beta Theta Pi,Jurassic Waco,Participated,,,,,,,,,,,,,,,,,
+2019,Beta Upsilon Chi,Batter Up!,Participated,The Star Spangled Banner,,0.262,0.24,0.279,82.681,0.934,-13.18,2.0,rock-n-roll,1.0,,,,,,
+2019,Chi Omega,Can't Stop the Bees,2nd,Honey Honey (ABBA),,0.439,0.701,0.796,140.642,0.201,-11.354,27.0,swedish,1.0,,,,,,
+2019,Delta Delta Delta & Alpha Tau Omega,Rockin' New Year's Eve,Pigskin,,https://www.youtube.com/watch?v=Xj7-gb_-rDA,,,,,,,,,,,,,,,
+2019,Delta Tau Delta,Deltwatch,Participated,,,,,,,,,,,,,,,,,
+2019,Kappa Alpha Theta,Where Ewe Lead,Participated,,https://www.youtube.com/watch?v=pryctqYdnxg,,,,,,,,,,,,,,,
+2019,Kappa Chi Alpha,Home Sweet Home,3rd,,,,,,,,,,,,,,,,,
+2019,Kappa Kappa Gamma,Kappa Air,Pigskin,,https://www.youtube.com/watch?v=lVMlZFR7wiU,,,,,,,,,,,,,,,
+2019,Kappa Omega Tau,The Night Before Christmas,1st,Look Down (Les Misérables),,0.494,0.626,0.744,100.06,0.00283,-13.273,17.0,ska,1.0,,,,,,
+2019,Kappa Sigma,Finding Bigfoot,Pigskin,Kill the Beast,,0.536,0.97,0.231,99.992,3.45e-05,-4.82,26.0,german,1.0,,,,,,
+2019,Phi Gamma Delta,Phi Gam's Island,Participated,Gilligan's Island Theme,,0.218,0.949,0.201,117.537,6e-05,-4.23,27.0,metalcore,1.0,,,,,,
+2019,Phi Kappa Chi,The New Kid on the Block,Pigskin,,,,,,,,,,,,,,,,,
+2019,Pi Beta Phi,Tick Tock Cuckoo Clock,Participated,,,,,,,,,,,,,,,,,
+2019,Pi Kappa Phi,Galactic Slam,Participated,Uprising (Muse),,0.602,0.905,0.411,128.019,0.000202,-4.046,74.0,rock,1.0,,,,,,
+2019,Sigma Chi,Time Warp,Participated,,,,,,,,,,,,,,,,,
+2019,Sing Alliance,Framed,Participated,,,,,,,,,,,,,,,,,
+2019,Zeta Tau Alpha,Livin' La Vida Mocha,Pigskin,That's Not My Name (The Ting Tings),,0.755,0.901,0.959,145.042,0.0451,-3.152,56.0,dance,1.0,,,,,,
+2020,Alpha Chi Omega,The Ghouls Next Door,Participated,,https://www.youtube.com/watch?v=t5ryZ96qgqE,,,,,,,,,,,,,,,
+2020,Alpha Delta Pi,Wonderland: A Change of Heart,Participated,,,,,,,,,,,,,,,,,
+2020,Alpha Tau Omega,A Lumberjack Soundtrack,Participated,,,,,,,,,,,,,,,,,
+2020,Beta Upsilon Chi,Full Throttle,Participated,,,,,,,,,,,,,,,,,
+2020,Chi Omega,Maid to Mooove,Participated,,,,,,,,,,,,,,,,,
+2020,Delta Delta Delta,"Starlight, Star Bright",Participated,Hey Now,,0.709,0.503,0.895,106.004,0.364,-12.701,11.0,acoustic,1.0,,,,,,
+2020,Delta Tau Delta,Delt Jailbreak,Participated,,,,,,,,,,,,,,,,,
+2020,Kappa Alpha Theta,The Secret Life of Kats and Dogs,Participated,,,,,,,,,,,,,,,,,
+2020,Kappa Chi Alpha,Are We There Yet?,Participated,Phineas and Ferb Theme; I Want Candy,,0.779,0.8335,0.6174999999999999,114.48849999999999,0.28218000000000004,-6.369,35.0,party;dance,2.0,,,,,,
+2020,Kappa Kappa Gamma & Kappa Sigma,The Ship of Dreams,1st,Beyond the Sea,https://www.youtube.com/watch?v=ylvHyZUpvfc,0.652,0.494,0.421,137.844,0.269,-6.101,40.0,new-age,1.0,,,,,,
+2020,Kappa Omega Tau,The Magic of Mardi Gras,Participated,High Hopes; The Greatest Show,,0.4525,0.6555,0.3095,117.59899999999999,0.2886195,-6.865500000000001,67.5,pop;show-tunes,2.0,,,,,,
+2020,Multicultural Alliance,Baylor Homecoming: Another Side,Participated,Lose You to Love Me,,0.54,0.779,0.216,103.013,0.143,-4.515,32.0,metalcore,1.0,,,,,,
+2020,Phi Gamma Delta,Movers and Groovers,Participated,,,,,,,,,,,,,,,,,
+2020,Phi Kappa Chi,So Tied Up,2nd,,,,,,,,,,,,,,,,,
+2020,Pi Beta Phi,Meet the Phlinstones,Participated,,,,,,,,,,,,,,,,,
+2020,Sigma Alpha Epsilon & Alpha Phi,Saphi Can Do It!,Participated,I Need Somebody; Woman Up,,0.687,0.8135,0.61,119.54249999999999,0.08073999999999999,-5.355,27.5,garage;dance,2.0,,,,,,
+2020,Sing Alliance,Stupid Cupid,3rd,,https://www.youtube.com/watch?v=4_a4hd9m6ow,,,,,,,,,,,,,,,
+2020,Zeta Tau Alpha,Ring by Sing,Participated,,,,,,,,,,,,,,,,,
+2022,Alpha Phi,Magic in Phi,Pigskin,Bibbidi Bobbidi Boo (Helena Bonham Carter); Gimme Gimme Gimme (ABBA); Magic (Selena Gomez); Magic (B.o.B.); Oops I Did it Again (Britney Spears); Working for the Weekend (Loverboy),https://www.youtube.com/watch?v=dzWISPniVac,0.5895,0.8395,0.7440000000000001,130.41233333333332,0.13491216666666667,-4.978166666666667,42.5,pop;blues;dance;dancehall;hard-rock,6.0,,,,,,
+2022,Alpha Tau Omega,,Pigskin,All My Rowdy Friends are Coming Over Tonight (Hank Williams Jr.); Hey Brother (Avicii); I'll Fly Away (The Dillards); I'll Make A Man Out of You (Donny Osmond); Lost Boy (Ruth B); Second Star to the Right (Jonatha Brook); Wild Ones (Flo Rida),,0.6130000000000001,0.46527142857142856,0.48928571428571427,118.66171428571428,0.47427142857142857,-10.977285714285713,37.0,country;dance;pop;piano,7.0,,,,,,
+2022,Chi Omega,Taken for Granite,Pigskin,All By Myself (Celine Dion); Bohemian Rhapsody (Queen); Edge of Seventeen (Stevie Nicks); Feel Again (OneRepublic); I Will Survive (Gloria Gaynor); Staying Alive (Lizzo); Welcome to the 60's (The Hit Crew),https://www.youtube.com/watch?v=rL69MevJPmo,0.51,0.6848571428571429,0.429,127.26442857142857,0.20151428571428573,-8.545857142857143,42.57142857142857,disco;rock;piano;german;hardstyle,7.0,,,,,,
+2022,Delta Delta Delta,We Got the Reef,2nd,Holding out for a Hero (Bonnie Tyler); Hooked on a Feeling (Blue Swede); How Far I'll Go (Reprise) (Auli'I Cravalho); Rock Lobster (The B-52's); Run The World (Girls) (Beyonce); We Got the Beat (The Go-Go's),,0.6175,0.7961666666666667,0.5608333333333334,120.16933333333333,0.2141715,-6.3425,34.666666666666664,disco;pop;show-tunes;dance;party,6.0,,,,,,
+2022,Kappa Kappa Gamma,Dine 'n Dance,3rd,At the Hop (Danny and the Juniors); Crusin' for a Brusin' (Ross Lynch and Grace Phipps); Rock this Town (Brian Setzer); This Cat's on a Hot Tin Roof (The Brian Setzer Orchestra); We Go Together (Sugar Factory Singers); Wild Child (Lee Rocker),,0.5383333333333333,0.6961666666666666,0.6183333333333333,142.65133333333333,0.2963166666666666,-8.548,19.333333333333332,rock-n-roll;pop;funk;folk,6.0,,,,,,
+2022,Kappa Omega Tau,It's a Gnome's World,1st,I Can't Get No Satisfaction (The Rolling Stones); It's  Man's Man's Man's World (James Brown); Rapper's Delight (The Sugarhill Gang); Respect (Aretha Franklin); Superstition (Stevie Wonder); That's Just the Way We Roll (Jonas Brothers),https://www.youtube.com/watch?v=qb88KZ9KKXk,0.6845,0.6515,0.8235,124.37933333333332,0.06385,-8.502166666666666,28.833333333333332,rock;funk;electro;soul;dance,6.0,,,,,,
+2022,Kappa Sigma,,Pigskin,Come With me Now (Kongos); Give up the Funk (Parliament); Old Time Rock and Roll (Bob Seger); Play Something Country (Brooks and Dunn); Rock with You (Michael Jackson); These Will Be the Good Old Days (Twenty Years From Now) (Judy Holliday); Uptown Funk (Bruno Mars),,0.6918333333333333,0.7715,0.721,109.20883333333335,0.2008116666666667,-3.6843333333333335,48.833333333333336,alt-rock;edm;country;pop,7.0,,,,,,
+2022,Pi Beta Phi & Phi Kappa Chi,,Pigskin,Dig it (D-Tent Boys); Finesse (Bruno Mars); Greedy (Ariana Grande); Like I Can (Sam Smith); You are my Vision (Rend Connect),,0.6232,0.7518,0.6214,106.3892,0.095082,-6.8138000000000005,59.0,funk;dance;pop;alt-rock,5.0,,,,,,
+2022,Zeta Tau Alpha,All the Birds of a Feather,Participated,,https://www.youtube.com/watch?v=Yxdp_7J8MsA,,,,,,,,,,,,,,,
+2023,Alpha Chi Omega,,Participated,You Make My Dreams (Come True) (Hall & Oates); ...Ready for It? (Taylor Swift); Little Girls (Criminals) (Cast of Annie the Musical); Save The City (Hawkeye Vol. 2); I'm a Believer (Bowling for Soup); Call Me (Blondie),,0.5650000000000001,0.6954,0.5058,151.805,0.12264408000000002,-7.4430000000000005,27.6,power-pop;pop;psych-rock;punk,6.0,,,,,,
+2023,Alpha Delta Pi,I30-pi,Participated,Shut Up and Drive (Rihanna); Fire Burning (Sean Kingston); Dance of the Little Swans (Tchaikovsky); You'll Always Find Your Way Back Home (Hannah Montana); Hard Working Man (Brooks & Dunn); Workin on the Highway (Bruce Springsteen); Take on Me (Ha),https://www.youtube.com/watch?v=2-D0uJrKrv0,0.6111428571428571,0.6866142857142857,0.6632857142857143,125.87742857142858,0.32918714285714284,-9.852714285714285,42.142857142857146,pop;dance;classical;country;singer-songwriter;rock,7.0,,,,,,
+2023,Alpha Phi,Hotel Phiasco!,Participated,Zack and Cody Theme Song (Cast of Suite Life of Zack and Cody); Celebration (Kool and the Gang); You Make Me Feel (Cobra Starship); Dancing in the Kitchen (Tim Kubart); Big Girls Don't Cry (Fergie); Mr. Lonely (Akon); Feel it Still (Portugal. The Man); Be Our Guest (Disney),,0.5974285714285715,0.7288571428571429,0.43542857142857144,129.08114285714285,0.18481553571428572,-5.658,28.0,disco;punk;pop;dance;alt-rock;hardcore,8.0,,,,,,
+2023,Beta Theta Pi,Man Or Mathlete,Participated,Fantasy (Mariah Carey); Changes (David Bowie); All-Star (Smash Mouth); You Belong with Me (Taylor Swift); I Won't Say (I'm in Love) (Disney / Hercules Cast); Man or a Muppet (Muppets Cast); Want U Back (Cher Lloyd),https://www.youtube.com/watch?v=7Xtathu4KsE,0.6728333333333333,0.7556666666666666,0.6636666666666667,111.76716666666665,0.09754333333333333,-6.172166666666667,40.333333333333336,dance;rock;alt-rock;pop;show-tunes,7.0,,,,,,
+2023,Chi Omega & Alpha Tau Omega,A Day at the Derby,1st,"Somethings Got a Hold on Me (Christina Aguilera); Sharp Dressed Man (ZZ Top); Oh, Pretty Woman (Roy Orbison); Johnny B. Goode (Chuck Berry); Come on Eileen (Dexys Midnight Runners); 24K Magic (Bruno Mars); Rockin’ on Top of the World (Steven Tyler)",https://www.youtube.com/watch?v=BtkhzXsmZos,0.5904285714285714,0.7488571428571429,0.6981428571428571,128.63714285714286,0.2794,-6.448428571428572,40.57142857142857,blues;rock-n-roll;pop;dance;country,7.0,,,,,,
+2023,Delta Delta Delta,Delta Motor Speedway,Pigskin,Real Gone (Sheryl Crow); R.O.C.K. in the USA (John Mellencamp); DAnger Zone (Kenny Loggins); Rolling in the Deep (Adele); Don't Stop Me Now (Queen); Good to be Alive (Hallelujah) (Andy Grammar),https://www.youtube.com/watch?v=-zvoU_Pou7c,0.624,0.7605,0.5121666666666667,104.96600000000001,0.15195683333333335,-4.916833333333334,39.666666666666664,pop;singer-songwriter;heavy-metal;dub,6.0,,,,,,
+2023,Delta Tau Delta,Under the Big Top,Participated,"Jungle (X Ambassadors); Circus (Britney Spears); Entrance of the Gladiators (Julius Fučík); Welcome to the Party (Diplo, French Montana, Lil Pump); Forget You (Cee Lo Green); Leave a Light On (Tom Walker); Rocket Man (Elton John); Show Goes On (Lupe Fiasco)",,0.60175,0.7378750000000001,0.5155,115.26075,0.115740125,-4.877375,56.625,alt-rock;dance;dub;hip-hop;folk;piano,8.0,,,,,,
+2023,Kappa Alpha Theta,,Participated,Baba O-Riley (The Who); Ready or Not (The Delfonics); Everybody Wants to Rule the World (Tears for Fears); Whatever it Takes (Imagine Dragons); Running Up That Hill (Kate Bush); Sorry Not Sorry (Demi Lovato); Blinding Lights (The Weeknd); Rather Be (Clean Bandit),,0.593,0.602875,0.49397500000000005,132.472,0.2397825,-8.382375,43.875,blues;funk;rock;alt-rock;dance;pop;edm,8.0,,,,,,
+2023,Kappa Chi Alpha,,Participated,Chim-Chim-er-Ree (East Wind) (Saving Mr. Banks); Takin' Care of Business (Bachman-Turner Overdrive); I Ain't Worried (One Republic); I Want You Back (The Jackson 5); One Way or Another (Blondie); Spoonful of Sugar (Mary Poppins Musical Cover); Any Way You Want It (Journey); Supercalifragilistic (The Hit rew),,0.5914285714285714,0.7262857142857143,0.8477142857142858,144.25199999999998,0.21074457142857142,-10.395999999999999,31.0,blues;piano;power-pop;hard-rock;rock-n-roll,8.0,,,,,,
+2023,Kappa Kappa Gamma,Kappa HQ,Pigskin,Welcome to the Working Week (Elvis Costello); Manic Monday (The Bangles); A Hard Day's Night (The Beatles); Livin' on a Prayer (Bon Jovi); She Works for the Money (Donna Summer); Walkin' on Sunshine (Katrina & the Waves),https://www.youtube.com/watch?v=GKhwRxRBqlE,0.5901666666666666,0.7361666666666666,0.7566666666666667,125.67399999999999,0.2159633333333333,-6.880333333333333,38.333333333333336,power-pop;disco;psych-rock;metal;pop,6.0,,,,,,
+2023,Kappa Omega Tau,Against All Oz,Pigskin,"Feeling Good (Michael Buble); Bright Lights, Bigger City (Cee Lo Green); Fortunate Son (Creedence Clearwater Revival); Do I Wanna Know? (Arctic Monkeys); Glory (John Legend (From Motion Picture Selma)); Cold as Ice (Foreigner); Freedom 90' (George Michael)",,0.5811428571428571,0.6501428571428571,0.6197142857142858,104.18485714285714,0.2246102857142857,-6.407285714285714,41.714285714285715,jazz;hip-hop;country;garage;hard-rock;dance,7.0,,,,,,
+2023,Kappa Sigma,,Participated,Suit & Jacket (Judah & the Lion); Born to Run (American Authors); Mountain Sound (Monsters & Men); Spirit (Judah & the Lion); Bring it on Home (American Authors),,0.5444,0.7232000000000001,0.4076000000000001,124.8442,0.1813,-6.3094,55.4,folk;indie-pop,5.0,,,,,,
+2023,Phi Gamma Delta,,Participated,Start Me Up (The Rolling Stones); Blitzkreig Bop (The Ramones); Hey Ya! (The OutKast); Footloose (Kenny Loggins); We are Young (Fun.),,0.5774,0.7524,0.7666000000000001,146.4692,0.11748,-6.575999999999999,28.6,rock;punk;hip-hop;pop,5.0,,,,,,
+2023,Phi Kappa Chi,,Participated,Cold (Chris Stapleton); Trouble (Elvis Presley); Something's Got to Give (Labrinth); All Things New (Big Daddy Weave); Power of Love (Ben Rector),,0.5478,0.4892,0.4548,101.75359999999999,0.32912,-8.1124,36.6,country;rock-n-roll;indie-pop;alt-rock;acoustic,5.0,,,,,,
+2023,Pi Beta Phi,Be My Girl,2nd,Take Me Out (Franz Ferdinand); Are You Gonna Be My Girl? (Jet); Ladies's Choice (From Hairspray the Musical); Material Girl (Madonna); Rumor Has It (Adele); Someone Like You (Adele); River Deep Mountain High (Tina Turner),https://www.youtube.com/watch?v=drDiUpqGM0o,0.5638333333333333,0.7766666666666667,0.62,126.06016666666669,0.38587716666666666,-4.586833333333334,55.166666666666664,alt-rock;garage;dance;pop;funk,7.0,,,,,,
+2023,Sigma Alpha Epsilon,The Night Shift,Participated,Nigh Shift (Jon Pardi); Killer Queen (Queen); Crocodile Rock (Elton John); Twist and Shout (The Beatles); Hound Dog (Elvis Presley); From Now On (The Greatest Showman),https://www.youtube.com/watch?v=Z9YESoY_pMo,0.5966666666666667,0.6786666666666666,0.7581666666666665,119.27233333333334,0.2899,-8.004833333333332,38.166666666666664,country;hip-hop;piano;blues;rock-n-roll;hard-rock,6.0,,,,,,
+2023,Sigma Chi,"The Good, The Bad, and The...",Pigskin,Great Balls of Fire (Jerry Lee Lewis); Flashing Lights (Kanye West); Boot Scootin' Bougie (Brooks and Dunn); We're Not Gonna Take It (Twisted Sister); Boulevard of Broken Dreams (Green Day); Total Eclipse of the Heart (Bonnie Tyler); We Belong (Pat Benatar),https://www.youtube.com/watch?v=Pb4IWvLrudk,0.5264285714285715,0.7444285714285714,0.5678571428571428,137.12485714285714,0.29334571428571427,-6.140142857142857,34.714285714285715,piano;disco;country;hard-rock;punk;alt-rock,7.0,,,,,,
+2023,Sing Alliance,Some Bunny's In Trouble,Pigskin,Heigh Ho (Bunny Berigan/ Dwarf's Marching Song from Disney's Snow White); Dig a Little Deeper (Sierra Nelson); Sweet Dreams (Eurthymics); Beat It (Michael Jackson); I Did Something Bad (Taylor Swift); Why Can't We Be Friends? (War); We Found Love (Rihanna & Calvin Harris),https://www.youtube.com/watch?v=cxgz573hn8A,0.666,0.5855,0.46413333333333334,104.98233333333333,0.3280666666666667,-8.148833333333334,49.166666666666664,funk;indian;pop,7.0,,,,,,
+2023,Zeta Tau Alpha,Experiment Z,3rd,"Workin' Day & Night (Michael Jackson); Monster Mash (Bobby ""Boris"" Pickett); Another One Bites the Dust (Queen); Don't Stop Believin' (Journey); Come Alive (From the Greatest Showman); Thriller (Michael Jackson); I'm In Love with a Monster (Fifth Harmony); I'm So Excited (The Pointer Sisters)",,0.6551428571428571,0.7968571428571429,0.7654285714285713,126.29271428571428,0.10491428571428572,-5.807,37.42857142857143,soul;deep-house;hard-rock;indie-pop;pop;disco,8.0,,,,,,
+2024,Alpha Chi Omega,The Show Must Go On,Pigskin,The Winner Takes It All (ABBA); Baby I'm a Star (Prince); Man I Feel like a Woman (Shania Twian); SOS (Rihanna); Girls Just Want To Have Fun (Miley Cyrus / Cyndi Lauper); I Want it All (High School Musical 3 Cast),https://www.youtube.com/watch?v=emG7i1bKiqM,0.6271666666666667,0.7801666666666667,0.63,133.71083333333334,0.23650166666666664,-5.845833333333334,40.666666666666664,swedish;techno;country;pop;dance,6.0,,,,,,
+2024,Alpha Delta Pi,,Participated,I Wanna Be A Lifeguard (Blotto); Surfin USA (The Beach Boys); Shark attack (John Williams); Shark attack (Surf Punks); I’m always here (Jimi Jamison); Sorry (Justin Bieber); All for one (High School Musical); Surf Crazy (Spencer Lee (Teen Beach Movie)),,0.536,0.7768571428571428,0.4944285714285715,136.73485714285715,0.2273863714285714,-7.621857142857142,35.57142857142857,garage;pop;guitar;heavy-metal;hard-rock;dance,8.0,,,,,,
+2024,Alpha Phi,Troop 1872: Sweet as Can Phi,Participated,Better When I'm Dancin (Meghan Trainor); Wouldn't It Be Nice (The Beach Boys); Pink (Lizzo); Push it to the Limit (Corbin Bleu / High School Musical); We're All in this Together (High School Musical); Best Song Ever (One Direction); Never Say Never (Justin Bieber); We Are Never Getting Back Together (Taylor Swift),https://www.youtube.com/watch?v=A4UmJMAJGXI,0.706125,0.772375,0.7275,117.049625,0.18098375,-5.148125,64.25,pop;dance,8.0,,,,,,
+2024,Alpha Tau Omega,Nothing Set In Stone,Pigskin,"Higher Ground (Stevie Wonder); Made from the Stars (Aloe Blacc); Fly As Me (Silk Sonic (Bruno Mars)); Hold On, I'm Coming (Sam and Davis); War (Edwin Starr); Get Down Tonight (KC and the Sunshine Band)",https://www.youtube.com/watch?v=a1d0noBwkTU,0.6833333333333332,0.718,0.7851666666666667,116.43966666666667,0.08668333333333333,-7.945666666666667,32.833333333333336,funk;soul;dance;disco,6.0,,,,,,
+2024,Beta Theta Pi,Fratty-Shack,Participated,Bet On It (High School Musical); I Don't Dance (High School Musical); Don't You Want Me (Human League); Should I Stay or Should I Go (The Clash); Can't Touch This (MC Hammer); Believer (Imagine Dragons),,0.7080000000000001,0.7200000000000001,0.7891666666666667,146.85216666666665,0.12331666666666667,-6.623333333333334,40.5,dance;dub;ska;punk;hip-hop;rock,6.0,,,,,,
+2024,Beta Upsilon Chi & Kappa Chi Alpha,,Participated,,,,,,,,,,,,,,,,,
+2024,Chi Omega,Caught Red-Handed,2nd,House of the Rising Sun (The Animals); Rockin Robin (Jackson 5); Born to be Wild (Steppenwolf); Would I Lie to You (The Eurythmics); Hit the Road Jack (Ray Charles); Zero to Hero (Hercules Cast),https://www.youtube.com/watch?v=T9ZD2HJgLIs,0.5271666666666667,0.7241666666666666,0.611,148.54483333333334,0.21194949999999999,-8.106499999999999,26.5,blues;soul;power-pop;acoustic,6.0,,,,,,
+2024,Delta Delta Delta,Weather or Not!,Pigskin,Reach Out I'll Be there (Gloria Gaynor); Blown Away (Carrie Underwood); Barbie Girl (Aqua); I Got the Music in Me (Kiki Dee); No More Tears (Barbra Streisand & Donna Summer),https://www.youtube.com/watch?v=fFao6Gq3dms,0.659,0.7496,0.5187999999999999,136.5496,0.17036,-5.949199999999999,39.6,disco;country;pop-film;house;rock,5.0,,,,,,
+2024,Delta Tau Delta,,Participated,Whip It (Devo); Sexy Back (Justin Timberlake); I'm Gonna Be (Proclaimers); Push It To The Limit (Paul Engemann); Radioactive (Imagine Dragons); Hearts On Fire (John Cafferty),,0.6618333333333334,0.8130000000000001,0.5655,127.34166666666668,0.0925047,-5.835999999999999,32.166666666666664,punk;dance;club;hardcore;rock;disco,6.0,,,,,,
+2024,Kappa Alpha Order,,Participated,When The Saints Go Marching In (Louis Armstrong); Bourbon Street (Jeff Tuohy); Voodoo Child (Jimi Hendrix); Heads Will Roll (Yeah Yeah Yeahs); Fight For Your Right (Beastie Boys); Stay Stay Stay (Taylor Swift); Ballroom Blitz (Sweet),,0.504,0.7554285714285714,0.6122857142857142,109.01200000000001,0.33101371428571424,-7.037571428571428,24.428571428571427,blues;sleep;alt-rock;hardcore;pop,7.0,,,,,,
+2024,Kappa Alpha Theta,The Great KATsby,Pigskin,"West End Blues (Louis Armstrong); Theme from New York, New York (Frank Sinatra); Please Don't Stop the Music (Rihanna); Evacuate the Dance Floor (Casandra); Pump It (Black Eyed Peas); All of the Lights (Kanye West); Dance the Night (Dua Lipa); Sing, Sing, Sing (Benny Goodman); Uptown Girl (Billy Joel)",https://www.youtube.com/watch?v=fS1CEuJfpQk,0.654,0.5897777777777777,0.6003333333333333,119.64377777777779,0.30435555555555555,-8.367666666666667,39.111111111111114,jazz;opera;pop;dance;hardstyle;garage;folk,9.0,,,,,,
+2024,Kappa Chi Alpha & Beta Upsilon Chi,,Participated,Friends On The Other Side (Princess and The Frog Cast); Pure Imagination (Charlie and the Chocolate Factory); Another Day of Sun (La La Land); Wildest Dreams (Taylor Swift); Wonderland (Taylor Swift); Bad to the Bone (George Thoroughgood and The Destroyers); Dream On (Aerosmith); Carry on Wayward Son (Kansas),,0.435125,0.5283,0.4264,117.696625,0.3773225,-10.435625,32.75,show-tunes;opera;jazz;pop;hard-rock,8.0,,,,,,
+2024,Kappa Kappa Gamma & Sigma Chi,A Walk in the Park,Participated,Saturday in the Park (Chicago); I Want You To Want Me (Cheap Trick); Sir Duke (Stevie Wonder); Have You Ever Seen The Rain (Creedence Clearwater Revival); You Can't Hurry Love (The Supremes); Right Back Where We Started (Maxine Nightingale); This Will Be (An Everlasting Love) (Natalie Cole),https://www.youtube.com/watch?v=mpn5nO8A_Wg,0.64,0.744,0.6807142857142857,115.20057142857142,0.15677858571428574,-6.011,26.571428571428573,folk;power-pop;funk;country;disco;pop;alt-rock,7.0,,,,,,
+2024,Kappa Omega Tau,Sweet Gingerbread Man,1st,Hard to Handle (Black Crows); Sweet Gingerbread Man (Sammy Davis Jr); Everybody (Backstreet Boys); Can You Feel It (The Jackson 5); Boy Are Back In Town (The Bus Boys); I Feel Better (Gotye); I Just Died In Your Arms (Cutting Crew),,0.6344285714285715,0.831857142857143,0.65,130.57842857142856,0.055452,-4.952428571428571,32.857142857142854,blues;soul;dance;disco;alt-rock;pop,7.0,,,,,,
+2024,Phi Gamma Delta,USS Fiji: Sailors Against the Deep,Participated,Wellerman (The Longest Johns); Help! (Beatles); Ain’t No Mountain High Enough (Marvin Gaye); Eye of the Tiger (Survivor); Safe and Sound (Capitol Cities); Brandy (You’re a Fine Girl) (Looking Glass),https://www.youtube.com/watch?v=QcasR7nuKU4,0.6295000000000001,0.5968333333333333,0.6776666666666666,114.18183333333333,0.35469599999999996,-10.840666666666666,41.333333333333336,metal;psych-rock;funk;rock;piano,6.0,,,,,,
+2024,Phi Kappa Chi,The Good Newsies,3rd,"Land Of 1000 Dances (Wilson Pickett); Go Tell It To The Mountian (Josh Turner); Signed, Sealed, Delivered (Stevie Wonder); Paint It Black (Rolling Stones); Tell Her About It (Billy Joel); Think (Aretha Franklin); Proud Mary (Tina Turner)",,0.5557142857142857,0.723,0.6628571428571428,130.208,0.17147571428571426,-7.345714285714286,23.142857142857142,funk;country;rock;folk;blues;disco,7.0,,,,,,
+2024,Pi Beta Phi,Our State Fair,Participated,Let's Go Crazy (Prince); Misery (Maroon 5); Troublemaker (Olly Murs); Welcome To The Jungle (Guns n' Roses); You May Be Right (Billy Joel); Runaway Baby (Bruno Mars); Uptight (Everything’s Alright) (Glee Cast / Stevie Wonder),https://www.youtube.com/watch?v=9Fh-cJaiwFg,0.6208571428571429,0.8145714285714286,0.676142857142857,130.74128571428574,0.115735,-5.770142857142857,44.42857142857143,electronic;pop;alt-rock;hard-rock;folk;dance;funk,7.0,,,,,,
+2024,Sigma Alpha Epsilon,Cold Feet,Participated,Suit and Tie (Justin Timberlake); Runaway (Bon Jovi); Sh-Boom (The Chords); Hopelessly Devoted to You (Glee Cast); Love Runs Out (OneRepublic); Midnight Sky (Miley Cyrus),https://www.youtube.com/watch?v=seNh4nC6Dyc,0.5161666666666667,0.7000000000000001,0.3641666666666667,131.11983333333333,0.12779500000000002,-7.265333333333333,44.833333333333336,pop;metal;hard-rock;industrial;piano,6.0,,,,,,
+2024,Sing Alliance,The Buzz at the Bee,Pigskin,Counting Stars (One Republic); I Was Made For Loving You (Kiss); No Scrubs (TLC); Goodbye Stranger (Supertramp); Bad Blood (Taylor Swift); SOS (ABBA); Since You've Been Gone (Kelly Clarkson),https://www.youtube.com/watch?v=AebHYP44ozQ,0.6158571428571429,0.72,0.49814285714285716,127.71757142857142,0.13120428571428572,-6.191571428571429,44.42857142857143,piano;hard-rock;dance;pop;swedish,7.0,,,,,,
+2024,Tau Kappa Epsilon,Papa Tiki's Balliamo!,Pigskin,Mambo Italiano (Dean Martin); Fly Me To The Moon (Frank Sinatra); That's Amore (Dean Martin); Ave Maria (Renee Fleming / Franz Schubert); Get Cha Head In The Game (High School Musical),,0.4248,0.43620000000000003,0.35140000000000005,97.3942,0.6388,-11.5584,28.0,show-tunes;acoustic;opera;classical;dance,5.0,,,,,,
+2024,Zeta Tau Alpha,Panic at the Disco,Participated,"The Chain (Fleetwood Mac); Boogie Wonderland (Earth, Wind, & Fire); Boogie Shoes (Glee Cast / KC & The Sunshine Band); All Night Dancin (The Jacksons); Hungry like the wolf (Duran Duran); Get Down On It (Kool & the Gang); What I like About You (The Romantics); I Wanna Dance With Somebody (Whitney Houston); The Safety Dance (Men Without Hats)",https://www.youtube.com/watch?v=GOyAfAmwty8,0.6807777777777777,0.7765555555555556,0.7427777777777778,125.92477777777776,0.2028611111111111,-7.864333333333333,27.11111111111111,rock;disco;country;dance;power-pop;blues,9.0,,,,,,
+2025,Alpha Chi Omega,Let Them Eat Cake!,Pigskin,Jolene (Dolly Parton); Seven Nation Army (The White Stripes); Revenge Party (Mean Girls); These Boots Are Made for Walking (Nancy Sinatra); Ces Bottes Sont Faites Pour Marcher (Eileen); Edge of Glory (Lady Gaga); Maniac (Michael Sembello); Viva La Vida (Coldplay),https://www.youtube.com/watch?v=-TMdCnVAof8,0.598125,0.5373749999999999,0.452375,120.31762499999999,0.38496975,-9.834375,26.375,country;blues;show-tunes;folk;jazz;dance;comedy;pop,8.0,,,,,,
+2025,Alpha Delta Pi,The Diamond Salon,Participated,New Day (Alicia Keys); Kids in America (Kim Wilde); Venus (Bananarama); Please Please Please (Sabrina Carpenter); Never Gonna Give You Up (Rick Astley); Hair Up (Trolls); Hair (Lady Gaga),,0.5274285714285715,0.843,0.5697142857142857,141.0497142857143,0.11215342857142858,-5.0332857142857135,31.571428571428573,soul;pop;disco;rock-n-roll;emo;dance,7.0,,,,,,
+2025,Alpha Phi,Escaping Ivy Manor,Participated,Mad World (Gary Jules); Break Free (Ariana Grande); The House is Haunted (Mark Almond); I'm Coming Out (Diana Ross); I Think We're Alone Now (Tiffany); Smooth Criminal (Michael Jackson); Tainted Love (Soft Cell),,0.6014285714285714,0.705,0.47902857142857147,118.87985714285715,0.19570537142857145,-6.731714285714285,39.857142857142854,psych-rock;dance;acoustic;disco;pop,7.0,,,,,,
+2025,Alpha Tau Omega,Underneath the Tree,2nd,Larger Than Life (Backstreet Boys); Maneater (Hall & Oates); Free Bird (Lynyrd Skynyrd); Dance Machine (The Jackson 5); The Nutcracker (Act 1: March) (London Symphony Orchestra (George Balanchine)); You Don't Mess Around With Jim (Jim Croce); Papa's Got A Brand New Bag (James Brown); Run Rudolph Run (Chuck Berry); Underneath the Tree (Kelly Clarkson),,0.5641111111111111,0.73,0.7524444444444445,149.6387777777778,0.3368792,-7.890666666666667,28.333333333333332,dance;rock;blues;goth;classical;country;funk;rock-n-roll,9.0,,,,,,
+2025,Beta Upsilon Chi,Gone Fishin',Participated,Fishin' in the Dark (Nitty Gritty Dirt Band); Up Down (Morgan Wallen); Jesus Take the Wheel (Carrie Underwood); Shut Up and Fish (Maddy & Tay); I'm Gonna Miss Her (Brad Paisley); Careless Whisper (George Michael); All Summer Long (Kid Rock),,0.5498571428571429,0.6222857142857142,0.4972857142857143,105.9537142857143,0.2731747285714286,-6.640857142857143,44.142857142857146,country;heavy-metal;dance;metal,7.0,,,,,,
+2025,Chi Omega,Back on Track,1st,Trashin' the Camp (Phil Collins); Vacation (The Go Go's); Ease on Down the Road (The Wiz); Crazy Train (Ozzy Ozborne); Move Your Feet (Junior Senior); Come So Far (Got So Far to Go) (Hairspray (movie version)),https://www.youtube.com/watch?v=MBEyLbk3AXI,0.4692,0.7852,0.5428,156.2066,0.190131,-6.0792,39.4,rock;garage;alt-rock;hard-rock;pop,6.0,,,,,,
+2025,Delta Delta Delta,When Pigs Fly,3rd,Fame (Irene Cara); Down at the Twist and Shout (Mary Chapin Carpenter); Crazy In Love (Beyonce/Jay-Z); Does Your Mother Know (ABBA); I'm Still Standing (Taron Egerton); You Can't Stop the Beat (Glee Cast (Hairspray the Musical)); Goodbye Yellow Brick Road (Elton John),https://www.youtube.com/watch?v=V59Q8cs7XYo,0.5599999999999999,0.7848571428571428,0.58,130.97957142857143,0.22503142857142858,-6.408714285714287,26.285714285714285,disco;country;dance;swedish;emo;club;piano,7.0,,,,,,
+2025,Delta Tau Delta,Rumble in Rome,Participated,Renegade (Styx); Bad (Michael Jackson); Livin' La Vida Loca (Ricky Martin); Abracadabra (Steve Miller Band); Cooler Than Me (Mike Posner); It Ain't Over til It's Over (Lenny Kravitz),,0.6341666666666667,0.6555,0.709,137.45966666666666,0.18727516666666666,-9.224,30.5,hard-rock;comedy;heavy-metal;blues;dance;pop,6.0,,,,,,
+2025,Kappa Alpha Theta,It Takes Two,Participated,Bad Day (Daniel Powter); Me Too (Meghan Trainor); Mamma Knows Best (Jessi J); Bad Moon Rising (Creedence Clearwater Revival); Wanna Be Startin' Somethin' (Michael Jackson); Imagine (John Lennon); It Takes Two (Rob Base & DJ EZ Rock); I'm Alright (Kenny Loggins),https://www.youtube.com/watch?v=grpjISE9Fzw,0.674875,0.740125,0.696125,131.0235,0.2516375,-5.7616249999999996,41.5,pop;dance;country;soul;electro;gospel,8.0,,,,,,
+2025,Kappa Kappa Gamma,Sweet Letter O' Mine,Pigskin,Please Mr. Postman (The Marvelettes); Sweet Child O' Mine (Guns n' Roses); Hard Times (Paramore); I Want It That Way (Backstreet Boys); Don't You Worry 'Bout a Thing (Tori Kelly); It's Raining Men (The Weather Girls),,0.6509999999999999,0.8064999999999999,0.6888333333333333,121.5095,0.18021166666666666,-6.0365,46.166666666666664,blues;hard-rock;emo;dance;disco,6.0,,,,,,
+2025,Kappa Omega Tau,Night at the Exhibit,Pigskin,It's Your Thing (Isley Brothers); Go the Distance (Vanderbilt Melodores); Jailhouse Rock (Elvis Presley); Can't Always Get What You Want (The Rolling Stones); Soul Man (Sam and Dave); How You Like Me Now (The Heavy); Wiegenlied Op. 49 No. 4 (Johannes Brahms),,0.48728571428571427,0.5127857142857143,0.4945714285714286,119.80399999999999,0.38142471428571423,-11.388857142857145,23.428571428571427,disco;piano;rock-n-roll;club;funk;alt-rock;classical,7.0,,,,,,
+2025,Kappa Sigma,Back in Black,Participated,Mr. Blue Sky (Electric Light Orchestra); Somebody's Watching Me (Rockwell); Intergalactic (Beastie Boys); 25 or 6 or 4 (Chicago); Come Together (The Beatles); The Boys are Back in Town (Thin Lizzy),,0.5408333333333334,0.7283333333333334,0.4411666666666667,132.40016666666668,0.1633605,-7.4559999999999995,33.0,rock;death-metal;alt-rock;folk;psych-rock;hard-rock,6.0,,,,,,
+2025,Phi Gamma Delta,Friendships Bring Color to Life,Participated,Money (Pink Floyd); One (Three Dog Night); True Colors (Marina and the Diamonds); We're Going to Be Friends (The White Stripes); Shout (Tears for Fears); The Middle (Jimmy Eat World); Don't You Worry Child (Swedish House Mafia),,0.5188571428571429,0.6998571428571428,0.5018571428571429,124.69171428571428,0.16325714285714285,-7.649285714285715,29.571428571428573,psych-rock;hip-hop;folk;alt-rock;rock;power-pop;dance,7.0,,,,,,
+2025,Pi Beta Phi & Phi Kappa Chi,That's Life!,Pigskin,That's Life (Frank Sinatra); All Shook Up (Elvis Presley); Wings (Glee Cast (Little Mix)); It's My Life (Bon Jovi); Go Your Own Way (Fleetwood Mac); Lead Me On (Chandler Moore); For Once in My Life (Stevie Wonder); Faith (Stevie Wonder & Ariana Grande); Gimme Some Lovin' (Blues Brothers),https://www.youtube.com/watch?v=R-P3QY-PZnk,0.5664444444444444,0.8382222222222223,0.6416777777777778,126.20177777777778,0.14039905555555554,-5.958111111111111,22.22222222222222,grindcore;rock-n-roll;club;metal;rock;country;funk;blues,9.0,,,,,,
+2025,Sigma Chi,Careful What You Wish For,Participated,"Freedom (Pharrell Williams); Can't Take My Eyes Off of You (Frankie Valle); Money (That's What I Want) (Barrett Strong); Good Tonight (Daniel Pemberton); Oogie Boogie Song (Ed Ivory, Ken Page); The Other Side of Hollywood (Julie and the Phantoms Cast); Toxic (Britney Spears); Magic Carpet Ride (Steppenwolf)",,0.5688571428571428,0.6597142857142858,0.6921428571428571,115.85228571428571,0.4027142857142857,-8.702428571428571,27.142857142857142,hip-hop;disco;garage;rock-n-roll;opera;dance;blues,8.0,,,,,,
+2025,Sing Alliance,It's All in the Cards,Participated,"The Greatest Show (The Greatest Showman); Do You Believe in Magic? (The Lovin' Spoonful); Party Rock Anthem (LMFAO, Lauren Bennett, Goon Rock); You Shook Me All Night Long (AC/DC); Baby One More Time (Britney Spears); Beggin' (Maneskin); I Still Haven't Found What I'm Lookin' For (U2); You're the One That I Want (Grease (John Travolta, Olivia Newton John)); It's Gonna Be Me (*NSYNC)",,0.6313333333333334,0.7721111111111111,0.6616666666666666,129.77233333333334,0.13375555555555554,-6.092333333333333,36.22222222222222,hard-rock;rock-n-roll;dance;country;indie-pop;rock;disco,9.0,,,,,,
+2025,Tau Kappa Epsilon,Sing for the Fences!,Participated,Running Down a Dream (Tom Petty); School's Out (Alice Cooper); Centerfield (John Fogerty); Feels Like the First Time (Foreigner); (Don't Fear) The Reaper (Blue Oyster Cult); Green Onions (Booker T. & the MGs); Playing With the Boys (Kenny Loggins),,0.47000000000000003,0.7771428571428572,0.5933571428571429,133.91514285714285,0.2541868,-7.245571428571429,24.142857142857142,pop;hard-rock;blues;funk;guitar,7.0,,,,,,
+2025,Zeta Tau Alpha,Music Box Breakout,Pigskin,There's No Business Like Show Business (Ethel Merman (Annie Get Your Gun Musical)); Say a Little Prayer for You (Tori Kelly); You Keep Me Hangin' On (Kim Wilde (The Supremes)); Mother Knows Best (Donna Murphy (Tangled soundtrack)); Set Fire to the Rain (Adele); Freedom (Beyonce); Dancing With Myself (Billy Idol),,0.5442,0.7854,0.595,138.22719999999998,0.06358119999999999,-5.3814,26.4,disco;pop;industrial;hard-rock,7.0,,,,,,
+2026,Alpha Chi Omega,Catch Her If You Can,Pigskin,,,,,,,,,,,,,,,,,
+2026,Alpha Delta Pi,Flight 1851,Participated,,,,,,,,,,,,,,,,,
+2026,Alpha Phi,No Strings Attached,Participated,Don't Stop 'til You Get Enough; Valerie; Blue Suede Shoes,,0.6093333333333334,0.766,0.799,146.03833333333333,0.09149333333333333,-6.922999999999999,19.0,punk-rock;indie-pop;rock-n-roll,3.0,,,,,,
+2026,Beta Upsilon Chi,Grill of Rights,1st,It's the Hard-Knock Life,,0.238,0.988,0.216,140.018,1.37e-06,-5.007,11.0,goth,1.0,,,,,,
+2026,Chi Omega & Alpha Tau Omega,Careful What You Witch For,Pigskin,Witchy Woman; Disturbia; Wake Me Up Before You Go Go; Little Less Conversation; Treasure; Blame it on the Boogie,,0.6766666666666666,0.7294999999999999,0.7473333333333333,109.04366666666665,0.12963333333333335,-6.6475,34.0,psych-rock;deep-house;disco;rock-n-roll;dance,6.0,,,,,,
+2026,Delta Delta Delta,When A Mouse Eats A Cookie,3rd,Just Can't Get Enough; Cell Block Tango; Freak Out,,0.6849999999999999,0.6016666666666667,0.5263333333333333,105.24033333333334,0.28342666666666666,-9.812666666666667,35.333333333333336,acoustic;show-tunes;funk,3.0,,,,,,
+2026,Delta Tau Delta,Model Citizens,Participated,Poker Face; Poison,,0.6775,0.6415,0.534,105.025,0.498365,-11.053,29.5,piano;k-pop,2.0,,,,,,
+2026,Kappa Alpha Order,Baylor's First Dance,Participated,Smells Like Teen Spirit; Iris,,0.7065,0.48,0.234,129.53,0.17459249999999998,-10.6675,1.0,comedy;club,2.0,,,,,,
+2026,Kappa Alpha Theta,London's Calling,Participated,,,,,,,,,,,,,,,,,
+2026,Kappa Chi Alpha & Beta Theta Pi,Hollywood Breakdown,Participated,Popular; Applause; Fabulous,,0.7200000000000001,0.7440000000000001,0.834,130.632,0.025966666666666666,-6.176666666666667,28.333333333333332,trip-hop;dance;chicago-house,3.0,,,,,,
+2026,Kappa Kappa Gamma,Together We Can!,Pigskin,,,,,,,,,,,,,,,,,
+2026,Kappa Omega Tau,Banker's Paradise,Participated,,,,,,,,,,,,,,,,,
+2026,Kappa Sigma,So Fresh So Clean,Participated,,,,,,,,,,,,,,,,,
+2026,Phi Kappa Chi,Cold as Ice!,2nd,Let It Snow; Hot in Herre,,0.5925,0.6759999999999999,0.6285,102.395,0.1671,-5.7175,25.5,club;soul,2.0,,,,,,
+2026,Pi Beta Phi,Out of the Box,Pigskin,Somebody to Love; Candyman; Nicest Kids in Town; P.Y.T; Shake Your Groove Thing; Hit Me with Your Best Shot; Smooth Operator; Lets Here it for the Boy,,0.6765,0.729875,0.736625,133.741125,0.141822625,-7.122875,23.625,dub;club;metalcore;hardcore;disco;goth;funk,8.0,,,,,,
+2026,Sigma Alpha Epsilon,Bear-ly Made It,Participated,,,,,,,,,,,,,,,,,
+2026,Sing Alliance,Psst…I See Dead People,Participated,Calling All The Monsters; Ain't It Fun; Not Like Us,,0.5690000000000001,0.8556666666666667,0.627,131.97133333333332,0.053116666666666666,-4.986999999999999,59.666666666666664,pop;emo;country,3.0,,,,,,
+2026,Zeta Tau Alpha & Sigma Chi,The Love Show,Participated,,,,,,,,,,,,,,,,,
