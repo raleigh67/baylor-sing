@@ -77,50 +77,70 @@ def _is_winner(placement: str) -> bool:
     return p in ("1st", "1st (tie)")
 
 
-def sound1_violin(df: pd.DataFrame, col: str, filename: str, title: str) -> None:
-    """Violin plot: winners vs. field for a given audio feature."""
+def sound1_box(df: pd.DataFrame, col: str, filename: str, title: str) -> None:
+    """Box plot with jittered points: winners vs. field for an audio feature."""
     subset = df.dropna(subset=[col])
     if len(subset) < 10:
         print(f"  SKIP {filename}: not enough data for {col}")
         return
 
     subset = subset.copy()
-    subset["is_winner"] = subset["Placement"].apply(_is_winner)
-
-    winners = subset.loc[subset["is_winner"], col]
-    field = subset.loc[~subset["is_winner"], col]
+    subset["group"] = subset["Placement"].apply(
+        lambda p: "Winners (1st)" if _is_winner(p) else "Field"
+    )
 
     fig = go.Figure()
-    fig.add_trace(go.Violin(
-        y=field,
+
+    # Field — box + strip
+    field = subset[subset["group"] == "Field"]
+    fig.add_trace(go.Box(
+        y=field[col],
         name="Field",
-        side="negative",
-        line_color="#555",
-        fillcolor="rgba(85,85,85,0.4)",
-        meanline_visible=True,
-        points="all",
-        jitter=0.05,
-        pointpos=-0.6,
-        marker=dict(size=3, color="#555"),
+        marker_color="#555",
+        line_color="#777",
+        fillcolor="rgba(85,85,85,0.3)",
+        boxmean=True,
+        width=0.4,
     ))
-    fig.add_trace(go.Violin(
-        y=winners,
-        name="Winners (1st)",
-        side="positive",
+    fig.add_trace(go.Scatter(
+        y=field[col],
+        x=["Field"] * len(field),
+        mode="markers",
+        name="Field acts",
+        marker=dict(color="#888", size=5, opacity=0.6),
+        hovertext=[f"{r.Group} ({r.Year})" for _, r in field.iterrows()],
+        hoverinfo="text+y",
+        showlegend=False,
+    ))
+
+    # Winners — box + strip
+    winners = subset[subset["group"] == "Winners (1st)"]
+    fig.add_trace(go.Box(
+        y=winners[col],
+        name="Winners",
+        marker_color="#e94560",
         line_color="#e94560",
-        fillcolor="rgba(233,69,96,0.4)",
-        meanline_visible=True,
-        points="all",
-        jitter=0.05,
-        pointpos=0.6,
-        marker=dict(size=3, color="#e94560"),
+        fillcolor="rgba(233,69,96,0.3)",
+        boxmean=True,
+        width=0.4,
     ))
+    fig.add_trace(go.Scatter(
+        y=winners[col],
+        x=["Winners"] * len(winners),
+        mode="markers",
+        name="Winner acts",
+        marker=dict(color="#e94560", size=8, opacity=0.9),
+        hovertext=[f"{r.Group} ({r.Year})" for _, r in winners.iterrows()],
+        hoverinfo="text+y",
+        showlegend=False,
+    ))
+
     fig.update_layout(
         title=title,
         yaxis_title=col.capitalize(),
-        violinmode="overlay",
-        showlegend=True,
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        yaxis=dict(range=[0, 1]),
+        showlegend=False,
+        boxmode="group",
         **DARK_LAYOUT,
     )
     save_chart(fig, filename)
@@ -419,9 +439,9 @@ def main() -> None:
     print(f"  {len(sp)} rows after filtering to {MIN_YEAR}+")
 
     print("\n--- Sound Section ---")
-    sound1_violin(df, "energy", "sound1_energy.json", "Energy: Winners vs Field")
-    sound1_violin(df, "valence", "sound1_valence.json", "Valence: Winners vs Field")
-    sound1_violin(df, "danceability", "sound1_danceability.json", "Danceability: Winners vs Field")
+    sound1_box(df, "energy", "sound1_energy.json", "Energy: Winners vs Field")
+    sound1_box(df, "valence", "sound1_valence.json", "Valence: Winners vs Field")
+    sound1_box(df, "danceability", "sound1_danceability.json", "Danceability: Winners vs Field")
     sound2_top_artists(sp)
     sound2_song_age(sp)
     sound3_genre_stream(sp)
