@@ -401,14 +401,22 @@ def dashboard_data(df: pd.DataFrame) -> None:
 # ===================================================================
 
 
+MIN_YEAR = 2022  # Only use data from 2022+ where coverage is comprehensive
+
+
 def main() -> None:
     print("Loading enriched dataset...")
-    df = pd.read_csv(ENRICHED_CSV)
-    print(f"  {len(df)} rows, {len(df.columns)} columns")
+    df_all = pd.read_csv(ENRICHED_CSV)
+    print(f"  {len(df_all)} rows total")
+
+    # Filter to 2022+ for all charts except appendix
+    df = df_all[df_all["Year"] >= MIN_YEAR].copy()
+    print(f"  {len(df)} rows after filtering to {MIN_YEAR}+")
 
     print("Loading spotify features...")
-    sp = pd.read_csv(SPOTIFY_CSV)
-    print(f"  {len(sp)} rows, {len(sp.columns)} columns")
+    sp_all = pd.read_csv(SPOTIFY_CSV)
+    sp = sp_all[sp_all["year"] >= MIN_YEAR].copy()
+    print(f"  {len(sp)} rows after filtering to {MIN_YEAR}+")
 
     print("\n--- Sound Section ---")
     sound1_violin(df, "energy", "sound1_energy.json", "Energy: Winners vs Field")
@@ -423,7 +431,7 @@ def main() -> None:
     color2_correlation(df)
 
     print("\n--- Appendix ---")
-    appendix_completeness(df)
+    appendix_completeness(df_all)  # use ALL years to show full data story
 
     print("\n--- Dashboard ---")
     dashboard_data(df)
