@@ -37,10 +37,30 @@ DARK_LAYOUT = dict(
 )
 
 
+def _strip_bdata(obj):
+    """Recursively convert Plotly bdata dicts to plain lists."""
+    import base64, struct
+    if isinstance(obj, dict):
+        if "bdata" in obj and "dtype" in obj:
+            dtype = obj["dtype"]
+            raw = base64.b64decode(obj["bdata"])
+            fmt = {"f8": "d", "f4": "f", "i4": "i", "i2": "h", "u1": "B", "i1": "b"}
+            c = fmt.get(dtype, "d")
+            n = len(raw) // struct.calcsize(c)
+            return list(struct.unpack(f"<{n}{c}", raw))
+        return {k: _strip_bdata(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_strip_bdata(item) for item in obj]
+    return obj
+
+
 def save_chart(fig: go.Figure, name: str) -> None:
-    """Write a Plotly figure to JSON."""
+    """Write a Plotly figure to JSON with plain arrays (no base64 bdata)."""
+    import json as _json
     path = CHARTS_DIR / name
-    path.write_text(fig.to_json())
+    spec = json.loads(fig.to_json())
+    spec = _strip_bdata(spec)
+    path.write_text(_json.dumps(spec, default=str))
     print(f"  -> {path}")
 
 
