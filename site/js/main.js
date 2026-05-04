@@ -133,32 +133,13 @@ function renderEncore(root, acts) {
   const sortedArtists = [...artistCounts.entries()].sort((a, b) => b[1] - a[1]);
   const [topArtist, topCount] = sortedArtists[0] || ["—", 0];
 
-  // Most-covered song title
-  const songCounts = new Map();
-  acts.forEach(a => {
-    if (!a.songs) return;
-    a.songs.split(";").forEach(s => {
-      const m = s.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
-      const title = (m ? m[1] : s).trim().toLowerCase();
-      if (title) songCounts.set(title, (songCounts.get(title) || 0) + 1);
-    });
-  });
-  const repeatedSongs = [...songCounts.entries()].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
-
-  // Most-vivid + most-muted year
+  // Most-vivid year
   const yearAvgSat = {};
   [2022, 2023, 2024, 2025].forEach(yr => {
     const yt = ytActs.filter(a => a.year === yr);
     yearAvgSat[yr] = yt.length ? yt.reduce((s, a) => s + a.avg_sat, 0) / yt.length : 0;
   });
-  const vividYearSorted = Object.entries(yearAvgSat).sort((a, b) => b[1] - a[1]);
-  const vividYear = vividYearSorted[0][0];
-
-  // Group most appearances
-  const groupCounts = new Map();
-  acts.forEach(a => groupCounts.set(a.group, (groupCounts.get(a.group) || 0) + 1));
-  const [topGroup, topGroupCount] = [...groupCounts.entries()].sort((a, b) => b[1] - a[1])[0];
-  const topGroupAct = acts.find(a => a.group === topGroup);
+  const vividYear = Object.entries(yearAvgSat).sort((a, b) => b[1] - a[1])[0][0];
 
   // Oldest song performed
   let oldestSong = null;
@@ -170,10 +151,9 @@ function renderEncore(root, acts) {
   const allSongAges = acts.flatMap(a => (a.song_ages || []).map(s => s.age));
   const avgSongAge = allSongAges.reduce((s, x) => s + x, 0) / (allSongAges.length || 1);
 
-  // Most-danceable + highest-tempo + most-energetic acts
+  // Most-danceable + fastest-tempo
   const mostDanceable = [...audioActs].sort((a, b) => b.danceability - a.danceability)[0];
   const fastestTempo = [...audioActs].filter(a => a.tempo).sort((a, b) => b.tempo - a.tempo)[0];
-  const mostEnergetic = [...audioActs].sort((a, b) => b.energy - a.energy)[0];
 
   // Joint acts
   const jointActs = acts.filter(a => /\s(&|and)\s/i.test(a.group)).length;
@@ -244,15 +224,7 @@ function renderEncore(root, acts) {
     cap(c, [`${(yearAvgSat[vividYear] * 100).toFixed(0)}% average saturation across the year's palettes.`]);
   });
 
-  // 4. Most-appearing group with palette
-  card("ec-with-strip", c => {
-    lab(c, "Most appearances");
-    num(c, topGroup);
-    cap(c, [`${topGroupCount} acts in four years` + (topGroupAct ? ` — palette below from their ${topGroupAct.year} act.` : ".")]);
-    if (topGroupAct) strip(c, topGroupAct.palette, topGroupAct.props);
-  });
-
-  // 5. Oldest song
+  // 4. Oldest song
   if (oldestSong) {
     card("", c => {
       lab(c, "The oldest cover");
@@ -261,7 +233,7 @@ function renderEncore(root, acts) {
     });
   }
 
-  // 6. Most danceable
+  // 5. Most danceable
   if (mostDanceable) {
     card("ec-with-strip", c => {
       lab(c, "Most danceable");
@@ -271,7 +243,7 @@ function renderEncore(root, acts) {
     });
   }
 
-  // 7. Fastest tempo
+  // 6. Fastest tempo
   if (fastestTempo) {
     card("", c => {
       lab(c, "Fastest tempo");
@@ -280,33 +252,7 @@ function renderEncore(root, acts) {
     });
   }
 
-  // 8. Most energetic
-  if (mostEnergetic) {
-    card("", c => {
-      lab(c, "Most energetic");
-      num(c, mostEnergetic.group);
-      cap(c, [`Energy ${mostEnergetic.energy.toFixed(2)} · ${mostEnergetic.year}` + (mostEnergetic.theme ? ` "${mostEnergetic.theme}"` : "")]);
-    });
-  }
-
-  // 9. Repeated songs (mini list)
-  if (repeatedSongs.length > 0) {
-    card("ec-list", c => {
-      lab(c, "Songs covered more than once");
-      const ul = document.createElement("ul");
-      ul.className = "encore-list";
-      repeatedSongs.slice(0, 5).forEach(([title, n]) => {
-        const li = document.createElement("li");
-        const t = document.createElement("span"); t.className = "ec-li-title"; t.textContent = title.replace(/\b\w/g, c => c.toUpperCase());
-        const v = document.createElement("span"); v.className = "ec-li-count"; v.textContent = `× ${n}`;
-        li.appendChild(t); li.appendChild(v);
-        ul.appendChild(li);
-      });
-      c.appendChild(ul);
-    });
-  }
-
-  // 10. Average song age
+  // 7. Average song age
   card("", c => {
     lab(c, "Average song age");
     num(c, `${avgSongAge.toFixed(1)} yrs`);
