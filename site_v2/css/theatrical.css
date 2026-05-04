@@ -1,0 +1,63 @@
+/* site_v2/css/theatrical.css */
+.scene-theatrical {
+  background: radial-gradient(ellipse at top, var(--velvet) 0%, var(--velvet-deep) 60%, var(--ink) 100%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.scene-theatrical .scene-header { text-align: center; }
+.scene-theatrical .scene-header h2 { color: var(--gold-bright); text-shadow: 0 2px 8px rgba(0,0,0,.5); }
+
+/* Curtain (Scene I) */
+.curtain {
+  position: absolute; top: 0; bottom: 0; width: 25%;
+  background: repeating-linear-gradient(90deg, var(--velvet) 0px, #4a0b0f 10px, var(--velvet) 22px);
+  box-shadow: inset 0 0 60px rgba(0,0,0,.4);
+  transition: transform 1.2s var(--ease);
+}
+.curtain-left { left: 0; border-right: 2px solid var(--gold); }
+.curtain-right { right: 0; border-left: 2px solid var(--gold); transform: scaleX(-1); }
+.curtains-open .curtain-left { transform: translateX(-100%); }
+.curtains-open .curtain-right { transform: translateX(100%) scaleX(-1); }
+
+.hero { position: relative; z-index: 2; text-align: center; }
+.hero .logo {
+  font-family: var(--font-display); font-style: italic; font-weight: 900;
+  font-size: 144px; line-height: 1; margin: 0;
+  color: transparent;
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold) 50%, var(--gold-dim));
+  -webkit-background-clip: text; background-clip: text;
+  text-shadow: 0 4px 12px rgba(0,0,0,.6);
+  opacity: 0; transition: opacity 1.4s var(--ease) 0.6s;
+}
+.curtains-open .hero .logo { opacity: 1; }
+.hero .subtitle-line {
+  font-family: var(--font-display); font-style: italic;
+  color: var(--text-primary); font-size: 18px; margin-top: 16px;
+  opacity: 0; transition: opacity 0.8s var(--ease) 1.4s;
+}
+.curtains-open .hero .subtitle-line { opacity: 1; }
+
+.scroll-cue {
+  position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%);
+  color: var(--gold); font-size: 24px; opacity: 0;
+  animation: scroll-cue-blink 2s ease-in-out infinite;
+  animation-delay: 2.6s;
+}
+@keyframes scroll-cue-blink { 0%, 100% { opacity: .3; transform: translateX(-50%) translateY(0); } 50% { opacity: 1; transform: translateX(-50%) translateY(8px); } }
+
+/* Methodology */
+.methodology-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; max-width: 960px; margin: 0 auto; }
+.method-panel { background: var(--ink-2); border: 1px solid var(--border-quiet); border-radius: 6px; padding: 24px 28px; }
+.method-panel h3 { font-family: var(--font-display); font-style: italic; color: var(--gold); margin: 0 0 12px; font-size: 22px; }
+.method-panel p { color: var(--text-primary); font-size: 14px; line-height: 1.7; margin: 0; }
+
+/* Encore */
+.fin { text-align: center; margin: 80px 0 32px; }
+.fin span { font-family: var(--font-display); font-style: italic; font-weight: 900; font-size: 96px; line-height: 1; color: transparent; background: linear-gradient(180deg, var(--gold-bright), var(--gold-dim)); -webkit-background-clip: text; background-clip: text; }
+.credits { text-align: center; color: var(--text-tertiary); font-size: 12px; line-height: 1.8; }
+.credits a { color: var(--text-secondary); }
+
+@media (max-width: 720px) {
+  .hero .logo { font-size: 88px; }
+  .methodology-panels { grid-template-columns: 1fr; }
+  .fin span { font-size: 64px; }
+}
