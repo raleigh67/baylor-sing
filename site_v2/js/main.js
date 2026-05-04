@@ -6,6 +6,8 @@ import { render as renderSongAge } from "./charts/song_age.js";
 import { render as renderGenre } from "./charts/genre_proportions.js";
 import { render as renderPaletteStacks } from "./charts/palette_stacks.js";
 import { render as renderColorWheel } from "./charts/color_wheel.js";
+import { render as renderSatVal } from "./charts/sat_val_scatter.js";
+import { render as renderExtremes } from "./charts/extremes.js";
 
 const charts = {};
 
@@ -22,6 +24,8 @@ async function init() {
   renderGenre(document.getElementById("genre-proportions"), acts);
   renderPaletteStacks(document.getElementById("palette-stacks"), acts);
   renderColorWheel(document.getElementById("color-wheel"), acts);
+  renderSatVal(document.getElementById("sat-val-scatter"), acts);
+  renderExtremes(document.getElementById("extremes"), acts);
   window.__sing = { acts, charts };
 }
 init();
