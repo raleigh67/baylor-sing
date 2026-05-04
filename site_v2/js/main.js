@@ -173,5 +173,16 @@ async function init() {
   renderFirstPlaceSpotlights(document.getElementById("first-place-spotlights"), acts);
   renderEncore(document.getElementById("big-numbers"), acts);
   window.__sing = { acts, charts };
+
+  document.addEventListener("cast-tile-click", e => {
+    const { year, group } = e.detail;
+    const audioMap = document.getElementById("audio-map");
+    audioMap.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => {
+      if (charts.audioMap && charts.audioMap.highlight) {
+        charts.audioMap.highlight(d => d.year === year && d.group === group);
+      }
+    }, 700);
+  });
 }
 init();
