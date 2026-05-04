@@ -17,6 +17,7 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 PARQUET = BASE_DIR / "data" / "sing_enriched.parquet"
 PALETTE_CSV = BASE_DIR / "data" / "color_palettes.csv"
+SPOTIFY_CSV = BASE_DIR / "data" / "spotify_features.csv"
 OUT = BASE_DIR / "site" / "data" / "acts.json"
 
 
@@ -63,10 +64,42 @@ def weighted_hsv(hexes: list[str], props: list[float]) -> tuple[float, float, fl
     return avg_hue, ssat / wt, sval / wt
 
 
+def build_song_ages(spotify_df: pd.DataFrame) -> dict[tuple[int, str], list[dict]]:
+    """Per-(year, group) list of {title, artist, age_years} entries."""
+    out: dict[tuple[int, str], list[dict]] = {}
+    for _, s in spotify_df.iterrows():
+        try:
+            sing_year = int(s.year)
+        except (ValueError, TypeError):
+            continue
+        if sing_year < 2022 or sing_year > 2025:
+            continue
+        if pd.isna(s.kaggle_year):
+            continue
+        try:
+            release_year = int(s.kaggle_year)
+        except (ValueError, TypeError):
+            continue
+        age = sing_year - release_year
+        # Sanity: discard nonsense ages (e.g., release_year > sing_year by a lot suggests bad match)
+        if age < -1 or age > 100:
+            continue
+        key = (sing_year, str(s.group))
+        out.setdefault(key, []).append({
+            "title": str(s.song_title) if pd.notna(s.song_title) else "",
+            "artist": str(s.song_artist) if pd.notna(s.song_artist) else "",
+            "release_year": release_year,
+            "age": max(0, age),
+        })
+    return out
+
+
 def main() -> None:
     df = pd.read_parquet(PARQUET)
     palettes = pd.read_csv(PALETTE_CSV)
+    spotify = pd.read_csv(SPOTIFY_CSV)
     palette_idx = {row.group_dir: row for _, row in palettes.iterrows()}
+    song_ages_idx = build_song_ages(spotify)
 
     acts = []
     for _, r in df[(df.Year >= 2022) & (df.Year <= 2025)].sort_values(["Year", "Group"]).iterrows():
@@ -77,6 +110,8 @@ def main() -> None:
         hexes = p.palette_hex.split(";")
         props = [float(x) for x in p.palette_proportions.split(";")]
         avg_h, avg_s, avg_v = weighted_hsv(hexes, props)
+        song_ages = song_ages_idx.get((int(r.Year), r.Group), [])
+        avg_age = (sum(s["age"] for s in song_ages) / len(song_ages)) if song_ages else None
         acts.append({
             "year": int(r.Year),
             "group": r.Group,
@@ -90,6 +125,8 @@ def main() -> None:
             "popularity": float(r.popularity) if pd.notna(r.popularity) else None,
             "genres": r.genres if pd.notna(r.genres) else "",
             "song_count": int(r.song_count) if pd.notna(r.song_count) else 0,
+            "song_ages": song_ages,
+            "avg_song_age": avg_age,
             "palette": hexes,
             "props": props,
             "dominant": vivid_pick(hexes, props),
@@ -102,7 +139,8 @@ def main() -> None:
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(acts, separators=(",", ":")))
-    print(f"wrote {len(acts)} acts to {OUT.relative_to(BASE_DIR)}")
+    total_songs_with_ages = sum(len(a["song_ages"]) for a in acts)
+    print(f"wrote {len(acts)} acts to {OUT.relative_to(BASE_DIR)} ({total_songs_with_ages} songs with ages)")
 
 
 if __name__ == "__main__":

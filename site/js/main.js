@@ -45,6 +45,12 @@ function renderPigskinReveal(root, acts) {
     const card = document.createElement("div");
     card.className = "verdict-tile " + (isMedal(a.placement) ? "vt-medal" : "vt-pigskin");
     if (a.placement === "1st") card.classList.add("vt-gold");
+    card.dataset.year = a.year;
+    card.dataset.group = a.group;
+    card.style.cursor = "pointer";
+    card.addEventListener("click", () => {
+      document.dispatchEvent(new CustomEvent("focus-act", { detail: { year: a.year, group: a.group } }));
+    });
 
     const strip = document.createElement("div");
     strip.className = "vt-strip";
@@ -162,11 +168,11 @@ async function init() {
   charts.castGrid = renderCastGrid(document.getElementById("cast-grid"), acts);
   charts.audioMap = renderAudioMap(document.getElementById("audio-map"), acts);
   renderTopArtists(document.getElementById("top-artists"), acts);
-  renderSongAge(document.getElementById("song-age"), acts);
+  charts.songAge = renderSongAge(document.getElementById("song-age"), acts);
   renderGenre(document.getElementById("genre-proportions"), acts);
-  renderPaletteStacks(document.getElementById("palette-stacks"), acts);
-  renderColorWheel(document.getElementById("color-wheel"), acts);
-  renderSatVal(document.getElementById("sat-val-scatter"), acts);
+  charts.paletteStacks = renderPaletteStacks(document.getElementById("palette-stacks"), acts);
+  charts.colorWheel = renderColorWheel(document.getElementById("color-wheel"), acts);
+  charts.satVal = renderSatVal(document.getElementById("sat-val-scatter"), acts);
   renderExtremes(document.getElementById("extremes"), acts);
   renderPigskinReveal(document.getElementById("pigskin-reveal"), acts);
   renderWvP(document.getElementById("winner-vs-participant"), acts);
@@ -174,15 +180,44 @@ async function init() {
   renderEncore(document.getElementById("big-numbers"), acts);
   window.__sing = { acts, charts };
 
+  // === Per-act focus: click a cast tile (or any chart dot) -> filter all downstream ===
+  const focusBar = document.getElementById("selected-act-bar");
+  const focusName = focusBar.querySelector(".selected-name");
+  const focusClear = focusBar.querySelector(".selected-clear");
+
+  function setFocus(year, group) {
+    const matchFn = d => d.year === year && d.group === group;
+    const act = acts.find(matchFn);
+    if (!act) return;
+    focusBar.hidden = false;
+    focusName.textContent = `${act.year} ${act.group}` + (act.theme ? ` — ${act.theme}` : "");
+    Object.values(charts).forEach(c => { if (c && c.highlight) c.highlight(matchFn); });
+    // Tag cast/verdict tiles too (they're DOM-level, not chart instances)
+    document.querySelectorAll(".cast-tile, .verdict-tile").forEach(el => {
+      el.classList.remove("focused", "dimmed");
+      const matches = String(el.dataset.year || "") === String(year)
+        && String(el.dataset.group || "") === String(group);
+      if (matches) el.classList.add("focused");
+      else el.classList.add("dimmed");
+    });
+  }
+  function clearFocus() {
+    focusBar.hidden = true;
+    Object.values(charts).forEach(c => { if (c && c.reset) c.reset(); });
+    document.querySelectorAll(".cast-tile, .verdict-tile").forEach(el => {
+      el.classList.remove("focused", "dimmed");
+    });
+  }
+  focusClear.addEventListener("click", clearFocus);
+
   document.addEventListener("cast-tile-click", e => {
     const { year, group } = e.detail;
-    const audioMap = document.getElementById("audio-map");
-    audioMap.scrollIntoView({ behavior: "smooth", block: "center" });
-    setTimeout(() => {
-      if (charts.audioMap && charts.audioMap.highlight) {
-        charts.audioMap.highlight(d => d.year === year && d.group === group);
-      }
-    }, 700);
+    setFocus(year, group);
+    document.getElementById("scene-sound").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  document.addEventListener("focus-act", e => {
+    const { year, group } = e.detail;
+    setFocus(year, group);
   });
 
   // scrollama is a UMD bundle; it attaches `scrollama` to window

@@ -1,24 +1,51 @@
-// site_v2/js/charts/color_wheel.js
+// site/js/charts/color_wheel.js
 import { isYTSource, isMedal, hexToHsv } from "../data.js";
 
 const NS = "http://www.w3.org/2000/svg";
 function svg(tag, attrs) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+const QUADRANTS = [
+  { id: "all",    label: "All",     viewBox: "0 0 400 400" },
+  { id: "warm",   label: "Warm",    viewBox: "100 0 200 200" },   // top-right (red→yellow)
+  { id: "cool",   label: "Cool",    viewBox: "100 200 200 200" }, // bottom-right etc
+  { id: "purple", label: "Purple",  viewBox: "0 200 200 200" },
+  { id: "green",  label: "Green",   viewBox: "0 0 200 200" },
+];
 
 export function render(root, acts) {
   const valid = acts.filter(isYTSource);
   const cx = 200, cy = 200, rMax = 170;
 
   while (root.firstChild) root.removeChild(root.firstChild);
+
+  // Zoom controls
+  const zoomBar = document.createElement("div");
+  zoomBar.className = "chart-zoom-controls";
+  QUADRANTS.forEach(q => {
+    const btn = document.createElement("button");
+    btn.className = "chart-zoom-btn" + (q.id === "all" ? " active" : "");
+    btn.textContent = q.label;
+    btn.dataset.zoom = q.id;
+    btn.addEventListener("click", () => {
+      zoomBar.querySelectorAll(".chart-zoom-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      svgEl.setAttribute("viewBox", q.viewBox);
+    });
+    zoomBar.appendChild(btn);
+  });
+  root.appendChild(zoomBar);
+
   const wrap = document.createElement("div");
   wrap.className = "cw-wrap";
   const svgEl = svg("svg", { viewBox: "0 0 400 400", width: "100%" });
+  svgEl.style.transition = "viewBox .3s ease";
   wrap.appendChild(svgEl);
   const tip = document.createElement("div");
   tip.className = "chart-tooltip";
   wrap.appendChild(tip);
   root.appendChild(wrap);
 
-  // Conic gradient hue ring via foreignObject
+  // Conic gradient hue ring
   const fo = svg("foreignObject", { x: cx - rMax - 12, y: cy - rMax - 12, width: (rMax + 12) * 2, height: (rMax + 12) * 2 });
   const ring = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
   ring.style.cssText = "width:100%;height:100%;border-radius:50%;background:conic-gradient(from -90deg, hsl(0,70%,50%), hsl(60,70%,50%), hsl(120,70%,50%), hsl(180,70%,50%), hsl(240,70%,50%), hsl(300,70%,50%), hsl(360,70%,50%));mask:radial-gradient(circle at center, transparent 70%, black 71%, black 76%, transparent 77%);-webkit-mask:radial-gradient(circle at center, transparent 70%, black 71%, black 76%, transparent 77%);opacity:.4;";
@@ -36,6 +63,8 @@ export function render(root, acts) {
     lab.textContent = t;
     svgEl.appendChild(lab);
   });
+
+  const dotEntries = [];
 
   valid.forEach(d => {
     const { h: H, s: S } = hexToHsv(d.dominant);
@@ -73,6 +102,24 @@ export function render(root, acts) {
       tip.appendChild(sw);
     });
     dot.addEventListener("mouseleave", () => tip.style.opacity = "0");
+    dot.addEventListener("click", () => {
+      document.dispatchEvent(new CustomEvent("focus-act", { detail: { year: d.year, group: d.group } }));
+    });
     svgEl.appendChild(dot);
+    dotEntries.push({ d, dot });
   });
+
+  function applyFocus(matchFn) {
+    dotEntries.forEach(({ d, dot }) => {
+      dot.classList.remove("focused", "dimmed");
+      if (!matchFn) return;
+      if (matchFn(d)) dot.classList.add("focused");
+      else dot.classList.add("dimmed");
+    });
+  }
+
+  return {
+    highlight(matchFn) { applyFocus(matchFn); },
+    reset() { applyFocus(null); },
+  };
 }

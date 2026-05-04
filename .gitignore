@@ -3,3 +3,4 @@ data/images/
 
 # Brainstorming workspace (visual companion mockups)
 .superpowers/
+__pycache__/

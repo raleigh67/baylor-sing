@@ -39,21 +39,36 @@ export function render(root, acts) {
   [0.25, 0.5, 0.75, 1].forEach(p => {
     svgEl.appendChild(svg("circle", { cx, cy, r: rMax * p, fill: "none", stroke: "var(--border-quiet)", "stroke-width": 0.5 }));
   });
-  function poly(values, color, fillOpacity) {
+  function poly(values, color, fillOpacity, dashed) {
     const pts = values.map((v, i) => {
       const a = (i / features.length * 2 * Math.PI) - Math.PI / 2;
       return [cx + Math.cos(a) * rMax * v, cy + Math.sin(a) * rMax * v];
     });
     const d = "M " + pts.map(p => p.join(",")).join(" L ") + " Z";
-    svgEl.appendChild(svg("path", { d, fill: color, "fill-opacity": fillOpacity, stroke: color, "stroke-width": 2 }));
+    const attrs = { d, fill: color, "fill-opacity": fillOpacity, stroke: color, "stroke-width": 2.5 };
+    if (dashed) attrs["stroke-dasharray"] = "6,4";
+    svgEl.appendChild(svg("path", attrs));
+    // Vertex dots so the shape reads even when fill overlaps
+    pts.forEach(([px, py]) => {
+      svgEl.appendChild(svg("circle", { cx: px, cy: py, r: 4, fill: color, stroke: "#000", "stroke-width": 0.5 }));
+    });
   }
-  poly(lAvg, "var(--text-tertiary)", 0.15);
-  poly(wAvg, "var(--gold)", 0.3);
+  // Participated drawn first (under), with dashed silver outline so it stays visible under the gold
+  poly(lAvg, "#a89260", 0.18, true);
+  poly(wAvg, "var(--gold)", 0.32, false);
 
   const legend = document.createElement("div"); legend.className = "vp-legend";
-  [["var(--gold)", `Pigskin (n=${winners.length})`], ["var(--text-tertiary)", `Participated (n=${losers.length})`]].forEach(([c, txt]) => {
+  [
+    ["var(--gold)", `Pigskin (n=${winners.length})`, false],
+    ["#a89260", `Participated (n=${losers.length})`, true],
+  ].forEach(([c, txt, dashed]) => {
     const span = document.createElement("span");
-    const sw = document.createElement("i"); sw.style.background = c;
+    const sw = document.createElement("i");
+    sw.style.background = c;
+    if (dashed) {
+      sw.style.background = `repeating-linear-gradient(90deg, ${c} 0 6px, transparent 6px 10px)`;
+      sw.style.border = `1px dashed ${c}`;
+    }
     span.appendChild(sw);
     span.appendChild(document.createTextNode(txt));
     legend.appendChild(span);

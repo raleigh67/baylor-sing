@@ -20,9 +20,16 @@
     <div class="hero">
       <h1 class="logo"><i>Sing</i></h1>
       <p class="subtitle-line">Four years. Sixty-seven acts. The data behind the show.</p>
+      <p class="scope-note">A note: this analysis covers the 2022&ndash;2025 cycle only. That&rsquo;s the window where we have comprehensive song lists, video footage, and real per-act color data.</p>
     </div>
     <div class="scroll-cue">&#x2193;</div>
   </section>
+
+  <div id="selected-act-bar" class="selected-bar" hidden>
+    <span class="selected-label">Focused on</span>
+    <span class="selected-name"></span>
+    <button class="selected-clear">&times; show all</button>
+  </div>
 
   <section id="scene-cast" class="scene scene-editorial">
     <header class="scene-header">
@@ -48,7 +55,7 @@
       <div class="chart-mount" id="top-artists"></div>
     </div>
     <div class="chart-block">
-      <div class="chart-prose"><h3>How Old Are These Songs?</h3><p>Spotify popularity bucket for each act's average song.</p></div>
+      <div class="chart-prose"><h3>How Old Are These Songs?</h3><p>Years between a song&rsquo;s release and its Sing performance. Most acts pull from the past 5&ndash;15 years, but a few reach back to the &rsquo;70s and &rsquo;80s.</p></div>
       <div class="chart-mount" id="song-age"></div>
     </div>
     <div class="chart-block">
@@ -89,7 +96,6 @@
   <section id="scene-encore" class="scene scene-theatrical">
     <header class="scene-header"><h2>Encore</h2></header>
     <div id="big-numbers"></div>
-    <div class="fin"><span><i>Fin.</i></span></div>
     <footer class="credits">
       <p>Data: Spotify &middot; baylor-sing-all-acts-final.csv &middot; The Baylor Sing Archive (YouTube)</p>
       <p>Source &amp; methodology on GitHub.</p>
