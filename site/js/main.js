@@ -8,7 +8,6 @@ import { render as renderPaletteStacks } from "./charts/palette_stacks.js";
 import { render as renderColorWheel } from "./charts/color_wheel.js";
 import { render as renderSatVal } from "./charts/sat_val_scatter.js";
 import { render as renderExtremes } from "./charts/extremes.js";
-import { render as renderWvP } from "./charts/winner_vs_participant.js";
 
 const charts = {};
 
@@ -167,15 +166,14 @@ async function init() {
   });
   charts.castGrid = renderCastGrid(document.getElementById("cast-grid"), acts);
   charts.audioMap = renderAudioMap(document.getElementById("audio-map"), acts);
-  renderTopArtists(document.getElementById("top-artists"), acts);
+  charts.topArtists = renderTopArtists(document.getElementById("top-artists"), acts);
   charts.songAge = renderSongAge(document.getElementById("song-age"), acts);
-  renderGenre(document.getElementById("genre-proportions"), acts);
+  charts.genre = renderGenre(document.getElementById("genre-proportions"), acts);
   charts.paletteStacks = renderPaletteStacks(document.getElementById("palette-stacks"), acts);
   charts.colorWheel = renderColorWheel(document.getElementById("color-wheel"), acts);
   charts.satVal = renderSatVal(document.getElementById("sat-val-scatter"), acts);
   renderExtremes(document.getElementById("extremes"), acts);
   renderPigskinReveal(document.getElementById("pigskin-reveal"), acts);
-  renderWvP(document.getElementById("winner-vs-participant"), acts);
   renderFirstPlaceSpotlights(document.getElementById("first-place-spotlights"), acts);
   renderEncore(document.getElementById("big-numbers"), acts);
   window.__sing = { acts, charts };

@@ -108,8 +108,11 @@ export function render(root, acts) {
 
   function rank(p) { return isMedal(p) ? 3 : (p && p.includes && p.includes("Pigskin")) ? 2 : 1; }
 
+  let dotEntries = [];
+
   function draw() {
     while (dotsLayer.firstChild) dotsLayer.removeChild(dotsLayer.firstChild);
+    dotEntries = [];
     const visible = plottable
       .filter(d => activeYear === "all" || d.year === parseInt(activeYear))
       .sort((a, b) => rank(a.placement) - rank(b.placement));
@@ -138,7 +141,11 @@ export function render(root, acts) {
 
       grp.addEventListener("mousemove", ev => showTip(ev, d));
       grp.addEventListener("mouseleave", hideTip);
+      grp.addEventListener("click", () => {
+        document.dispatchEvent(new CustomEvent("focus-act", { detail: { year: d.year, group: d.group } }));
+      });
       dotsLayer.appendChild(grp);
+      dotEntries.push({ d, grp, c });
     });
 
     const miss = missing.filter(m => activeYear === "all" || m.year === parseInt(activeYear));
@@ -182,28 +189,17 @@ export function render(root, acts) {
 
   draw();
 
+  function applyFocus(matchFn) {
+    dotEntries.forEach(({ d, c }) => {
+      c.classList.remove("focused", "dimmed");
+      if (!matchFn) return;
+      if (matchFn(d)) c.classList.add("focused");
+      else c.classList.add("dimmed");
+    });
+  }
+
   return {
-    highlight(matchFn) {
-      // Pulse matching dot
-      const dots = dotsLayer.querySelectorAll("g");
-      dots.forEach((grp) => {
-        const idx = Array.from(dotsLayer.children).indexOf(grp);
-        // can't index plottable safely after sort; instead match via stored data
-      });
-      // Re-walk: rebuild with highlight
-      const matched = plottable.filter(matchFn);
-      matched.forEach(d => {
-        // Find the circle at that x,y by scanning current dots
-        const cx = d.valence * W;
-        const cy = (1 - d.energy) * H;
-        dotsLayer.querySelectorAll("circle.chart-dot").forEach(c => {
-          if (Math.abs(parseFloat(c.getAttribute("cx")) - cx) < 0.1 &&
-              Math.abs(parseFloat(c.getAttribute("cy")) - cy) < 0.1) {
-            c.classList.add("highlight-pulse");
-            setTimeout(() => c.classList.remove("highlight-pulse"), 2000);
-          }
-        });
-      });
-    },
+    highlight(matchFn) { applyFocus(matchFn); },
+    reset() { applyFocus(null); },
   };
 }

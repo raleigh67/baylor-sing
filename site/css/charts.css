@@ -125,6 +125,7 @@
   z-index: 50; backdrop-filter: blur(8px);
   box-shadow: 0 4px 16px rgba(0,0,0,.4);
 }
+.selected-bar[hidden] { display: none !important; }
 .selected-bar .selected-label {
   color: var(--text-secondary); font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
 }
