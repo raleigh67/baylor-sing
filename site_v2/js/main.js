@@ -1,5 +1,5 @@
-// site_v2/js/main.js
 import { loadActs } from "./data.js";
+import { render as renderCastGrid } from "./charts/cast_grid.js";
 
 const charts = {};
 
@@ -9,7 +9,7 @@ async function init() {
   requestAnimationFrame(() => {
     document.getElementById("scene-curtain").classList.add("curtains-open");
   });
+  charts.castGrid = renderCastGrid(document.getElementById("cast-grid"), acts);
   window.__sing = { acts, charts };
 }
-
 init();
