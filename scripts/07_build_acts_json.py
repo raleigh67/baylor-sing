@@ -17,7 +17,7 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 PARQUET = BASE_DIR / "data" / "sing_enriched.parquet"
 PALETTE_CSV = BASE_DIR / "data" / "color_palettes.csv"
-OUT = BASE_DIR / "site_v2" / "data" / "acts.json"
+OUT = BASE_DIR / "site" / "data" / "acts.json"
 
 
 def safe_group(g: str) -> str:

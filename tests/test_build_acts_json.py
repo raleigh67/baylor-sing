@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "scripts" / "07_build_acts_json.py"
-OUT = ROOT / "site_v2" / "data" / "acts.json"
+OUT = ROOT / "site" / "data" / "acts.json"
 
 
 def test_build_produces_expected_shape():
