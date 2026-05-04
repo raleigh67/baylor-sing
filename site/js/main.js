@@ -115,47 +115,226 @@ function renderFirstPlaceSpotlights(root, acts) {
 }
 
 function renderEncore(root, acts) {
-  const vals = acts.map(a => a.valence).filter(v => v != null);
-  const avgVal = vals.reduce((s, v) => s + v, 0) / vals.length;
+  // === Derive a slate of facts ===
+  const audioActs = acts.filter(a => a.valence != null);
+  const ytActs = acts.filter(a => a.palette_source === "youtube");
+  const avgVal = audioActs.reduce((s, a) => s + a.valence, 0) / (audioActs.length || 1);
+  const avgEnergy = audioActs.reduce((s, a) => s + a.energy, 0) / (audioActs.length || 1);
 
-  const counts = new Map();
+  // Most-covered artist
+  const artistCounts = new Map();
   acts.forEach(a => {
     if (!a.songs) return;
     a.songs.split(";").forEach(s => {
       const m = s.match(/\(([^)]+)\)\s*$/);
-      if (m) counts.set(m[1].trim(), (counts.get(m[1].trim()) || 0) + 1);
+      if (m) artistCounts.set(m[1].trim(), (artistCounts.get(m[1].trim()) || 0) + 1);
     });
   });
-  const [topArtist, topCount] = [...counts.entries()].sort((a, b) => b[1] - a[1])[0] || ["—", 0];
+  const sortedArtists = [...artistCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const [topArtist, topCount] = sortedArtists[0] || ["—", 0];
 
+  // Most-covered song title
+  const songCounts = new Map();
+  acts.forEach(a => {
+    if (!a.songs) return;
+    a.songs.split(";").forEach(s => {
+      const m = s.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
+      const title = (m ? m[1] : s).trim().toLowerCase();
+      if (title) songCounts.set(title, (songCounts.get(title) || 0) + 1);
+    });
+  });
+  const repeatedSongs = [...songCounts.entries()].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
+
+  // Most-vivid + most-muted year
   const yearAvgSat = {};
   [2022, 2023, 2024, 2025].forEach(yr => {
-    const yt = acts.filter(a => a.year === yr && a.palette_source === "youtube");
+    const yt = ytActs.filter(a => a.year === yr);
     yearAvgSat[yr] = yt.length ? yt.reduce((s, a) => s + a.avg_sat, 0) / yt.length : 0;
   });
-  const vividYear = Object.entries(yearAvgSat).sort((a, b) => b[1] - a[1])[0][0];
+  const vividYearSorted = Object.entries(yearAvgSat).sort((a, b) => b[1] - a[1]);
+  const vividYear = vividYearSorted[0][0];
 
+  // Group most appearances
+  const groupCounts = new Map();
+  acts.forEach(a => groupCounts.set(a.group, (groupCounts.get(a.group) || 0) + 1));
+  const [topGroup, topGroupCount] = [...groupCounts.entries()].sort((a, b) => b[1] - a[1])[0];
+  const topGroupAct = acts.find(a => a.group === topGroup);
+
+  // Oldest song performed
+  let oldestSong = null;
+  acts.forEach(a => (a.song_ages || []).forEach(s => {
+    if (!oldestSong || s.age > oldestSong.age) oldestSong = { ...s, act: a };
+  }));
+
+  // Average song age
+  const allSongAges = acts.flatMap(a => (a.song_ages || []).map(s => s.age));
+  const avgSongAge = allSongAges.reduce((s, x) => s + x, 0) / (allSongAges.length || 1);
+
+  // Most-danceable + highest-tempo + most-energetic acts
+  const mostDanceable = [...audioActs].sort((a, b) => b.danceability - a.danceability)[0];
+  const fastestTempo = [...audioActs].filter(a => a.tempo).sort((a, b) => b.tempo - a.tempo)[0];
+  const mostEnergetic = [...audioActs].sort((a, b) => b.energy - a.energy)[0];
+
+  // Joint acts
+  const jointActs = acts.filter(a => /\s(&|and)\s/i.test(a.group)).length;
+
+  // Unique artists count
+  const uniqueArtists = artistCounts.size;
+
+  // Average song popularity
+  const popVals = acts.map(a => a.popularity).filter(v => v != null);
+  const avgPopularity = popVals.reduce((s, v) => s + v, 0) / (popVals.length || 1);
+
+  // === Render ===
   while (root.firstChild) root.removeChild(root.firstChild);
-  function bignum(num, capParts) {
-    const div = document.createElement("div");
-    div.className = "bignum";
-    const n = document.createElement("div");
-    n.className = "bn-num";
-    n.textContent = num;
-    div.appendChild(n);
-    const cap = document.createElement("div");
-    cap.className = "bn-cap";
-    capParts.forEach(p => {
-      if (typeof p === "string") cap.append(p);
-      else { const it = document.createElement("i"); it.textContent = p.italic; cap.appendChild(it); }
-    });
-    div.appendChild(cap);
-    root.appendChild(div);
+
+  const grid = document.createElement("div");
+  grid.className = "encore-grid";
+  root.appendChild(grid);
+
+  function card(cls, builderFn) {
+    const c = document.createElement("div");
+    c.className = "encore-card " + cls;
+    builderFn(c);
+    grid.appendChild(c);
   }
 
-  bignum(`${(avgVal * 100).toFixed(0)}%`, ["average valence — happier than three out of four pop songs."]);
-  bignum(String(topCount), ["acts covered ", { italic: topArtist }, " — the most-covered artist of the era."]);
-  bignum(vividYear, ["the most vivid year on stage."]);
+  function num(parent, txt) {
+    const n = document.createElement("div"); n.className = "encore-num"; n.textContent = txt; parent.appendChild(n); return n;
+  }
+  function lab(parent, txt) {
+    const l = document.createElement("div"); l.className = "encore-lab"; l.textContent = txt; parent.appendChild(l); return l;
+  }
+  function cap(parent, parts) {
+    const c = document.createElement("div"); c.className = "encore-cap";
+    parts.forEach(p => {
+      if (typeof p === "string") c.append(p);
+      else { const it = document.createElement("i"); it.textContent = p.italic; c.appendChild(it); }
+    });
+    parent.appendChild(c);
+  }
+  function strip(parent, palette, props) {
+    const s = document.createElement("div"); s.className = "encore-strip";
+    palette.slice(0, 6).forEach((h, i) => {
+      const seg = document.createElement("div");
+      seg.style.background = h;
+      seg.style.flex = String(props[i] || 0.05);
+      s.appendChild(seg);
+    });
+    parent.appendChild(s);
+  }
+
+  // 1. Average valence — wide hero card
+  card("ec-hero", c => {
+    num(c, `${(avgVal * 100).toFixed(0)}%`);
+    cap(c, ["average ", { italic: "valence" }, ` across ${audioActs.length} acts — Sing leans bright and major-key, happier than three out of four pop songs.`]);
+  });
+
+  // 2. Top artist
+  card("", c => {
+    lab(c, "Most-covered artist");
+    num(c, topArtist);
+    cap(c, [`${topCount} acts pulled at least one of their songs.`]);
+  });
+
+  // 3. Most-vivid year
+  card("", c => {
+    lab(c, "Most vivid year");
+    num(c, vividYear);
+    cap(c, [`${(yearAvgSat[vividYear] * 100).toFixed(0)}% average saturation across the year's palettes.`]);
+  });
+
+  // 4. Most-appearing group with palette
+  card("ec-with-strip", c => {
+    lab(c, "Most appearances");
+    num(c, topGroup);
+    cap(c, [`${topGroupCount} acts in four years` + (topGroupAct ? ` — palette below from their ${topGroupAct.year} act.` : ".")]);
+    if (topGroupAct) strip(c, topGroupAct.palette, topGroupAct.props);
+  });
+
+  // 5. Oldest song
+  if (oldestSong) {
+    card("", c => {
+      lab(c, "The oldest cover");
+      num(c, `${oldestSong.age} yrs`);
+      cap(c, [{ italic: oldestSong.title }, ` (${oldestSong.release_year}) — ${oldestSong.act.year} ${oldestSong.act.group}.`]);
+    });
+  }
+
+  // 6. Most danceable
+  if (mostDanceable) {
+    card("ec-with-strip", c => {
+      lab(c, "Most danceable");
+      num(c, mostDanceable.group);
+      cap(c, [`Danceability ${mostDanceable.danceability.toFixed(2)} · ${mostDanceable.year}` + (mostDanceable.theme ? ` "${mostDanceable.theme}"` : "")]);
+      strip(c, mostDanceable.palette, mostDanceable.props);
+    });
+  }
+
+  // 7. Fastest tempo
+  if (fastestTempo) {
+    card("", c => {
+      lab(c, "Fastest tempo");
+      num(c, `${Math.round(fastestTempo.tempo)} BPM`);
+      cap(c, [`${fastestTempo.year} ${fastestTempo.group}` + (fastestTempo.theme ? ` — ${fastestTempo.theme}` : "")]);
+    });
+  }
+
+  // 8. Most energetic
+  if (mostEnergetic) {
+    card("", c => {
+      lab(c, "Most energetic");
+      num(c, mostEnergetic.group);
+      cap(c, [`Energy ${mostEnergetic.energy.toFixed(2)} · ${mostEnergetic.year}` + (mostEnergetic.theme ? ` "${mostEnergetic.theme}"` : "")]);
+    });
+  }
+
+  // 9. Repeated songs (mini list)
+  if (repeatedSongs.length > 0) {
+    card("ec-list", c => {
+      lab(c, "Songs covered more than once");
+      const ul = document.createElement("ul");
+      ul.className = "encore-list";
+      repeatedSongs.slice(0, 5).forEach(([title, n]) => {
+        const li = document.createElement("li");
+        const t = document.createElement("span"); t.className = "ec-li-title"; t.textContent = title.replace(/\b\w/g, c => c.toUpperCase());
+        const v = document.createElement("span"); v.className = "ec-li-count"; v.textContent = `× ${n}`;
+        li.appendChild(t); li.appendChild(v);
+        ul.appendChild(li);
+      });
+      c.appendChild(ul);
+    });
+  }
+
+  // 10. Average song age
+  card("", c => {
+    lab(c, "Average song age");
+    num(c, `${avgSongAge.toFixed(1)} yrs`);
+    cap(c, [`Across ${allSongAges.length} songs · oldest 25 yrs, freshest released the same year as the show.`]);
+  });
+
+  // 11. Unique artists
+  card("", c => {
+    lab(c, "Unique artists covered");
+    num(c, String(uniqueArtists));
+    cap(c, [`${acts.reduce((s, a) => s + a.song_count, 0)} total song slots filled across ${acts.length} acts.`]);
+  });
+
+  // 12. Joint acts
+  if (jointActs > 0) {
+    card("", c => {
+      lab(c, "Joint acts");
+      num(c, String(jointActs));
+      cap(c, [`Two-group collaborations across the four years.`]);
+    });
+  }
+
+  // 13. Spotify popularity avg
+  card("", c => {
+    lab(c, "Average song popularity");
+    num(c, `${avgPopularity.toFixed(0)}/100`);
+    cap(c, [`Spotify's 0–100 popularity score, averaged. Sing acts skew toward songs with broad reach.`]);
+  });
 }
 
 async function init() {

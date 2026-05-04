@@ -185,3 +185,98 @@
   font-family: var(--font-body); font-size: 10px; color: var(--text-tertiary);
   margin-top: 6px; font-style: italic;
 }
+
+/* === Encore grid (replaces simple bignum stack) === */
+.encore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 32px auto 56px;
+}
+.encore-card {
+  background: var(--ink-2);
+  border: 1px solid var(--border-quiet);
+  border-radius: 6px;
+  padding: 22px 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.encore-card::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
+  background: linear-gradient(180deg, var(--gold), var(--gold-dim));
+  border-radius: 2px 0 0 2px;
+}
+.encore-card.ec-hero {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 36px 32px;
+  background: radial-gradient(ellipse at top, rgba(107,17,23,.4) 0%, var(--ink-2) 70%);
+  border: 1px solid var(--gold-dim);
+}
+.encore-card.ec-hero .encore-num { font-size: 96px; }
+
+.encore-lab {
+  font-family: var(--font-body);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.encore-num {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.05;
+  color: transparent;
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold), var(--gold-dim));
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.encore-cap {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+.encore-cap i { color: var(--gold); font-style: italic; }
+.encore-strip {
+  display: flex;
+  height: 18px;
+  margin-top: 12px;
+  border-radius: 2px;
+  overflow: hidden;
+  gap: 1px;
+}
+
+.encore-card.ec-list .encore-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.encore-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border-quiet);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+.encore-list li:last-child { border-bottom: none; }
+.ec-li-title { color: var(--text-primary); font-style: italic; font-family: var(--font-display); }
+.ec-li-count { color: var(--gold); font-size: 11px; letter-spacing: 1px; }
+
+@media (max-width: 900px) {
+  .encore-grid { grid-template-columns: repeat(2, 1fr); }
+  .encore-card.ec-hero .encore-num { font-size: 72px; }
+}
+@media (max-width: 540px) {
+  .encore-grid { grid-template-columns: 1fr; }
+  .encore-card.ec-hero .encore-num { font-size: 56px; }
+}
