@@ -184,5 +184,18 @@ async function init() {
       }
     }, 700);
   });
+
+  // scrollama is a UMD bundle; it attaches `scrollama` to window
+  const script = document.createElement("script");
+  script.src = "js/scrollama.min.js";
+  script.onload = () => {
+    const scroller = window.scrollama();
+    scroller.setup({ step: ".scene", offset: 0.5 }).onStepEnter(({ element }) => {
+      document.querySelectorAll(".scene").forEach(s => s.classList.remove("in-view"));
+      element.classList.add("in-view");
+    });
+    window.addEventListener("resize", () => scroller.resize());
+  };
+  document.head.appendChild(script);
 }
 init();
