@@ -25,7 +25,12 @@ import numpy as np
 from PIL import Image
 from sklearn.cluster import KMeans
 
-from color_extract_utils import compute_hsv_stats, extract_palette, render_swatch
+from color_extract_utils import (
+    compute_hsv_stats,
+    extract_act_palette,
+    extract_palette,
+    render_swatch,
+)
 
 # ---------------------------------------------------------------------------
 # Config
@@ -44,6 +49,7 @@ CSV_FIELDNAMES = [
     "palette_hex",
     "palette_proportions",
     "n_images",
+    "image_source",
     "avg_hue",
     "avg_saturation",
     "avg_brightness",
@@ -54,9 +60,18 @@ CSV_FIELDNAMES = [
 # Helpers
 # ---------------------------------------------------------------------------
 
-def load_images(act_dir: Path) -> list[Image.Image]:
-    """Load all valid images from an act directory, skipping corrupted files."""
-    images: list[Image.Image] = []
+def load_images(act_dir: Path) -> tuple[list[Image.Image], str]:
+    """Load images from an act directory, preferring YT frames if any exist.
+
+    Bing image search returns generic Baylor Sing photos that are reused
+    across many acts (~84% of bing files are duplicates), so they pollute
+    the palette. YouTube frames are act-specific and far more reliable.
+
+    Returns (images, source_label) where source_label is 'youtube',
+    'bing', or 'mixed'.
+    """
+    yt_imgs: list[Image.Image] = []
+    bing_imgs: list[Image.Image] = []
     for f in sorted(act_dir.iterdir()):
         if not f.is_file():
             continue
@@ -64,11 +79,20 @@ def load_images(act_dir: Path) -> list[Image.Image]:
             continue
         try:
             img = Image.open(f)
-            img.load()  # force read to catch truncated files
-            images.append(img)
+            img.load()
         except Exception as e:
             print(f"  [WARN] Skipping {f.name}: {e}")
-    return images
+            continue
+        if f.name.startswith("yt_"):
+            yt_imgs.append(img)
+        elif f.name.startswith("bing_"):
+            bing_imgs.append(img)
+        else:
+            bing_imgs.append(img)
+
+    if yt_imgs:
+        return yt_imgs, "youtube"
+    return bing_imgs, "bing"
 
 
 def merge_palettes(
@@ -157,48 +181,36 @@ def process_act(act_dir: Path, n_colors: int) -> dict | None:
         print(f"  [WARN] Skipping {dir_name}: cannot parse year from '{year_str}'")
         return None
 
-    # Load images
-    images = load_images(act_dir)
+    # Load images (prefers YT frames over polluting bing images)
+    images, source = load_images(act_dir)
     if not images:
         print(f"  [SKIP] {dir_name}: no valid images found")
         return None
 
-    print(f"  {dir_name}: {len(images)} images")
+    print(f"  {dir_name}: {len(images)} images ({source})")
 
-    # Extract palette from each image
-    per_image_palettes: list[list[dict]] = []
-    for img in images:
-        try:
-            with warnings.catch_warnings():
-                warnings.simplefilter("ignore")
-                palette = extract_palette(img, n_colors=n_colors)
-            per_image_palettes.append(palette)
-        except Exception as e:
-            print(f"    [WARN] Palette extraction failed: {e}")
-
-    if not per_image_palettes:
-        print(f"  [SKIP] {dir_name}: all palette extractions failed")
+    try:
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            merged = extract_act_palette(images, n_colors=n_colors)
+    except Exception as e:
+        print(f"  [SKIP] {dir_name}: palette extraction failed: {e}")
         return None
 
-    # Merge palettes
-    merged = merge_palettes(per_image_palettes, n_colors=n_colors)
     if not merged:
         return None
 
-    # Compute HSV stats
     hsv = compute_hsv_stats(merged)
-
-    # Render swatch
     swatch_path = SWATCH_DIR / f"{group_dir}.png"
     render_swatch(merged, swatch_path)
 
-    # Build row
     return {
         "year": year,
         "group_dir": group_dir,
         "palette_hex": ";".join(entry["hex"] for entry in merged),
         "palette_proportions": ";".join(f"{entry['proportion']:.4f}" for entry in merged),
         "n_images": len(images),
+        "image_source": source,
         "avg_hue": f"{hsv['avg_hue']:.4f}",
         "avg_saturation": f"{hsv['avg_saturation']:.4f}",
         "avg_brightness": f"{hsv['avg_brightness']:.4f}",
@@ -212,8 +224,8 @@ def main() -> None:
     parser.add_argument(
         "--n-colors",
         type=int,
-        default=6,
-        help="Number of colors per palette (default: 6)",
+        default=10,
+        help="Number of colors per palette (default: 10)",
     )
     args = parser.parse_args()
 

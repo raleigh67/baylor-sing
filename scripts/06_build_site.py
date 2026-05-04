@@ -61,7 +61,7 @@ def main():
 
     if all_ok:
         print(f"\n  Site is ready!")
-        print(f"  Serve locally: cd site && python3 -m http.server 8080")
+        print(f"  Serve locally: python3 scripts/serve_site.py --port 8080")
         print(f"  Then open: http://localhost:8080")
     else:
         print(f"\n  Site has missing files — check above")

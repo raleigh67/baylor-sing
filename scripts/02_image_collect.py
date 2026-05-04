@@ -267,19 +267,29 @@ def extract_youtube_frames(year: str, group: str, url: str) -> int:
     print(f"  [YT] Extracting frames: {group} ({year})")
     print(f"        URL: {url}")
 
+    # YouTube has been blocking yt-dlp's default web client for some videos
+    # ("This video is not available"). Try web first, then fall back to the
+    # android player client which bypasses that bot detection.
+    yt_clients = ["", "youtube:player_client=android"]
+
     try:
-        # Get video duration
-        result = subprocess.run(
-            ["yt-dlp", "--print", "duration", "--no-download", "--no-warnings", url],
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
-        duration_str = result.stdout.strip()
-        if not duration_str:
+        duration = None
+        for client_args in yt_clients:
+            cmd = ["yt-dlp", "--print", "duration", "--no-download", "--no-warnings"]
+            if client_args:
+                cmd += ["--extractor-args", client_args]
+            cmd += [url]
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+            duration_str = result.stdout.strip()
+            if duration_str:
+                try:
+                    duration = float(duration_str)
+                    break
+                except ValueError:
+                    continue
+        if duration is None:
             print(f"    [WARN] Could not get video duration for {url}")
             return 0
-        duration = float(duration_str)
 
         if duration < 10:
             print(f"    [WARN] Video too short ({duration:.0f}s), skipping")
@@ -291,14 +301,18 @@ def extract_youtube_frames(year: str, group: str, url: str) -> int:
         interval = (end - start) / (YOUTUBE_FRAMES - 1)
         timestamps = [start + i * interval for i in range(YOUTUBE_FRAMES)]
 
-        # Get stream URL for direct ffmpeg seeking
-        stream_result = subprocess.run(
-            ["yt-dlp", "-f", "best[height<=720]/best", "--get-url", "--no-warnings", url],
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
-        stream_url = stream_result.stdout.strip().split("\n")[0]
+        # Get stream URL for direct ffmpeg seeking (same client fallback)
+        stream_url = ""
+        for client_args in yt_clients:
+            cmd = ["yt-dlp", "-f", "best[height<=720]/best", "--get-url", "--no-warnings"]
+            if client_args:
+                cmd += ["--extractor-args", client_args]
+            cmd += [url]
+            stream_result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+            candidate = stream_result.stdout.strip().split("\n")[0]
+            if candidate:
+                stream_url = candidate
+                break
         if not stream_url:
             print(f"    [WARN] Could not get stream URL for {url}")
             return 0
