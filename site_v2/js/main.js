@@ -4,6 +4,8 @@ import { render as renderAudioMap } from "./charts/audio_map.js";
 import { render as renderTopArtists } from "./charts/top_artists.js";
 import { render as renderSongAge } from "./charts/song_age.js";
 import { render as renderGenre } from "./charts/genre_proportions.js";
+import { render as renderPaletteStacks } from "./charts/palette_stacks.js";
+import { render as renderColorWheel } from "./charts/color_wheel.js";
 
 const charts = {};
 
@@ -18,6 +20,8 @@ async function init() {
   renderTopArtists(document.getElementById("top-artists"), acts);
   renderSongAge(document.getElementById("song-age"), acts);
   renderGenre(document.getElementById("genre-proportions"), acts);
+  renderPaletteStacks(document.getElementById("palette-stacks"), acts);
+  renderColorWheel(document.getElementById("color-wheel"), acts);
   window.__sing = { acts, charts };
 }
 init();
