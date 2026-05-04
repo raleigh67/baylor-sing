@@ -1,6 +1,9 @@
 import { loadActs } from "./data.js";
 import { render as renderCastGrid } from "./charts/cast_grid.js";
 import { render as renderAudioMap } from "./charts/audio_map.js";
+import { render as renderTopArtists } from "./charts/top_artists.js";
+import { render as renderSongAge } from "./charts/song_age.js";
+import { render as renderGenre } from "./charts/genre_proportions.js";
 
 const charts = {};
 
@@ -12,6 +15,9 @@ async function init() {
   });
   charts.castGrid = renderCastGrid(document.getElementById("cast-grid"), acts);
   charts.audioMap = renderAudioMap(document.getElementById("audio-map"), acts);
+  renderTopArtists(document.getElementById("top-artists"), acts);
+  renderSongAge(document.getElementById("song-age"), acts);
+  renderGenre(document.getElementById("genre-proportions"), acts);
   window.__sing = { acts, charts };
 }
 init();
