@@ -109,6 +109,50 @@ function renderFirstPlaceSpotlights(root, acts) {
   root.appendChild(grid);
 }
 
+function renderEncore(root, acts) {
+  const vals = acts.map(a => a.valence).filter(v => v != null);
+  const avgVal = vals.reduce((s, v) => s + v, 0) / vals.length;
+
+  const counts = new Map();
+  acts.forEach(a => {
+    if (!a.songs) return;
+    a.songs.split(";").forEach(s => {
+      const m = s.match(/\(([^)]+)\)\s*$/);
+      if (m) counts.set(m[1].trim(), (counts.get(m[1].trim()) || 0) + 1);
+    });
+  });
+  const [topArtist, topCount] = [...counts.entries()].sort((a, b) => b[1] - a[1])[0] || ["—", 0];
+
+  const yearAvgSat = {};
+  [2022, 2023, 2024, 2025].forEach(yr => {
+    const yt = acts.filter(a => a.year === yr && a.palette_source === "youtube");
+    yearAvgSat[yr] = yt.length ? yt.reduce((s, a) => s + a.avg_sat, 0) / yt.length : 0;
+  });
+  const vividYear = Object.entries(yearAvgSat).sort((a, b) => b[1] - a[1])[0][0];
+
+  while (root.firstChild) root.removeChild(root.firstChild);
+  function bignum(num, capParts) {
+    const div = document.createElement("div");
+    div.className = "bignum";
+    const n = document.createElement("div");
+    n.className = "bn-num";
+    n.textContent = num;
+    div.appendChild(n);
+    const cap = document.createElement("div");
+    cap.className = "bn-cap";
+    capParts.forEach(p => {
+      if (typeof p === "string") cap.append(p);
+      else { const it = document.createElement("i"); it.textContent = p.italic; cap.appendChild(it); }
+    });
+    div.appendChild(cap);
+    root.appendChild(div);
+  }
+
+  bignum(`${(avgVal * 100).toFixed(0)}%`, ["average valence — happier than three out of four pop songs."]);
+  bignum(String(topCount), ["acts covered ", { italic: topArtist }, " — the most-covered artist of the era."]);
+  bignum(vividYear, ["the most vivid year on stage."]);
+}
+
 async function init() {
   const acts = await loadActs();
   console.log(`loaded ${acts.length} acts`);
@@ -127,6 +171,7 @@ async function init() {
   renderPigskinReveal(document.getElementById("pigskin-reveal"), acts);
   renderWvP(document.getElementById("winner-vs-participant"), acts);
   renderFirstPlaceSpotlights(document.getElementById("first-place-spotlights"), acts);
+  renderEncore(document.getElementById("big-numbers"), acts);
   window.__sing = { acts, charts };
 }
 init();
