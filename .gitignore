@@ -4,3 +4,15 @@ data/images/
 # Brainstorming workspace (visual companion mockups)
 .superpowers/
 __pycache__/
+# Working files / scratch (not part of the project)
+303451.png
+download.jpeg
+genre_dna_*.png
+medley_recipe_*.png
+plot_*.png
+song_era_matrix_*.png
+comic.txt
+readme.txt
+*.DS_Store
+docs/.DS_Store
+docs/superpowers/.DS_Store
