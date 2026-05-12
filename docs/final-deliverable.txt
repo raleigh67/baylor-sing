@@ -19,50 +19,23 @@ Final deliverable — design write-up, visualization, and video walkthrough
 
 ===== DESIGN PROCESS =====
 
-The project started from a single observation: Baylor Sing is a show, not a
-research paper. Sixty-seven acts, each a self-contained musical with
-costumes, lights, a painted backdrop, and a thematic premise. The earliest
-iteration of the website looked like a generic dashboard, and it felt wrong
-the moment we saw it. So we restarted with a new organizing question:
-"What if the website itself were staged like a Sing performance?"
-
-That question dictated nearly everything that followed. The site opens with
-red velvet curtains pulling aside to reveal a gold cursive "Sing" wordmark,
-the same way the actual show opens at Waco Hall. It closes the same way —
-gold credits, a final reveal of the year's winners. Between those two
-moments, the reader walks through seven "scenes": a curtain rise (intro),
-the cast (an overview of every act), the sound (audio analysis), the color
-(palette analysis), the verdict (placement reveals), a methodology note,
-and an encore of fun facts.
-
-The two tonal registers — theatrical bookends, analytical middle — were a
-deliberate choice. Pure theatrical maximalism throughout would have made
-the data hard to read; pure editorial cleanness would have stripped out the
-emotional reason the project exists. The pattern lets each register serve
-its purpose. When the reader is in the data, the visuals are restrained
-(dark backgrounds, hairline gold accents, charts colored by the acts' own
-palettes). When the reader is in a transition or a reveal, the red velvet
-and gold filigree come back.
-
-The most distinctive interaction is per-act focus. Clicking any cast tile,
-any chart dot, any palette strip, or any verdict tile triggers a sticky bar
-at the top of the page ("Focused on Kappa Omega Tau 2022 — It's a Gnome's
-World") and reframes every chart on the page to highlight or filter to
-that single act. The audio map dims down to one dot. The jukebox switches
-from the top-20 artists across all acts to that act's actual song list with
-artists. The song-age histogram redraws using just that act's songs. The
-genre chart switches from year-by-year stacked bars to a horizontal
-breakdown of that act's specific genre tags. Clicking "× show all"
-reverses everything in one move. The mechanism is a single event bus —
-charts register a highlight() callback at render time and the orchestrator
-broadcasts to all of them.
-
-The data layer is built once at site-build time into a single JSON file
-(67 act objects, ~58 KB). All derived fields — dominant color, weighted-
-average HSV, per-song ages, palette source — are pre-computed in Python so
-the frontend does no math beyond layout. This kept the JavaScript focused
-on rendering and the code small enough that no framework was needed:
-vanilla JS, hand-rolled SVG, ~10 chart modules, total under 2,000 lines.
+Baylor Sing is a show, not a research paper, so we staged the website like
+one. The site opens with red velvet curtains pulling aside on a gold
+cursive "Sing" wordmark, closes the same way, and in between walks the
+reader through seven scenes (curtain rise, the cast, the sound, the color,
+the verdict, behind the curtain, encore). Theatrical bookends frame the
+narrative; the analytical middle uses a quieter dark-with-gold register so
+the data can breathe — and the charts paint themselves in the acts' own
+palette colors so the data is visually self-coding. The defining
+interaction is per-act focus: clicking any tile, dot, or palette strip
+puts a single act in a sticky "Focused on" bar and reframes every chart on
+the page (the audio map dims, the jukebox becomes a song list, the song-
+age histogram redraws on just that act's tracks, the genre chart switches
+to a per-act breakdown), with a one-click return to the aggregate view. A
+build-time Python pipeline pre-computes every derived field (dominant
+color, weighted HSV, per-song ages, palette source) into a single 58 KB
+acts.json so the frontend can stay vanilla JS with hand-rolled SVG, no
+framework, no build step.
 
 
 ===== DATA MAPPING — WHY EACH FEATURE GOES WHERE =====
