@@ -5,10 +5,10 @@ Final deliverable — design write-up, visualization, and video walkthrough
 ===== DELIVERABLES =====
 
 1. Scrollytelling visualization (live site):
-   [GitHub Pages URL — paste here after deploy, e.g. https://<user>.github.io/<repo>/]
+   https://raleigh67.github.io/baylor-sing/
 
 2. Source code:
-   [GitHub repo URL — paste here after push, e.g. https://github.com/<user>/<repo>]
+   https://github.com/raleigh67/baylor-sing
 
 3. Video walkthrough:
    https://youtu.be/V69QrC40Dig
