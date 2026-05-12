@@ -1,0 +1,181 @@
+THE SOUND AND COLOR OF SING
+Final deliverable — design write-up, visualization, and video walkthrough
+
+
+===== DELIVERABLES =====
+
+1. Scrollytelling visualization (live site):
+   [GitHub Pages URL — paste here after deploy, e.g. https://<user>.github.io/<repo>/]
+
+2. Source code:
+   [GitHub repo URL — paste here after push, e.g. https://github.com/<user>/<repo>]
+
+3. Video walkthrough:
+   https://youtu.be/V69QrC40Dig
+
+4. Scope:
+   67 acts across the 2022, 2023, 2024, and 2025 cycles of Baylor All-University Sing.
+
+
+===== DESIGN PROCESS =====
+
+The project started from a single observation: Baylor Sing is a show, not a
+research paper. Sixty-seven acts, each a self-contained musical with
+costumes, lights, a painted backdrop, and a thematic premise. The earliest
+iteration of the website looked like a generic dashboard, and it felt wrong
+the moment we saw it. So we restarted with a new organizing question:
+"What if the website itself were staged like a Sing performance?"
+
+That question dictated nearly everything that followed. The site opens with
+red velvet curtains pulling aside to reveal a gold cursive "Sing" wordmark,
+the same way the actual show opens at Waco Hall. It closes the same way —
+gold credits, a final reveal of the year's winners. Between those two
+moments, the reader walks through seven "scenes": a curtain rise (intro),
+the cast (an overview of every act), the sound (audio analysis), the color
+(palette analysis), the verdict (placement reveals), a methodology note,
+and an encore of fun facts.
+
+The two tonal registers — theatrical bookends, analytical middle — were a
+deliberate choice. Pure theatrical maximalism throughout would have made
+the data hard to read; pure editorial cleanness would have stripped out the
+emotional reason the project exists. The pattern lets each register serve
+its purpose. When the reader is in the data, the visuals are restrained
+(dark backgrounds, hairline gold accents, charts colored by the acts' own
+palettes). When the reader is in a transition or a reveal, the red velvet
+and gold filigree come back.
+
+The most distinctive interaction is per-act focus. Clicking any cast tile,
+any chart dot, any palette strip, or any verdict tile triggers a sticky bar
+at the top of the page ("Focused on Kappa Omega Tau 2022 — It's a Gnome's
+World") and reframes every chart on the page to highlight or filter to
+that single act. The audio map dims down to one dot. The jukebox switches
+from the top-20 artists across all acts to that act's actual song list with
+artists. The song-age histogram redraws using just that act's songs. The
+genre chart switches from year-by-year stacked bars to a horizontal
+breakdown of that act's specific genre tags. Clicking "× show all"
+reverses everything in one move. The mechanism is a single event bus —
+charts register a highlight() callback at render time and the orchestrator
+broadcasts to all of them.
+
+The data layer is built once at site-build time into a single JSON file
+(67 act objects, ~58 KB). All derived fields — dominant color, weighted-
+average HSV, per-song ages, palette source — are pre-computed in Python so
+the frontend does no math beyond layout. This kept the JavaScript focused
+on rendering and the code small enough that no framework was needed:
+vanilla JS, hand-rolled SVG, ~10 chart modules, total under 2,000 lines.
+
+
+===== DATA MAPPING — WHY EACH FEATURE GOES WHERE =====
+
+Audio Map (valence × energy scatter):
+- X axis: valence (Spotify's musical-positivity score, 0–1). Sad acts
+  toward the left, happy toward the right. This mirrors the conventional
+  left/right reading of "negative/positive" in Western data viz.
+- Y axis: energy (Spotify's intensity score, 0–1). Mellow at the bottom,
+  frenetic at the top — vertical position intuitively maps to "high/low."
+- Dot fill: the act's vivid pick — the most saturated × bright color in
+  the act's palette, weighted slightly by proportion. We chose this over
+  "first dominant" because pure-dominant often lands on near-black
+  background pixels; vivid-pick gives the color a viewer would actually
+  remember.
+- Dot size: medal acts (1st/2nd/3rd) drawn larger than Pigskin top-8,
+  which are drawn larger than Participated. Importance encoded by area.
+- Gold double ring: medal-placement acts. Gold is the universal medal
+  signifier and pairs with the site's color system.
+- Bronze ring: Pigskin top-8 (non-medal) — warmer than the muted base
+  but cooler than the gold, preserving the placement hierarchy visually.
+
+Color Wheel (polar scatter):
+- Angle: dominant hue, 0° at top (red) and rotating clockwise through
+  yellow, green, cyan, blue, magenta. Matches a canonical color wheel so
+  the chart is readable by anyone who's seen one.
+- Radius: dominant saturation. Center = grey/muted, rim = vivid. This is
+  the standard polar HSV representation.
+- Dot fill: the act's own dominant color. Every dot is literally painted
+  in the data it represents — the chart colors itself.
+- Zoom controls: click "Warm" / "Cool" / "Purple" / "Green" to zoom into
+  a hue quadrant. Lets the viewer compare acts within a color family
+  without losing the visual context.
+
+Saturation × Brightness scatter:
+- X: average palette saturation. Y: average palette brightness. Both
+  weighted across the palette, ignoring near-black pixels.
+- Quadrant labels: "vivid + bright" (top-right) = punch-you-in-the-face
+  acts. "Muted + dark" (bottom-left) = moody. The four quadrants are
+  semantically meaningful, so zoom controls let the viewer focus.
+- Dot fill: vivid pick (same convention as the audio map and color
+  wheel, for cross-chart visual consistency).
+
+Years in Color (stacked palette strips):
+- Four horizontal strips, one per year. Each strip contains every act
+  from that year laid out chronologically, with the act's full 10-color
+  palette stacked vertically within its slot. Tile width is equal across
+  acts, so the year's chromatic identity reads as a whole — does 2024
+  lean warmer than 2022? — without distortion from any one big act.
+
+The Extremes (4 callout cards):
+- Most vivid act (highest saturation × brightness in dominant color).
+- Most muted act (lowest weighted-average saturation).
+- Brightest act (highest weighted-average brightness).
+- Darkest act (lowest weighted-average brightness).
+- Big swatch + group + theme on each card. The point isn't the numbers;
+  it's the visual extremes the dataset contains.
+
+Sing Jukebox (top-20 artists):
+- Horizontal bar chart, ranked by # of acts that covered each artist.
+- Horizontal because artist names are long; horizontal handles long
+  labels better than vertical bars.
+- Gold bars throughout — single hue keeps the focus on the magnitude
+  comparison, not on category encoding.
+
+Song Age histogram:
+- X: years between a song's release date (from Spotify enrichment) and
+  the year of the Sing performance.
+- 7 buckets: 0-4, 5-9, 10-14, 15-19, 20-29, 30-49, 50+.
+- Bucket widths chosen non-uniformly to reflect the long tail — most
+  songs cluster in the 5-15 year range, but older songs deserve their
+  own bins to make the leap into the '70s and '80s visible.
+
+Genre Proportions:
+- Stacked vertical bars, one per year. Top 8 genres globally.
+- Stacked because the question is "what's the genre mix?" — a
+  composition question, which stacks answer well. Each genre gets a
+  distinct color in the theatrical palette (gold, wine red, emerald,
+  plum, slate, mauve, peach, cream) so the legend reads cleanly.
+
+The Verdict (Pigskin reveal + first-place spotlights):
+- 33 placement tiles (12 medals + 21 Pigskin non-medal). Medal tiles
+  get a single gold outline; 1st-place tiles get a thicker double-gold
+  treatment. Visual hierarchy = placement hierarchy.
+- 4 first-place spotlight cards (one per year), each showing the year,
+  group, theme in italics, and the act's palette strip.
+
+Encore (10 fun-fact cards):
+- Big-number callouts in gold gradient Playfair italic for findings
+  like average valence, oldest cover, fastest tempo, average song age.
+- One hero card for the headline fact (avg valence percentage) spans
+  the full grid width. Sub-cards are 3-up on desktop, collapsing to
+  2-up and 1-up at smaller breakpoints.
+
+
+===== KNOWN COMPROMISES =====
+
+- 5 acts (of 67) lack a usable YouTube source video, so their palettes
+  fall back to scraped photos and are flagged with a "no video" badge
+  in the Cast scene and excluded from aggregate color charts.
+- 2 acts lack Spotify audio features and are listed as a footnote
+  under the Audio Map rather than plotted.
+- Song-age data uses the Kaggle Spotify mirror, which cuts off around
+  2019 — songs released after 2019 may show as age 0 or be missing.
+- Stage lighting tints costume colors. A white shirt under magenta
+  lighting will read as mauve in the palette. We accept this — the
+  palette reflects what the audience saw, not the costume's true color.
+
+
+===== TECH STACK =====
+
+Python 3.12 + pandas (data assembly), vanilla JavaScript + hand-rolled
+SVG (frontend), scrollama (scroll-triggered scene tracking), yt-dlp
+(YouTube frame extraction), scikit-learn KMeans (palette clustering),
+Pillow (image handling), pytest (data-builder tests). No frontend
+framework. No build step. Deploys as static files.
