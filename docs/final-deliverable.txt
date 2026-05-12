@@ -165,11 +165,6 @@ Encore (10 fun-fact cards):
   in the Cast scene and excluded from aggregate color charts.
 - 2 acts lack Spotify audio features and are listed as a footnote
   under the Audio Map rather than plotted.
-- Song-age data uses the Kaggle Spotify mirror, which cuts off around
-  2019 — songs released after 2019 may show as age 0 or be missing.
-- Stage lighting tints costume colors. A white shirt under magenta
-  lighting will read as mauve in the palette. We accept this — the
-  palette reflects what the audience saw, not the costume's true color.
 
 
 ===== TECH STACK =====
